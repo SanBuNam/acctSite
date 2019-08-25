@@ -1,0 +1,31 @@
+$container-width: 100%;
+$site-width: 1360px;
+$font-primary: "Brevia", Arial, Helvetica, sans-serif;
+$font-secondary: "ff-nuvo-web-pro", Arial, Helvetica, sans-serif;
+$color-black: #222f3e;
+$color-blue: #0984e3;
+$color-navy: #171e2b;
+$color-white: #ffffff;
+$color-offWhite: rgba(255, 255, 255, 0.8);
+$color-gray: #7e8aa2;
+$color-orange: #ff9800;
+$color-space: #576574;
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Brevia", Arial, Helvetica, sans-serif;
+  font-size: 1.75rem;
+  line-height: 22px;
+  margin: 0px;
+  color: #dbdbdb;
+  background-color: #000;
+  box-sizing: border-box;
+}
