@@ -1,0 +1,20 @@
+@import "../../styles/global";
+
+.container {
+  max-width: 1080px;
+  margin: 10rem auto 7rem auto;
+  text-align: left;
+  text-transform: uppercase;
+  line-height: 1;
+  .title {
+    margin-left: 12rem;
+    font-size: 55px;
+  }
+  .subtitle {
+    display: inline-block;
+    max-width: 40rem;
+    color: $color-orange;
+    margin-left: 12rem;
+    font-size: 24px;
+  }
+}

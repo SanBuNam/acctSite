@@ -1,0 +1,65 @@
+@import "../styles/global";
+
+.navigation {
+  z-index: 10;
+  margin: 1rem auto;
+  padding: 0;
+  position: relative;
+  ul {
+    display: flex;
+    justify-self: center;
+    transition: all 0.4s ease;
+    li {
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: $color-offWhite;
+        list-style: none;
+        margin-right: 2.555rem;
+        font-size: 1.25rem;
+        font-weight: 400;
+        &:hover {
+          color: $color-white;
+        }
+      }
+    }
+  }
+
+  .downArrow {
+    transition: all 0.4s ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: none;
+    -ms-word-break: normal;
+    word-break: normal;
+    ::before {
+      color: $color-offWhite;
+      content: ">";
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg);
+      left: 22px;
+      padding: 0 0 2px;
+      position: absolute;
+      pointer-events: none;
+    }
+  }
+
+  .downArrow:hover {
+    transition: all 0.4s ease;
+    ::before {
+      content: "<";
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg);
+    }
+  }
+}
+
+/*To remove button from IE11, thank you Matt */
+select::-ms-expand {
+  display: none;
+}

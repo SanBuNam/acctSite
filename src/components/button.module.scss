@@ -1,0 +1,11 @@
+@import "../styles/global";
+
+.container {
+  grid-column: 2;
+  min-width: 13rem;
+  text-align: center;
+  margin: 0 auto 2rem auto;
+  font-size: 12px;
+  background-color: $color-orange;
+  color: $color-black;
+}

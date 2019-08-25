@@ -1,0 +1,28 @@
+@import "../../styles/global";
+
+.container {
+  max-width: 1080px;
+  margin: 14rem auto 6rem auto;
+  text-align: center;
+  color: $color-white;
+  line-height: 1.25;
+  .text {
+    margin: 0 auto;
+    max-width: 55rem;
+    font-size: 14px;
+    line-height: 1.5;
+    span {
+      color: $color-orange;
+    }
+  }
+  h4 {
+    .title {
+      font-size: 20px;
+      color: $color-gray;
+    }
+    .subtitle {
+      font-size: 36px;
+      color: $color-white;
+    }
+  }
+}
