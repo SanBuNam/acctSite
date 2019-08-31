@@ -1,13 +1,27 @@
 import React from "react"
 import styles from "./freelance-web-developer.module.scss"
 
-export default props => (
+export default () => (
   <section className={styles.container}>
     <h4>
-      <span className={styles.title}>{props.title}</span>
+      <span className={styles.title}>Looking to hire a Orange County, CA</span>
       <br />
-      <span className={styles.subtitle}>{props.subtitle}</span>
+      <span className={styles.subtitle}>Freelance Web Developer?</span>
     </h4>
-    <div className={styles.text}>{props.children}</div>
+    <div className={styles.text}>
+      <p>
+        I create websites and applications, built to convert, improve business
+        processes and maximize ROI here in Orange County, CA. <br />
+      </p>
+      <p>
+        Over the last 15 years I’ve worked with Orange County-based companies
+        such as{" "}
+        <span>
+          CJ Foods, Paris Baguettes, NMSI National Mortgage Group, Unico
+          Logistics, Aldex America (POSCO){" "}
+        </span>
+        and many more small to large businesses.
+      </p>
+    </div>
   </section>
 )

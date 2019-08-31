@@ -1,0 +1,20 @@
+@import "../../styles/global";
+
+.container {
+  width: 100%;
+  padding: 2rem;
+  margin: 0 auto 6rem auto;
+  text-align: center;
+  background: $color-offWhite;
+  color: $color-black;
+  line-height: 1.25;
+  h5 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 18px;
+    span {
+      color: $color-orange;
+    }
+  }
+}
