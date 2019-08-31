@@ -1,8 +1,9 @@
 import React from "react"
+import styles from "./web-development-approach.module.scss"
 
 const MyApproach = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <h3>My approach</h3>
       <h4>Experience & Transparency</h4>
       <p>

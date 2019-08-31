@@ -1,44 +1,38 @@
 import React from "react"
 import SEO from "../components/seo"
 import Layout from "../components/layouts/site-layout"
-import Title from "../components/landing-page/title"
+import Introduction from "../components/landing-page/introduction"
+import HorizontalLayout from "../components/layouts/horizontal-layout"
+import ThreeLayout from "../components/layouts/three-layout"
 import WorkExperience from "../components/landing-page/freelance-web-developer"
 import Testimonial from "../components/landing-page/article-list"
 import WhyMe from "../components/landing-page/why-hire-me"
-import MyApproach from "../components/landing-page/my-approach"
-import MyApproachBox from "../components/landing-page/my-approach-box"
+import DevelopmentApproach from "../components/landing-page/web-development-approach"
 import MakeCarousel from "../components/makeCarousel"
+import Statement from "../components/landing-page/statement"
+import Background from "../components/layouts/background-image-layout"
+import StatementTwo from "../components/landing-page/statementTwo"
+import RecentWork from "../components/landing-page/recent-work"
+import DevelopmentExplained from "../components/landing-page/web-development-explained"
+import Composition from "../components/composition"
 
 export default () => (
   <Layout>
     <SEO title="Home" />
-    <Title
+    <Introduction
       title="I am David,"
-      subtitle="Freelance web developer in
-      California with over 15 years of experience."
+      subtitle="Freelance web developer in California with over 15 years of experience."
     />
-    <WorkExperience
-      title="Looking to hire a Orange County, CA"
-      subtitle="Freelance Web Developer?"
-    >
-      <p>
-        I create websites and applications, built to convert, improve business
-        processes and maximize ROI here in Orange County, CA. <br />
-      </p>
-      <p>
-        Over the last 15 years I’ve worked with Orange County-based companies
-        such as{" "}
-        <span>
-          CJ Foods, Paris Baguettes, NMSI National Mortgage Group, Unico
-          Logistics, Aldex America (POSCO){" "}
-        </span>
-        and many more small to large businesses.
-      </p>
-    </WorkExperience>
+    <WorkExperience />
     <MakeCarousel />
     <Testimonial />
     <WhyMe />
-    <MyApproach />
-    <MyApproachBox />
+    <DevelopmentApproach />
+    <HorizontalLayout />
+    <ThreeLayout />
+    <Statement />
+    <RecentWork />
+    <StatementTwo />
+    <Background />
   </Layout>
 )
