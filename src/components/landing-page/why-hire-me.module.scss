@@ -2,19 +2,71 @@
 
 .container {
   width: 100%;
+  padding-top: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 1.5px;
-  background-color: $color-offWhite;
+  grid-column-gap: 5rem;
+  background-color: #ffffff;
   color: $color-black;
+  background-image: url("../../../content/images/dot-white-bg.jpeg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
   .titleDiv {
     grid-column: 1 / -1;
     text-align: center;
-    padding: 1rem 2rem;
-    font-size: 2.4rem;
+    padding: 0 2rem;
+    h3 {
+      padding: 2rem 0;
+      font-size: 2.7rem;
+      color: $color-navy;
+    }
   }
-  .leftContainer {
+  .leftColumn {
     text-align: right;
     margin: 2rem 2rem;
+    p {
+      margin: 2rem 0;
+      font-size: 1.8rem;
+      font-weight: 400;
+      color: $color-gray;
+    }
+  }
+  .rightColumn {
+    text-align: left;
+    padding: 0 1rem;
+    h5 {
+      font-size: 1.6rem;
+      color: $color-navy;
+      font-weight: 500;
+      line-height: 0;
+    }
+    ul {
+      margin: 2.5rem 0;
+      list-style-type: none;
+      font-family: $font-secondary;
+      line-height: 1.35;
+    }
+    ul li:before {
+      content: "";
+      display: inline-block;
+      height: 13.5px;
+      width: 13.5px;
+      background-size: 13.5px;
+      background-image: url("../../../content/images/check.png");
+      background-repeat: no-repeat;
+      margin-right: 10px;
+      color: $color-black;
+    }
+    p {
+      max-width: 53rem;
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: $color-lightGray;
+    }
+    span {
+      color: $color-orange;
+      font-weight: bold;
+    }
   }
 }

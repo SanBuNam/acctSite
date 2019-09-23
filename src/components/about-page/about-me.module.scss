@@ -1,0 +1,30 @@
+@import "../../styles/global";
+
+.container {
+  max-width: 1080px;
+  margin: 10rem auto;
+  text-align: center;
+  color: $color-offWhite;
+  line-height: 1.25;
+  .title {
+    font-size: 6.6rem;
+    color: $color-white;
+    line-height: 1rem;
+  }
+  .subtitle {
+    margin: 6rem auto 0 auto;
+    font-size: 2.2rem;
+    color: $color-orange;
+    font-weight: 400;
+    span {
+      border-bottom: solid 1px $color-orange;
+    }
+  }
+  .text {
+    margin: 5rem auto 0 auto;
+    max-width: 90rem;
+    font-size: 1.7rem;
+    line-height: 1.5;
+    color: $color-offWhite;
+  }
+}

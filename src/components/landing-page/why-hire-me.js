@@ -1,7 +1,7 @@
 import React from "react"
 import Image from "gatsby-image"
 import styles from "./why-hire-me.module.scss"
-import Button from "../button"
+import Button from "../buttons/round-button"
 import { useStaticQuery, graphql } from "gatsby"
 
 const getImages = graphql`
@@ -25,13 +25,13 @@ const WhyMe = () => {
         <h3>why hire me as your freelance web developer?</h3>
       </div>
 
-      <div className={styles.leftContainer}>
+      <div className={styles.leftColumn}>
         <Image fixed={data.fixed.childImageSharp.fixed} />
         <p>Learn more about the services I offer</p>
         <Button text="Contact me" />
       </div>
 
-      <div>
+      <div className={styles.rightColumn}>
         <h5>As your web developer you can count on me to:</h5>
         <ul>
           <li>Estimate the timeframe and cost upfront</li>

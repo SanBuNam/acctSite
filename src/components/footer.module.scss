@@ -1,21 +1,36 @@
 @import "../styles/global";
 
-$footer-height: 100px;
-
 .container {
-  background-color: $color-black;
-  width: $container-width;
-  height: $footer-height;
-  position: absolute;
-  bottom: 0;
-  width: $container-width;
-
-  .footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: $color-white;
+  justify-content: space-around;
+  .leftContainer {
+    padding: 2rem;
+    width: 100%;
+    p {
+      font-size: 1.4rem;
+    }
+    span {
+      color: $color-orange;
+    }
+  }
+  .midContainer {
+    padding: 2rem;
     margin: 0 auto;
-    max-width: $site-width;
-    height: $footer-height;
-    line-height: $footer-height;
-    color: $color-white;
-    padding: 0px 20px 0px 20px;
+    p {
+      font-size: 1.4rem;
+      color: $color-orange;
+    }
+  }
+  .rightContainer {
+    padding: 2rem;
+    p {
+      font-size: 1.4rem;
+    }
+    span {
+      font-size: 1.4rem;
+      color: $color-orange;
+    }
   }
 }

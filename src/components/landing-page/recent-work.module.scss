@@ -2,24 +2,42 @@
 
 .container {
   width: 100%;
-  padding: 2rem;
-  margin: 0 auto 6rem auto;
-  text-align: center;
-  background: $color-offWhite;
-  color: $color-black;
-  line-height: 1.25;
-  .image {
-    width: 20rem;
-    height: 15rem;
-    background: navy;
+  padding: 1rem;
+  margin: 0 auto;
+  text-align: left;
+  background: $color-navy;
+  color: $color-offWhite;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+
+  .titleDiv {
+    grid-column: 1 / -1;
+    font-size: 34px;
+    text-align: center;
+    padding: 3rem 2rem 0 2rem;
   }
-  h5 {
-    font-size: 24px;
+
+  .leftContainer {
+    margin: 3rem auto;
   }
-  p {
-    font-size: 18px;
-    span {
-      color: $color-orange;
+
+  .rightContainer {
+    max-width: 60rem;
+    padding: 0 2rem;
+    h5 {
+      font-size: 22px;
+      color: $color-gray;
+      font-family: $font-secondary;
+    }
+    h4 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 16px;
+      span {
+        color: $color-orange;
+      }
     }
   }
 }

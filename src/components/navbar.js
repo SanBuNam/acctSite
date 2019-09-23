@@ -6,19 +6,19 @@ const Navbar = () => (
   <div className={Styles.navigation}>
     <ul>
       <li className={Styles.downArrow}>
-        <Link href="/">Service</Link>
+        <Link to="/services/">Service</Link>
       </li>
       <li>
-        <Link href="/process">Process</Link>
+        <Link to="/process/">Process</Link>
       </li>
       <li>
-        <Link href="/blog">blog</Link>
+        <Link to="/about/">About</Link>
       </li>
       <li>
-        <Link href="/about">About</Link>
+        <Link to="/blog/">blog</Link>
       </li>
       <li>
-        <Link href="/contact">Contact Me</Link>
+        <Link to="/contact/">Contact Me</Link>
       </li>
     </ul>
   </div>

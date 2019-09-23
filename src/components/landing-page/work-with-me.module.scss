@@ -1,0 +1,57 @@
+@import "../../styles/global";
+
+.container {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  background-color: #0c1d41;
+  color: $color-white;
+  align-items: center;
+  padding: 2rem 2rem 5rem 2rem;
+  h3 {
+    font-size: 2.9rem;
+    color: $color-gray;
+    line-height: 1.25;
+    span {
+      font-size: 2.7rem;
+      color: $color-white;
+    }
+  }
+
+  .contactInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin: 4rem auto;
+    h5 {
+      font-size: 1.6rem;
+      line-height: 0.5;
+    }
+    .sides {
+      display: flex;
+      flex-flow: column;
+      margin: 0 auto;
+      width: 20rem;
+      height: 20rem;
+      color: $color-gray;
+      border: 1px solid $color-gray;
+      img {
+        width: 10rem;
+        margin: 0 auto;
+      }
+    }
+    .middle {
+      display: flex;
+      flex-flow: column;
+      margin: 0 auto;
+      width: 20rem;
+      height: 20rem;
+      color: $color-orange;
+      border: 1px solid $color-orange;
+      img {
+        width: 10rem;
+        margin: 0 auto;
+      }
+    }
+  }
+}

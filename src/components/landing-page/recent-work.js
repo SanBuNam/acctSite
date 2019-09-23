@@ -1,7 +1,7 @@
 import React from "react"
-import Image from "gatsby-image"
-import styles from "./why-hire-me.module.scss"
 import { useStaticQuery, graphql } from "gatsby"
+import Image from "gatsby-image"
+import styles from "./recent-work.module.scss"
 
 const getImages = graphql`
   {
@@ -15,33 +15,34 @@ const getImages = graphql`
   }
 `
 
-const WhyMe = () => {
+const RecentWork = () => {
   const data = useStaticQuery(getImages)
 
   return (
     <div className={styles.container}>
       <div className={styles.titleDiv}>
-        <h3>Most recent work</h3>
+        <h3>Recent work sample</h3>
       </div>
-
       <div className={styles.leftContainer}>
         <Image fixed={data.fixed.childImageSharp.fixed} />
       </div>
-
-      <div>
+      <div className={styles.rightContainer}>
         <h5>Software Developer</h5>
         <h4>NMSI Mortgage Group, Inc.</h4>
         <p>
-          If you are looking for a{" "}
-          <span>Freelance Web Developer in Orange County</span>, an experienced
-          full stack developer or simply want a few changes to your site I can
-          help you. I will work closely with you to deliver projects that best
-          matches your business values and objectives. If you already have a
-          site, I can provide regular, ongoing maintenance and support.
+          As Software Developer I helped assess the charity’s digital estate of
+          more than 12 websites built with different technologies. I was later
+          involved in their digital transformation moving from Drupal to Adobe
+          Experience Manager. This involved architectural decisions and
+          providing technical guidance and impartial advice. I was also in
+          charge of a security project. Leading a team of 5 experienced Drupal
+          developers we secured sites and servers, and I put processes in place
+          to accommodate the charities future requirements for a scalable and
+          secure platform.
         </p>
       </div>
     </div>
   )
 }
 
-export default WhyMe
+export default RecentWork
