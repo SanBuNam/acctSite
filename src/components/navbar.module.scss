@@ -2,7 +2,7 @@
 
 .navigation {
   z-index: 10;
-  margin: 1rem auto;
+  margin: 0 auto;
   padding: 0;
   position: relative;
   ul {
@@ -16,7 +16,7 @@
         color: $color-offWhite;
         list-style: none;
         margin-right: 2.555rem;
-        font-size: 1.45rem;
+        font-size: 1.6rem;
         font-weight: 400;
         &:hover {
           color: $color-white;
@@ -59,7 +59,7 @@
   }
 }
 
-/*To remove button from IE11, thank you Matt */
+/*To remove button from IE11 */
 select::-ms-expand {
   display: none;
 }

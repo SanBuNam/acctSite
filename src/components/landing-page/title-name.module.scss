@@ -1,0 +1,25 @@
+@import "../../styles/global";
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: left;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 3rem;
+  .title {
+    margin-left: 6rem;
+    font-size: 55px;
+    color: red;
+  }
+  .subtitle {
+    display: inline-block;
+    max-width: 40rem;
+    color: $color-black;
+    margin-left: 6rem;
+    font-size: 24px;
+    span {
+      color: red;
+    }
+  }
+}

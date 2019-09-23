@@ -1,8 +1,14 @@
-import React from "react"
+import React, { Fragment } from "react"
 import Styles from "./text-button.module.scss"
 
 const Button = props => {
-  return <button className={Styles.btnText}>{props.text}</button>
+  return (
+    <Fragment>
+      <button className={Styles.btnText}>
+        <a>{props.text}</a>
+      </button>
+    </Fragment>
+  )
 }
 
 export default Button

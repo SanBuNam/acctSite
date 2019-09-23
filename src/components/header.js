@@ -2,22 +2,8 @@ import React from "react"
 import { Link, StaticQuery, graphql } from "gatsby"
 import styles from "./header.module.scss"
 import Navbar from "./navbar"
+import Image from "gatsby-image"
 
-// HeaderLink component
-// const HeaderLink = props => (
-//   <Link className={styles.link} to={props.to}>
-//     {props.text}
-//   </Link>
-// )
-
-// HomeButton component
-// const HomeButton = props => (
-//   <Link to={props.to}>
-//     <div className={styles.button}>{props.text}</div>
-//   </Link>
-// )
-
-// SocialButton component
 const SocialButton = props => {
   let style = ""
   let url = ""
@@ -44,9 +30,11 @@ export default () => (
   <StaticQuery
     query={graphql`
       query {
-        site {
-          siteMetadata {
-            title
+        fixed: file(relativePath: { eq: "freelance-developer.png" }) {
+          childImageSharp {
+            fixed(width: 150) {
+              ...GatsbyImageSharpFixed
+            }
           }
         }
       }
@@ -54,11 +42,9 @@ export default () => (
     render={data => (
       <header className={styles.container}>
         <div className={styles.row}>
-          <img
-            className={styles.logo}
-            src="freelance-developer.png"
-            alt="David group"
-          />
+          <Link to="/">
+            <Image fixed={data.fixed.childImageSharp.fixed} />
+          </Link>
         </div>
         <Navbar />
         <div className={styles.row}>

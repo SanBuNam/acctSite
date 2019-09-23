@@ -2,17 +2,9 @@
 
 .container {
   position: relative;
-  min-height: 100vh;
+  background: $color-background;
   .content {
-    padding-bottom: 100px;
     margin: 0 auto;
     max-width: $site-width;
-    a {
-      color: $color-black;
-    }
-    @media screen and (min-width: 1px) and (max-width: 1000px) {
-      padding-left: 20px;
-      padding-right: 20px;
-    }
   }
 }

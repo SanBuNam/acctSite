@@ -2,16 +2,21 @@
 
 .container {
   width: 100%;
-  padding: 2rem;
-  margin: 0 auto 6rem auto;
+  padding: 4rem;
+  margin: 0 auto;
   text-align: center;
-  background: $color-offWhite;
-  color: $color-black;
   line-height: 1.25;
+  display: grid;
+  justify-content: center;
   h5 {
+    max-width: 100rem;
     font-size: 24px;
+    color: $color-offWhite;
   }
   p {
+    font-family: $font-secondary;
+    color: $color-grainsboro;
+    max-width: 100rem;
     font-size: 18px;
     span {
       color: $color-orange;
