@@ -2,16 +2,16 @@
 
 .container {
   width: 100%;
-  padding-top: 2rem;
+  padding: 4rem 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 5rem;
   background-color: #ffffff;
   color: $color-black;
-  background-image: url("../../../content/images/dot-white-bg.jpeg");
+  background-image: url("../../../content/images/trbeach.jpeg");
   background-repeat: no-repeat;
-  background-position: center top;
-  background-size: 100% auto;
+  background-position: center;
+  background-size: cover;
   .titleDiv {
     grid-column: 1 / -1;
     text-align: center;
@@ -34,18 +34,19 @@
   }
   .rightColumn {
     text-align: left;
-    padding: 0 1rem;
+    padding: 1.25rem 1rem;
     h5 {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
       color: $color-navy;
       font-weight: 500;
       line-height: 0;
     }
     ul {
+      padding-top: 2rem;
       margin: 2.5rem 0;
       list-style-type: none;
       font-family: $font-secondary;
-      line-height: 1.35;
+      line-height: 1.55;
     }
     ul li:before {
       content: "";
@@ -59,7 +60,8 @@
       color: $color-black;
     }
     p {
-      max-width: 53rem;
+      padding-top: 2rem;
+      max-width: 60rem;
       font-size: 1.5rem;
       font-weight: 400;
       color: $color-lightGray;

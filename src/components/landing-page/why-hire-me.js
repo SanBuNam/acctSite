@@ -20,7 +20,7 @@ const WhyMe = () => {
   const data = useStaticQuery(getImages)
 
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <div className={styles.titleDiv}>
         <h3>why hire me as your freelance web developer?</h3>
       </div>
@@ -50,7 +50,7 @@ const WhyMe = () => {
           site, I can provide regular, ongoing maintenance and support.
         </p>
       </div>
-    </div>
+    </section>
   )
 }
 

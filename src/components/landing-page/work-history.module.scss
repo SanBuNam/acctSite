@@ -1,28 +1,27 @@
 @import "../../styles/global";
 
 .container {
-  max-width: 1080px;
-  margin: 4rem auto;
+  width: 100vw;
+  margin: 8rem auto;
   text-align: center;
-  color: $color-offWhite;
   line-height: 1.25;
-  .text {
-    margin: 0 auto;
-    max-width: 55rem;
-    font-size: 14px;
-    line-height: 1.5;
-    span {
-      color: $color-orange;
-    }
-  }
   h4 {
     .title {
-      font-size: 20px;
+      font-size: 2rem;
       color: $color-gray;
     }
     .subtitle {
-      font-size: 36px;
+      font-size: 3.6rem;
       color: $color-white;
+    }
+  }
+  .textDiv {
+    margin: 0 auto;
+    max-width: 67rem;
+    font-size: 1.6rem;
+    line-height: 1.25;
+    span {
+      color: $color-orange;
     }
   }
 }

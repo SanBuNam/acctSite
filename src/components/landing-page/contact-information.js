@@ -17,7 +17,6 @@ const BackgroundSection = ({ className }) => (
       }
     `}
     render={data => {
-      // Set ImageData.
       const imageData = data.desktop.childImageSharp.fluid
       return (
         <BackgroundImage
@@ -32,7 +31,7 @@ const BackgroundSection = ({ className }) => (
 
 const StyledBackgroundSection = styled(BackgroundSection)`
   width: 100%;
-  min-height: 48rem;
+  height: 60rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

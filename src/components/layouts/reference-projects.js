@@ -8,9 +8,9 @@ import styled from "styled-components"
 import BackgroundDisplay from "./background-display"
 
 const width = "100%",
-  height = "350px"
+  height = "40rem"
 
-const Container = styled.div`
+const Container = styled.section`
   background-color: #7e8aa2;
   position: relative;
   overflow: hidden;
@@ -22,12 +22,13 @@ const Children = styled.div`
   height: ${height};
 `
 const Dot = styled.span`
+  margin: 0 auto;
   font-size: 1.5em;
   cursor: pointer;
   text-shadow: 1px 1px 1px #fff;
   user-select: none;
 `
-const Dots = styled.span`
+const Dots = styled.div`
   text-align: center;
   width: ${width};
   z-index: 100;

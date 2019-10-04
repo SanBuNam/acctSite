@@ -4,7 +4,7 @@ import TextButton from "../buttons/text-button"
 
 const myApproachBox = () => {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <h3>
         Want to work with me? <br />
         <span>Get in touch</span>
@@ -26,7 +26,7 @@ const myApproachBox = () => {
           <TextButton text="Contact me" />
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

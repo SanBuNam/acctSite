@@ -30,13 +30,15 @@ const Statement = ({ backgroundImage }) => (
               13. Turning a sketch into something fun and beautiful was amazing
               — and it still is.”
             </h5>
-            <p>
-              Every bit of that same enthusiasm is still there. Although, now I
-              design solutions and hand code them.
-              <br />
-              Learn more <span>about me</span> or{" "}
-              <span>the approach I take.</span>
-            </p>
+            <div className={styles.bottom}>
+              <p>
+                Every bit of that same enthusiasm is still there. Although, now
+                I design solutions and hand code them.
+                <br />
+                Learn more <span>about me</span> or{" "}
+                <span>the approach I take.</span>
+              </p>
+            </div>
           </div>
         </BackgroundImage>
       )

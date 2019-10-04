@@ -11,12 +11,13 @@ const ExistingWebsite = () => {
         continued support to your existing site, I can help.
       </p>
       <p className={styles.middeText}>
-        If your site uses PHP, Craft CMS, Wordpress or if you require a Drupal
-        Developer, I’m happy to provide you with an estimate for the work. Or
-        simply choose from one of my website maintenance packages.
+        If your site uses JavaScript, React, Node.js, Craft CMS or if you
+        require a fullstack Developer, I’m happy to provide you with an estimate
+        for the work. Or simply choose from one of my website maintenance
+        packages.
       </p>
       <p>
-        Read about <span>Drupal maintenance packages</span> or{" "}
+        Read about <span>Website maintenance packages</span> or{" "}
         <span>contact me</span>
       </p>
     </div>

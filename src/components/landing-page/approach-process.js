@@ -1,22 +1,22 @@
-import React from "react"
+import React, { Fragment } from "react"
 import styled from "styled-components"
 import "./Approach-Process.scss"
 
-const ContainerDiv = styled.div`
-  padding: 2rem auto;
-  width: 100%;
+const ContainerDiv = styled.section`
+  padding: 3rem auto;
+  margin: 3rem auto;
+  width: 100vw;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
-  justify-content: space-between;
-  background-color: #f2f2f2;
-  color: #222f3e;
+  justify-content: space-around;
+  background-color: #171e2b;
   align-items: center;
   justify-items: center;
 `
 
 const Container = () => {
-  const frontOne = { background: "#FF9800", color: "#FFBD5C" }
+  const frontOne = { background: "#FF9800", color: "#ffffff" }
   const backOne = { background: "#FF9800", color: "#F2F2F2" }
   const frontTwo = { background: "#263248", color: "#7e8aa2" }
   const backTwo = { background: "#263248", color: "#7e8aa2" }
@@ -33,13 +33,21 @@ const Container = () => {
         </div>
         <div className="card__side card__side--back" style={backOne}>
           <div className="cardText">
-            <p className="subtitle">In person meeting</p>
-            <p className="desc">I'm in Orange County, CA</p>
-            <p className="subtitle">Skype</p>
-            <p className="desc">Skype Information iink</p>
-            <p className="subtitle">Phone & Email</p>
-            <p className="desc">714) 270 - 7255</p>
-            <p className="desc">davidsanbunam@gmail.com</p>
+            <Fragment>
+              <p className="subtitle">In person meeting</p>
+              <p className="desc">I'm in Orange County, CA</p>
+            </Fragment>
+            <Fragment>
+              <p className="subtitle">Skype</p>
+              <p className="desc">Skype Information iink</p>
+            </Fragment>
+            <Fragment>
+              <p className="subtitle">Phone & Email</p>
+              <p className="desc">
+                714) 270 - 7255 <br />
+                davidsanbunam@gmail.com
+              </p>
+            </Fragment>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import styles from "./referrals.module.scss"
 
 const Statement = () => {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <div className={styles.inncerContainer}>
         <h5>
           “David is quick to understand detailed technical issues and at the
@@ -18,7 +18,7 @@ const Statement = () => {
           </span>
         </p>
       </div>
-    </div>
+    </section>
   )
 }
 

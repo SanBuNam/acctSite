@@ -3,8 +3,7 @@
 .navigation {
   z-index: 10;
   margin: 0 auto;
-  padding: 0;
-  position: relative;
+  padding: 2rem;
   ul {
     display: flex;
     justify-self: center;
@@ -18,15 +17,34 @@
         margin-right: 2.555rem;
         font-size: 1.6rem;
         font-weight: 400;
-        &:hover {
-          color: $color-white;
+        position: relative;
+        &:after {
+          height: 2px;
+          background: orange;
+          content: "";
+          width: 0;
+          position: absolute;
+          transform: translateX(-50%);
+          transition: width 0.4s;
+          transition-timing-function: cubic-bezier(1, -0.65, 0, 2.31);
+          left: 50%;
+          margin-top: 2rem;
         }
+        &:hover,
+        &:focus {
+          color: $color-white;
+          outline: none;
+          &:after {
+            width: calc(190% - 60px);
+          }
+        }
+        transition: all 0.3s ease;
       }
     }
   }
 
   .downArrow {
-    transition: all 0.4s ease;
+    transition: all 1s ease;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -35,12 +53,14 @@
     word-break: normal;
     ::before {
       color: $color-offWhite;
+      font-weight: 600;
+      font-size: 2rem;
       content: ">";
       -webkit-transform: rotate(90deg);
       -moz-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
       transform: rotate(90deg);
-      left: 22px;
+      left: -17px;
       padding: 0 0 2px;
       position: absolute;
       pointer-events: none;
