@@ -6,12 +6,12 @@
   margin: 0 auto;
   padding-top: 30px;
   display: grid;
-  grid-template-columns: 1fr 60% 1fr;
+  grid-template-columns: 1fr 50% 1fr;
   .row {
     text-align: center;
-    padding: 5px;
+    padding: 2rem;
     .logo {
-      width: 15.5rem;
+      width: 20rem;
       z-index: 2;
       -webkit-filter: drop-shadow(1.25px 1.25px 1.25px rgb(194, 176, 176));
       filter: drop-shadow(1.25px 1.25px 1.25px rgb(194, 176, 176));
@@ -36,7 +36,7 @@
     @extend .button;
     background-size: 16px 16px;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
   }
   .button-facebook {
     @extend .button-icon;

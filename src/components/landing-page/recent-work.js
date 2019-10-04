@@ -19,7 +19,7 @@ const RecentWork = () => {
   const data = useStaticQuery(getImages)
 
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <div className={styles.titleDiv}>
         <h3>Recent work sample</h3>
       </div>
@@ -41,7 +41,7 @@ const RecentWork = () => {
           secure platform.
         </p>
       </div>
-    </div>
+    </section>
   )
 }
 

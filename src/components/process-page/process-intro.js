@@ -19,7 +19,7 @@ const StyledDiv = styled.div`
     list-style: none;
   }
   div {
-    margin: 7rem auto;
+    margin: 7rem auto 0 auto;
   }
   span {
     color: orange;
@@ -193,7 +193,7 @@ const ProcessIntro = () => {
           per-case basis and charged at an agreed and discounted hourly rate.
         </p>
         <p>
-          Learn more about the <span>Drupal maintenance package</span> or{" "}
+          Learn more about the <span>Website maintenance package</span> or{" "}
           <span>Craft CMS maintenance package.</span>
         </p>
       </div>
@@ -212,9 +212,7 @@ const ProcessIntro = () => {
           </li>
           <li>- Axure Pro for sitemaps and prototyping</li>
           <li>- Atlassian Confluence or Google Docs for documentation</li>
-          <li>
-            - PHP Storm, Visual Studio Code, Git and Chrome for development
-          </li>
+          <li>- Visual Studio Code, Git and Chrome for development</li>
           <li>- Amazon AWS, Hetzner or Platform.sh for hosting</li>
         </ul>
       </div>

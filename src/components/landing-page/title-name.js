@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
-import styled from "styled-components"
 import styles from "./title-name.module.scss"
+import styled from "styled-components"
 import BackgroundImage from "gatsby-background-image"
 
 const BackgroundSection = ({ className }) => (
@@ -21,7 +21,7 @@ const BackgroundSection = ({ className }) => (
       const imageData = data.desktop.childImageSharp.fluid
       return (
         <BackgroundImage Tag="section" className={className} fluid={imageData}>
-          <section className={styles.container}>
+          <div className={styles.container}>
             <h1>
               <span className={styles.title}>I am David,</span>
               <br />
@@ -31,7 +31,7 @@ const BackgroundSection = ({ className }) => (
                 experience.
               </p>
             </h1>
-          </section>
+          </div>
         </BackgroundImage>
       )
     }}
@@ -40,7 +40,6 @@ const BackgroundSection = ({ className }) => (
 
 const StyledBackgroundSection = styled(BackgroundSection)`
   width: 100%;
-  min-height: 40.44rem;
   background-repeat: no-repeat;
   background-position: center;
 `

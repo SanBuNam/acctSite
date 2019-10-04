@@ -1,0 +1,55 @@
+@import "../../styles/global";
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: $color-offWhite;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1rem;
+  .innerContainer {
+    width: 100%;
+    color: #7e8aa2;
+    text-align: center;
+    img {
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+    }
+    .option {
+      width: 100%;
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+      h3 {
+        font-family: $font-secondary;
+        font-size: 2rem;
+        font-weight: 400;
+        color: $color-black;
+        background: pink;
+        padding: 2rem;
+      }
+      p {
+        font-size: 1.7rem;
+        font-weight: 400;
+        color: $color-black;
+      }
+      span {
+        font-size: 1.5rem;
+        color: $color-space;
+      }
+      ul {
+        margin-top: 1rem auto;
+        list-style: none;
+        li {
+          color: $color-navy;
+          line-height: 1.5;
+          text-align: left;
+          font-size: 1.6rem;
+        }
+        li:nth-child(odd) {
+          background: #ccc;
+        }
+      }
+    }
+  }
+}

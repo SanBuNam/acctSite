@@ -1,0 +1,21 @@
+@import "../../styles/global";
+
+.container {
+  padding: 3rem;
+  color: $color-black;
+  max-width: 50rem;
+  button {
+    width: 20rem;
+    padding: 1.25rem;
+    background: $color-orange;
+    color: $color-white;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  span {
+    color: $color-orange;
+  }
+  .phone {
+    margin-bottom: 1rem;
+  }
+}

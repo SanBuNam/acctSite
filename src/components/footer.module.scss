@@ -1,6 +1,8 @@
 @import "../styles/global";
 
 .container {
+  width: 100vw;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   color: $color-white;

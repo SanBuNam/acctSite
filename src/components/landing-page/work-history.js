@@ -8,7 +8,7 @@ export default props => (
       <br />
       <span className={styles.subtitle}>Freelance Web Developer?</span>
     </h4>
-    <div className={styles.text}>
+    <div className={styles.textDiv}>
       <p>
         I create websites and applications, built to convert, improve business
         processes and maximize ROI here in Orange County, CA. <br />

@@ -5,19 +5,26 @@
   padding: 4rem;
   margin: 0 auto;
   text-align: center;
-  line-height: 1.25;
   display: grid;
   justify-content: center;
+  color: $color-black;
+  background-image: linear-gradient(
+    0.5turn,
+    $color-navy,
+    $color-offWhite,
+    $color-navy
+  );
   h5 {
     max-width: 100rem;
-    font-size: 24px;
-    color: $color-offWhite;
+    font-size: 2.4rem;
+    line-height: 1;
   }
-  p {
+  .bottom {
     font-family: $font-secondary;
-    color: $color-grainsboro;
     max-width: 100rem;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0 auto 2rem auto;
     span {
       color: $color-orange;
     }
