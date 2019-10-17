@@ -1,38 +1,61 @@
 @import "../styles/global";
 
 .container {
-  width: 100vw;
+  width: 100%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  color: $color-white;
-  justify-content: space-around;
-  .leftContainer {
-    padding: 2rem;
-    width: 100%;
-    p {
-      font-size: 1.4rem;
-    }
-    span {
-      color: $color-orange;
-    }
-  }
-  .midContainer {
-    padding: 2rem;
+  background-color: $color-background;
+  .innerContainer {
     margin: 0 auto;
-    p {
-      font-size: 1.4rem;
-      color: $color-orange;
+    width: $site-width;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding: 2rem;
+    .leftContainer {
+      padding: 2rem;
+      width: 100%;
+      p {
+        font-size: 1.4rem;
+      }
+      span {
+        color: $color-orange;
+      }
+    }
+
+    .midContainer {
+      padding: 2rem;
+      p {
+        font-size: 1.4rem;
+        color: $color-orange;
+      }
+    }
+
+    .rightContainer {
+      padding: 2rem;
+      p {
+        font-size: 1.4rem;
+      }
+      span {
+        font-size: 1.4rem;
+        color: $color-orange;
+      }
     }
   }
-  .rightContainer {
+
+  .address {
+    margin: 0 auto;
+    width: $container-width;
+    background: #263248;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
     padding: 2rem;
-    p {
-      font-size: 1.4rem;
-    }
-    span {
-      font-size: 1.4rem;
-      color: $color-orange;
+    .addressText {
+      margin: 0 auto;
+      width: $site-width;
+      text-align: left;
+      padding: 1rem;
+      margin-right: 20rem;
     }
   }
 }

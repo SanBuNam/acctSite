@@ -21,7 +21,6 @@ const ServiceType = () => (
                 list
                 date(formatString: "MMMM YYYY")
               }
-              excerpt(truncate: false, pruneLength: 280)
             }
           }
         }
@@ -30,24 +29,26 @@ const ServiceType = () => (
     render={data => {
       return (
         <div className={styles.container}>
-          {data.allMarkdownRemark.edges.map(({ node }) => {
-            const { src, service, price, hosting, list } = node.frontmatter
-            return (
-              <div className={styles.innerContainer}>
-                <img src={src} alt={service} />
-                <div className={styles.option}>
-                  <h3>{service}</h3>
-                  <p>{price}</p>
-                  <span>{hosting}</span>
-                  <ul>
-                    {list.map(item => (
-                      <li>{item}</li>
-                    ))}
-                  </ul>
+          <div className={styles.outerContainer}>
+            {data.allMarkdownRemark.edges.map(({ node }) => {
+              const { src, service, price, hosting, list } = node.frontmatter
+              return (
+                <div className={styles.innerContainer}>
+                  <img src={src} alt={service} />
+                  <div className={styles.option}>
+                    <h3>{service}</h3>
+                    <h4>{price}</h4>
+                    <span>{hosting}</span>
+                    <ul>
+                      {list.map(item => (
+                        <li>{item}</li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
-              </div>
-            )
-          })}
+              )
+            })}
+          </div>
         </div>
       )
     }}

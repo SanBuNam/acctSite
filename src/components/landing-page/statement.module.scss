@@ -2,29 +2,23 @@
 
 .container {
   width: 100%;
-  padding: 4rem;
+  padding: 1rem;
   margin: 0 auto;
   text-align: center;
   display: grid;
   justify-content: center;
   color: $color-black;
-  background-image: linear-gradient(
-    0.5turn,
-    $color-navy,
-    $color-offWhite,
-    $color-navy
-  );
+  background-color: $color-offWhite;
   h5 {
     max-width: 100rem;
-    font-size: 2.4rem;
-    line-height: 1;
+    font-size: 2.2rem;
   }
   .bottom {
     font-family: $font-secondary;
     max-width: 100rem;
     font-weight: 600;
     font-size: 2rem;
-    margin: 0 auto 2rem auto;
+    margin: 0 auto;
     span {
       color: $color-orange;
     }

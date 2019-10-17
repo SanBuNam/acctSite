@@ -2,9 +2,9 @@ import React from "react"
 import makeCarousel from "react-reveal/makeCarousel"
 import Slide from "react-reveal/Slide"
 import styled from "styled-components"
-// import imageOne from "../../../content/images/Sanfrancisco.jpeg"
-// import imageTwo from "../../../content/images/david-sign.jpeg"
-// import imageThree from "../../../content/images/responsive-website.jpeg"
+import imageOne from "../../../content/images/cj.png"
+import imageTwo from "../../../content/images/david-sign.jpeg"
+import imageThree from "../../../content/images/responsive-website.jpeg"
 import BackgroundDisplay from "./background-display"
 
 const width = "100%",
@@ -47,22 +47,28 @@ const CarouselUI = ({ position, total, handleClick, children }) => (
 )
 const Carousel = makeCarousel(CarouselUI)
 
-export default () => (
+export default props => (
   <Carousel>
     <Slide right>
-      <BackgroundDisplay src="" header="" description="">
-        one
-      </BackgroundDisplay>
+      <BackgroundDisplay
+        src={imageOne}
+        header={props.header}
+        description={props.description}
+      ></BackgroundDisplay>
     </Slide>
     <Slide right>
-      <BackgroundDisplay src="" header="" description="">
-        two
-      </BackgroundDisplay>
+      <BackgroundDisplay
+        src={imageTwo}
+        header={props.header}
+        description={props.description}
+      ></BackgroundDisplay>
     </Slide>
     <Slide right>
-      <BackgroundDisplay src="" header="" description="">
-        three
-      </BackgroundDisplay>
+      <BackgroundDisplay
+        src={imageThree}
+        header={props.header}
+        description={props.description}
+      ></BackgroundDisplay>
     </Slide>
   </Carousel>
 )

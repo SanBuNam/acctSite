@@ -7,9 +7,8 @@ import Questions from "../components/common/questions"
 
 export default () => (
   <Layout>
-    <SEO title="web service" />
+    <SEO title="web-development-process" />
     <MyApproach />
     <ProcessIntro />
-    <Questions />
   </Layout>
 )

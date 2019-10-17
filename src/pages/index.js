@@ -9,25 +9,23 @@ import MyApproach from "../components/landing-page/my-approach"
 import ApproachProcess from "../components/landing-page/approach-process"
 import Questions from "../components/common/questions"
 import Statement from "../components/landing-page/statement"
-import RecentWork from "../components/landing-page/recent-work"
+import DesignDevelopment from "../components/landing-page/design-and-development"
 import Referrals from "../components/landing-page/referrals"
 import WorkWithMe from "../components/landing-page/work-with-me"
-import ContactInformation from "../components/landing-page/contact-information"
 
 export default () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="freelancer-developer" />
     <TitleName />
     <WorkHistory />
-    <ProjectSlider />
     <WhyHireMe />
     <MyApproach />
     <ApproachProcess />
     <Questions />
+    <ProjectSlider />
     <Statement />
-    <RecentWork />
+    <DesignDevelopment />
     <Referrals />
     <WorkWithMe />
-    <ContactInformation />
   </Layout>
 )

@@ -1,11 +1,7 @@
 // COLORS
-$container-width: 100%;
-$site-width: 1360px;
-$font-primary: "Brevia", Arial, Helvetica, sans-serif;
-$font-secondary: "ff-nuvo-web-pro", Arial, Helvetica, sans-serif;
 $color-background: #171e2b;
 $color-black: #222f3e;
-$color-blue: #0984e3;
+$color-blue: #5eabe2;
 $color-navy: #0c1d41;
 $color-darkNavy: #263248;
 $color-white: #ffffff;
@@ -16,8 +12,24 @@ $color-lightGray: #707070;
 $color-darkGray: #737373;
 $color-orange: #ff9800;
 $color-space: #576574;
+$box-shadow: 0 2px 10px -4px rgba(0, 0, 0, 0.5);
+
+// WIDTH
+$container-width: 100%;
+$site-width: 1190px;
+
+// MEDIA QUERIES
+$mobileS: 320px;
+$mobileM: 375px;
+$mobileL: 425px;
+$tablet: 768px;
+$laptop: 1024px;
+$laptopL: 1440px;
+$desktop: 2560p;
 
 // FONT
+$font-primary: "Brevia", Arial, Helvetica, sans-serif;
+$font-secondary: "ff-nuvo-web-pro", Arial, Helvetica, sans-serif;
 $default-font-size: 1.6rem;
 
 // GRID

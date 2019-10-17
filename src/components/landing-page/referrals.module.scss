@@ -3,12 +3,13 @@
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 6rem;
   background: #0c1d41;
   display: grid;
   justify-content: center;
   .inncerContainer {
-    width: 1080px;
+    margin: 0 auto;
+    width: $site-width;
     line-height: 1;
     border-top: 1px solid;
     border-bottom: 1px solid;

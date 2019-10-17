@@ -5,7 +5,7 @@ import "./Approach-Process.scss"
 const ContainerDiv = styled.section`
   padding: 3rem auto;
   margin: 3rem auto;
-  width: 100vw;
+  max-width: 1080px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
@@ -93,7 +93,7 @@ const Container = () => {
             <p className="desc">Successfully delivered over 120</p>
             <p className="subtitle">Projects</p>
             <p className="desc">
-              International From US, Korea, France, India to UK
+              International From US, S. Korea, France, India to UK
             </p>
           </div>
         </div>

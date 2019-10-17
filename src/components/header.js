@@ -32,7 +32,7 @@ export default () => (
       query {
         fixed: file(relativePath: { eq: "freelance-developer.png" }) {
           childImageSharp {
-            fixed(width: 200) {
+            fixed(width: 150) {
               ...GatsbyImageSharpFixed
             }
           }

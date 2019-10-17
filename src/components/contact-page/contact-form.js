@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import styles from "./contact-form.module.scss"
 import ContactInfo from "./contact-info"
+import Button from "../buttons/round-button"
 
 class ContactForm extends Component {
   constructor(props) {
@@ -35,7 +36,7 @@ class ContactForm extends Component {
         <div className={styles.formDiv}>
           <form onSubmit={this.handleSubmit}>
             <label htmlFor="service">
-              What services are you interested in?{" "}
+              What services are you interested in? <br />
               <select
                 id="serivce"
                 name="service"
@@ -53,7 +54,7 @@ class ContactForm extends Component {
             <br />
             <br />
             <label htmlFor="customer">
-              What is your name?*{" "}
+              What is your name?* <br />
               <input
                 id="customer"
                 name="customer"
@@ -89,7 +90,7 @@ class ContactForm extends Component {
             <br />
             <br />
             <label htmlFor="email">
-              Email* :{" "}
+              Email* : <br />
               <input
                 id="email"
                 name="email"
@@ -99,7 +100,7 @@ class ContactForm extends Component {
               />
             </label>
             <br />
-            <input type="submit" value="Send Inquiry" />
+            <Button text="Send enquiry" type="submit" value="Send Inquiry" />
           </form>
         </div>
 
