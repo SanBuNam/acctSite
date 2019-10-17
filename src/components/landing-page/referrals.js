@@ -10,7 +10,6 @@ const Statement = () => {
           same time is able to step back and see the bigger business concerns,
           this makes him an extremely effective developer.…”
         </h5>
-
         <p>
           Learn about{" "}
           <span>

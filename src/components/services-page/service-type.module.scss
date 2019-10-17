@@ -1,53 +1,70 @@
 @import "../../styles/global";
 
 .container {
-  width: 100%;
+  width: $container-width;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   background-color: $color-offWhite;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 1rem;
-  .innerContainer {
-    width: 100%;
-    color: #7e8aa2;
-    text-align: center;
-    img {
+  .outerContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2rem;
+    width: $site-width;
+    margin: 0 auto;
+    padding: 1rem;
+    .innerContainer {
+      background-color: $color-white;
+      padding: 1rem;
       width: 100%;
-      padding: 1rem 2rem 0 2rem;
-    }
-    .option {
-      width: 100%;
-      border-top-left-radius: 4px;
-      border-top-right-radius: 4px;
-      h3 {
-        font-family: $font-secondary;
-        font-size: 2rem;
-        font-weight: 400;
-        color: $color-black;
-        background: pink;
-        padding: 2rem;
+      color: #7e8aa2;
+      text-align: center;
+      box-shadow: 0 2px 10px -4px rgba(0, 0, 0, 0.5);
+      img {
+        width: 20rem;
+        padding: 1rem 2rem 0 2rem;
       }
-      p {
-        font-size: 1.7rem;
-        font-weight: 400;
-        color: $color-black;
-      }
-      span {
-        font-size: 1.5rem;
-        color: $color-space;
-      }
-      ul {
-        margin-top: 1rem auto;
-        list-style: none;
-        li {
-          color: $color-navy;
-          line-height: 1.5;
-          text-align: left;
-          font-size: 1.6rem;
+      .option {
+        margin: 0 auto;
+        width: 100%;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        h3 {
+          font-family: $font-secondary;
+          font-size: 2rem;
+          font-weight: 600;
+          line-height: 0;
+          color: $color-black;
+          padding: 1rem;
+          text-align: center;
+          text-shadow: 0 1px 0 #fff;
+          text-decoration: none;
         }
-        li:nth-child(odd) {
-          background: #ccc;
+        h4 {
+          font-size: 2rem;
+          line-height: 0;
+          font-style: oblique;
+          font-weight: 600;
+          color: $color-orange;
+          text-align: center;
+          text-shadow: 0 1px 0 #fff;
+        }
+        ul {
+          list-style: none;
+          padding: 0;
+          li {
+            font-family: $font-secondary;
+            padding: 0.33rem;
+            font-size: 1.7rem;
+            color: $color-black;
+            text-align: left;
+          }
+          li:nth-child(even) {
+            background: #ffe8d2;
+          }
+        }
+        span {
+          font-size: 1.5rem;
+          color: $color-black;
         }
       }
     }

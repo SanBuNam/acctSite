@@ -27,8 +27,8 @@
     margin: 2rem 2rem;
     p {
       margin: 2rem 0;
-      font-size: 1.8rem;
-      font-weight: 400;
+      font-size: 2rem;
+      font-weight: 600;
       color: $color-gray;
     }
   }
@@ -47,6 +47,9 @@
       list-style-type: none;
       font-family: $font-secondary;
       line-height: 1.55;
+      li {
+        font-size: 1.8rem;
+      }
     }
     ul li:before {
       content: "";
@@ -62,7 +65,7 @@
     p {
       padding-top: 2rem;
       max-width: 60rem;
-      font-size: 1.5rem;
+      font-size: 1.6rem;
       font-weight: 400;
       color: $color-lightGray;
     }

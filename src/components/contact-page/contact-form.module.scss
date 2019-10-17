@@ -10,22 +10,42 @@
   grid-template-columns: 1fr 1fr;
   .formDiv {
     margin: 10% auto;
+    margin-right: 7rem;
     input[type="text"] {
-      width: 30rem;
-      text-align: right;
+      display: block;
+      width: 100%;
+      height: 36px;
+      padding: 6px 12px;
+      font-size: 16px;
+      line-height: 1.42857;
+      color: gray;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #ccc;
+      border-radius: 4px;
     }
-    input[type="select"] {
-      min-width: 20rem;
+    select {
+      display: block;
+      width: 100%;
+      height: 36px;
+      padding: 6px 12px;
+      font-size: 16px;
+      line-height: 1.42857;
+      color: gray;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #ccc;
+      border-radius: 4px;
     }
-    input[type="submit"] {
-      margin-top: 2rem;
+    button {
       min-width: 20rem;
-      padding: 1rem;
+      padding: 2rem;
+      margin-top: 1rem;
       background: $color-orange;
-      color: $color-offWhite;
+      color: $color-white;
       font-size: 1.8rem;
       font-weight: 400;
-      border-radius: 8px;
+      border-radius: 50px;
     }
   }
 }

@@ -7,20 +7,20 @@
   ul {
     display: flex;
     justify-self: center;
-    transition: all 0.4s ease;
+    transition: all 0.2s ease;
     li {
       list-style: none;
       a {
         text-decoration: none;
-        color: $color-offWhite;
+        color: $color-orange;
         list-style: none;
-        margin-right: 2.555rem;
+        margin-right: 5.555rem;
         font-size: 1.6rem;
         font-weight: 400;
         position: relative;
         &:after {
           height: 2px;
-          background: orange;
+          background: $color-orange;
           content: "";
           width: 0;
           position: absolute;
@@ -32,27 +32,27 @@
         }
         &:hover,
         &:focus {
-          color: $color-white;
+          color: $color-gray;
           outline: none;
           &:after {
-            width: calc(190% - 60px);
+            width: calc(95%);
           }
         }
-        transition: all 0.3s ease;
+        transition: all 0.2s ease;
       }
     }
   }
 
   .downArrow {
-    transition: all 1s ease;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     background-image: none;
     -ms-word-break: normal;
     word-break: normal;
+    transition: all 0.2s ease;
     ::before {
-      color: $color-offWhite;
+      color: $color-orange;
       font-weight: 600;
       font-size: 2rem;
       content: ">";
@@ -60,7 +60,7 @@
       -moz-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
       transform: rotate(90deg);
-      left: -17px;
+      left: -22px;
       padding: 0 0 2px;
       position: absolute;
       pointer-events: none;
@@ -68,7 +68,6 @@
   }
 
   .downArrow:hover {
-    transition: all 0.4s ease;
     ::before {
       content: "<";
       -webkit-transform: rotate(90deg);

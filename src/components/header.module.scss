@@ -1,17 +1,17 @@
 @import "../styles/global";
 
 .container {
-  max-width: 1080px;
+  max-width: 1360px;
   min-height: 140px;
   margin: 0 auto;
   padding-top: 30px;
   display: grid;
-  grid-template-columns: 1fr 50% 1fr;
+  grid-template-columns: 1fr max-content 1fr;
   .row {
     text-align: center;
     padding: 2rem;
     .logo {
-      width: 20rem;
+      width: 15rem;
       z-index: 2;
       -webkit-filter: drop-shadow(1.25px 1.25px 1.25px rgb(194, 176, 176));
       filter: drop-shadow(1.25px 1.25px 1.25px rgb(194, 176, 176));

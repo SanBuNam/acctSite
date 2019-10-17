@@ -4,28 +4,31 @@
   width: 100%;
   justify-content: center;
   text-align: center;
-  background-color: #0c1d41;
-  color: $color-white;
   align-items: center;
-  padding: 2rem 2rem 5rem 2rem;
+  padding: 2rem;
+  background: $color-navy;
   h3 {
-    font-size: 2.9rem;
+    font-size: 3.2rem;
+    font-family: $font-secondary;
     color: $color-gray;
     line-height: 1.25;
     span {
-      font-size: 2.7rem;
-      color: $color-white;
+      font-family: $font-primary;
+      font-size: 3.3rem;
+      color: $color-orange;
     }
   }
 
   .contactInfo {
+    width: $site-width;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     margin: 4rem auto;
+    font-family: $font-secondary;
     h5 {
-      font-size: 1.6rem;
-      line-height: 0.5;
+      font-size: 1.9rem;
+      line-height: 0;
     }
     .sides {
       display: flex;
@@ -35,11 +38,37 @@
       height: 20rem;
       color: $color-gray;
       border: 1px solid $color-gray;
+      border-radius: 8px;
       img {
         width: 10rem;
         margin: 0 auto;
+        padding: 0.5rem;
+      }
+      button {
+        background: $color-gray;
+        border: none;
+        &:link,
+        &:visited {
+          color: $color-orange;
+          display: inline-block;
+          text-decoration: none;
+          border-bottom: 1px solid $color-orange;
+          padding: 10rem;
+          transition: all 0.8s ease-in 0.8s;
+        }
+        &:hover {
+          background-color: $color-orange;
+          color: $color-white;
+          box-shadow: 0 1rem 2rem rgba($color-orange, 0.15);
+          transform: translateY(-1px);
+        }
+        &:active {
+          box-shadow: 0 0.5rem 1rem rgba($color-orange, 0.15);
+          transform: translateY(0);
+        }
       }
     }
+
     .middle {
       display: flex;
       flex-flow: column;
@@ -48,9 +77,20 @@
       height: 20rem;
       color: $color-orange;
       border: 1px solid $color-orange;
+      border-radius: 8px;
       img {
         width: 10rem;
         margin: 0 auto;
+        padding: 1rem;
+      }
+      button {
+        border: none;
+        &:hover {
+          background-color: $color-orange;
+          color: $color-white;
+          box-shadow: 0 1rem 2rem rgba($color-orange, 0.15);
+          transform: translateY(-1px);
+        }
       }
     }
   }

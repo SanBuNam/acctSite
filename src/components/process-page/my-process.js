@@ -4,7 +4,7 @@ import styles from "./my-process.module.scss"
 export default props => (
   <section className={styles.container} key={props.key}>
     <div>
-      <h2 className={styles.title}>My Process</h2>
+      <h2 className={styles.title}>My approach</h2>
     </div>
     <div className={styles.text}>
       <p>

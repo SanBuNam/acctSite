@@ -1,0 +1,52 @@
+@import "../../styles/global";
+
+.container {
+  width: $container-width;
+  text-align: left;
+  background: #f2f2f2;
+  color: #263248;
+  padding: 2rem;
+  .innerContainer {
+    margin: 0 auto;
+    width: $site-width;
+    img {
+      float: left;
+      margin-left: 3rem;
+      margin-right: 1.5rem;
+    }
+    h2 {
+      margin-left: 3rem;
+      font-size: 3.9rem;
+    }
+    h5 {
+      margin-left: 3rem;
+      font-size: 2.6rem;
+    }
+    ul {
+      margin-left: 3rem;
+      line-height: 1.5;
+      li {
+        list-style: circle;
+        font-size: 1.6rem;
+      }
+    }
+    p {
+      margin-left: 3rem;
+    }
+    a {
+      font-style: normal;
+      text-rendering: optimizeLegibility;
+      color: $color-blue;
+    }
+    a,
+    a:hover {
+      text-decoration: none;
+    }
+
+    .right {
+      img {
+        float: right;
+      }
+    }
+  }
+}

@@ -1,26 +1,22 @@
 @import "../../styles/global";
 
 .container {
-  max-width: $site-width;
+  width: $site-width;
   height: 50vh;
   margin: 0 auto;
   text-align: left;
   text-transform: uppercase;
-  line-height: 1;
-  padding: 3rem;
+  padding: 6rem;
+  color: $color-black;
   .title {
-    margin-left: 6rem;
+    margin-left: 10rem;
     font-size: 6rem;
-    color: $color-orange;
   }
   .subtitle {
+    line-height: 1;
     display: inline-block;
-    max-width: 40rem;
-    color: $color-black;
-    margin-left: 6rem;
+    max-width: 45rem;
+    margin-left: 10rem;
     font-size: 2.4rem;
-    span {
-      color: $color-orange;
-    }
   }
 }

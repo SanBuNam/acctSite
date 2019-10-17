@@ -4,19 +4,21 @@ import styles from "./title-name.module.scss"
 import styled from "styled-components"
 import BackgroundImage from "gatsby-background-image"
 
-const BackgroundSection = ({ className }) => (
-  <StaticQuery
-    query={graphql`
-      query {
-        desktop: file(relativePath: { eq: "happy-child.jpeg" }) {
-          childImageSharp {
-            fluid(quality: 90, maxWidth: 1360) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
+const imageQuery = graphql`
+  query {
+    desktop: file(relativePath: { eq: "happy-child.jpeg" }) {
+      childImageSharp {
+        fluid(quality: 90, maxWidth: 1360) {
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
-    `}
+    }
+  }
+`
+
+const BackgroundSection = ({ className }) => (
+  <StaticQuery
+    query={imageQuery}
     render={data => {
       const imageData = data.desktop.childImageSharp.fluid
       return (
@@ -26,9 +28,8 @@ const BackgroundSection = ({ className }) => (
               <span className={styles.title}>I am David,</span>
               <br />
               <p className={styles.subtitle}>
-                Freelance web developer in{" "}
-                <span>Orange County, California</span> with decades of
-                experience.
+                Freelance web developer in Orange County, California with over
+                15 years of experience.
               </p>
             </h1>
           </div>

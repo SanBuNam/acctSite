@@ -4,6 +4,7 @@
   padding: 3rem;
   color: $color-black;
   max-width: 50rem;
+  margin-top: 2rem;
   button {
     width: 20rem;
     padding: 1.25rem;
@@ -17,5 +18,14 @@
   }
   .phone {
     margin-bottom: 1rem;
+  }
+  a {
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    color: $color-blue;
+  }
+  a,
+  a:hover {
+    text-decoration: none;
   }
 }

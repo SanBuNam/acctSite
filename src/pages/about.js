@@ -10,6 +10,5 @@ export default () => (
     <SEO title="about" />
     <AboutMeIntroduction />
     <MyStory />
-    <Questions />
   </Layout>
 )

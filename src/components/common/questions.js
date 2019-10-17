@@ -10,8 +10,8 @@ const Container = () => (
       <div>
         <h5>Questions?</h5>
         <p>
-          There is a treasure trove of answers just for you. Head over to the
-          frequently asked web development questions to find some answers.
+          Head over to the frequently asked web development questions to find
+          some answers.
         </p>
       </div>
     </div>
@@ -22,8 +22,8 @@ const Container = () => (
       <div>
         <h5>Prices</h5>
         <p>
-          Want to know how much a project costs? Learn about how I estimate web
-          projects or request a free estimate for yours.
+          Learn about how I estimate web projects or request a free estimate for
+          yours.
         </p>
       </div>
     </div>
