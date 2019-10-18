@@ -43,7 +43,8 @@ class ContactForm extends Component {
             <input type="hidden" name="bot-field" />
             <input type="hidden" name="form-name" value="contact" />
             <label htmlFor="service">
-              What services are you interested in? <br />
+              What services are you interested in?
+              <br />
               <select
                 id="serivce"
                 name="service"
