@@ -22,13 +22,30 @@ export default () => (
         <div>
           <div>
             <h3>My Services</h3>
-            <Link to="/pricing/">Freelance Web Development Services</Link>
+            <Link to="/pricing/">Web Design & Development Services</Link>
             <br />
-            <Link to="/pricing/">Web App Development</Link>
+            <Link to="/service-types/website-hosting/">Web Hosting</Link>
             <br />
-            <Link to="/pricing/">Craft CMS developer</Link>
+            <Link to="/service-types/website-update/">
+              Update and maintenance
+            </Link>
             <br />
-            <Link to="/pricing/">Custom Web Developer in Orange County</Link>
+            <Link to="/service-types/search-engine-optimization/">
+              Search Engine Optimization
+            </Link>
+            <br />
+            <Link to="/service-types/social-media-marketing/">
+              Social Media Marketing
+            </Link>
+            <br />
+            <Link to="/service-types/website-review-critique/">
+              Website review critique
+            </Link>
+            <br />
+            <Link to="/service-types/content-management/">
+              CMS & E - Commerce
+            </Link>
+            <br />
           </div>
           <div>
             <h3>Maintenance & Support</h3>
@@ -36,9 +53,7 @@ export default () => (
           </div>
           <div>
             <h3>Quick links</h3>
-            <Link to="/pricing/">Frequently asked questions</Link>
-            <br />
-            <Link to="/pricing/">Privacy notice</Link>
+            <Link to="/privacy-notice/">Privacy notice</Link>
             <br />
             <Link to="/terms-and-conditions/">Terms & conditions</Link>
           </div>

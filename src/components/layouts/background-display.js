@@ -11,6 +11,7 @@ const BackgroundDisplay = props => {
         backgroundPosition: "top",
         textAlign: "center",
         color: "orange",
+        backgroundColor: "offWhite",
       }}
     >
       {props.children}

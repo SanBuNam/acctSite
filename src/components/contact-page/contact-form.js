@@ -34,9 +34,17 @@ class ContactForm extends Component {
     return (
       <div className={styles.container}>
         <div className={styles.formDiv}>
-          <form onSubmit={this.handleSubmit}>
+          <form
+            onSubmit={this.handleSubmit}
+            action="POST"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+          >
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="contact" />
             <label htmlFor="service">
-              What services are you interested in? <br />
+              What services are you interested in?
+              <br />
               <select
                 id="serivce"
                 name="service"
@@ -53,11 +61,11 @@ class ContactForm extends Component {
             </label>
             <br />
             <br />
-            <label htmlFor="customer">
+            <label htmlFor="name">
               What is your name?* <br />
               <input
-                id="customer"
-                name="customer"
+                id="name"
+                name="name"
                 type="text"
                 value={this.state.customer}
                 onChange={this.handleInputChange}
@@ -65,10 +73,10 @@ class ContactForm extends Component {
             </label>
             <br />
             <br />
-            <label htmlFor="call">
+            <label htmlFor="number">
               <input
-                id="call"
-                name="call"
+                id="number"
+                name="number"
                 type="checkbox"
                 value={this.state.moreDetails}
                 onChange={this.handleInputChange}
@@ -77,10 +85,10 @@ class ContactForm extends Component {
             </label>
             <br />
             <br />
-            <label htmlFor="detailed">
+            <label htmlFor="memo">
               <input
-                id="detailed"
-                name="detailed"
+                id="memo"
+                name="memo"
                 type="checkbox"
                 value={this.state.moreDetails}
                 onChange={this.handleInputChange}
@@ -100,6 +108,9 @@ class ContactForm extends Component {
               />
             </label>
             <br />
+            <div class="field">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
             <Button text="Send enquiry" type="submit" value="Send Inquiry" />
           </form>
         </div>
