@@ -9,6 +9,7 @@
   justify-content: center;
   color: $color-black;
   background-color: $color-offWhite;
+  transition: all 0.3s ease-in;
   h5 {
     max-width: 100rem;
     font-size: 2.2rem;
@@ -19,8 +20,14 @@
     font-weight: 600;
     font-size: 2rem;
     margin: 0 auto;
-    span {
-      color: $color-orange;
-    }
+  }
+  a {
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    text-decoration: none;
+    color: $color-orange;
+  }
+  a:hover {
+    text-decoration: underline;
   }
 }

@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import styles from "./footer.module.scss"
 
 export default () => (
@@ -11,8 +12,9 @@ export default () => (
           experience. My clients come from Orange County and all over the world.
           <br />
           <br />
-          Learn more{" "}
-          <span>about me, my approach or web development services.</span>
+          Learn more <Link to="/about/">about me</Link>,{" "}
+          <Link to="/approach/">my approach</Link> or{" "}
+          <Link to="/pricing/">web development services</Link>.
         </p>
         <p>© 2019. DTM Digital Ltd.</p>
       </div>
@@ -20,21 +22,25 @@ export default () => (
         <div>
           <div>
             <h3>My Services</h3>
-            <p>Freelance Web Development Services</p>
-            <p>Web App Development</p>
-            <p>Craft CMS developer</p>
-            <p>Drupal Developer in Orange County</p>
+            <Link to="/pricing/">Freelance Web Development Services</Link>
+            <br />
+            <Link to="/pricing/">Web App Development</Link>
+            <br />
+            <Link to="/pricing/">Craft CMS developer</Link>
+            <br />
+            <Link to="/pricing/">Custom Web Developer in Orange County</Link>
           </div>
           <div>
             <h3>Maintenance & Support</h3>
-            <p>Hosting, Maintenance and Support</p>
+            <Link to="/pricing/">Hosting, Maintenance and Support</Link>
           </div>
           <div>
             <h3>Quick links</h3>
-            <p>Frequently asked questions</p>
-            <p>Privacy notice</p>
-            <p>Cookies policy</p>
-            <p>Terms & conditions</p>
+            <Link to="/pricing/">Frequently asked questions</Link>
+            <br />
+            <Link to="/pricing/">Privacy notice</Link>
+            <br />
+            <Link to="/terms-and-conditions/">Terms & conditions</Link>
           </div>
         </div>
       </div>
@@ -42,10 +48,12 @@ export default () => (
         <div>
           <h3>Get in touch</h3>
           <p>
-            Get in touch via <span>my contact form</span> or send me an email{" "}
-            <span>SoftDavidLee@gmail.com</span>.
+            Get in touch via <Link to="/contact/">my contact form</Link> or send
+            me an email <Link to="/contact/">SoftDavidLee@gmail.com</Link>.
           </p>
-          <p>Call me on 714 270 7255</p>
+          <p>
+            Call me on <Link to="/contact/">714 270 7255</Link>
+          </p>
           <p>
             I frequently work in the city of Los Angeles and am based in Orange
             County.

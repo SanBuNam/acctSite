@@ -99,9 +99,6 @@ class ModalLayout extends Component {
           <Link to="/service-types/social-media-marketing/">
             <li>Social Media Marketing</li>
           </Link>
-          <Link to="/service-types/graphic-design/">
-            <li>Graphic design and Logos</li>
-          </Link>
           <Link to="/service-types/website-review-critique/">
             <li>Website review critique</li>
           </Link>

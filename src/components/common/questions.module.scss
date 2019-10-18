@@ -14,9 +14,9 @@
     text-align: left;
     margin: 4rem;
     color: $color-white;
-    img {
+    .fontAwesome {
       margin-top: 2.25rem;
-      margin-right: 3rem;
+      margin-right: 2rem;
     }
     h5 {
       color: $color-orange;
@@ -24,9 +24,19 @@
       line-height: 0.25;
     }
     p {
+      color: $color-white;
       width: 20rem;
       font-size: 1.4rem;
       font-family: $font-secondary;
+    }
+    a {
+      font-style: normal;
+      text-rendering: optimizeLegibility;
+      text-decoration: none;
+      color: $color-orange;
+    }
+    a:hover {
+      text-decoration: none;
     }
   }
 }

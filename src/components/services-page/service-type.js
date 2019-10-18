@@ -8,6 +8,7 @@ const ServiceType = () => (
       query {
         allMarkdownRemark(
           filter: { frontmatter: { title: { eq: "services" } } }
+          sort: { fields: [frontmatter___date], order: DESC }
         ) {
           totalCount
           edges {
@@ -33,7 +34,7 @@ const ServiceType = () => (
             {data.allMarkdownRemark.edges.map(({ node }) => {
               const { src, service, price, hosting, list } = node.frontmatter
               return (
-                <div className={styles.innerContainer}>
+                <div id="#new-projects" className={styles.innerContainer}>
                   <img src={src} alt={service} />
                   <div className={styles.option}>
                     <h3>{service}</h3>

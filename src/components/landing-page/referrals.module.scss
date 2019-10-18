@@ -13,6 +13,7 @@
     line-height: 1;
     border-top: 1px solid;
     border-bottom: 1px solid;
+    transition: all 0.3s ease-in;
     h5 {
       padding: 1rem;
       margin-left: 1.5rem;
@@ -31,6 +32,16 @@
       span {
         color: $color-orange;
       }
+    }
+    a {
+      font-style: normal;
+      text-rendering: optimizeLegibility;
+      text-decoration: none;
+      color: $color-orange;
+    }
+    a:hover {
+      color: $color-white;
+      text-decoration: underline;
     }
   }
 }

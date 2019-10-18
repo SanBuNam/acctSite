@@ -4,11 +4,13 @@ const BackgroundDisplay = props => {
   return (
     <div
       style={{
-        backgroundSize: "cover",
+        backgroundSize: "contain",
         backgroundRepeat: "no-repeat",
         backgroundImage: `url(${props.src})`,
-        height: "350px",
-        backgroundPosition: "center",
+        height: "35rem",
+        backgroundPosition: "top",
+        textAlign: "center",
+        color: "orange",
       }}
     >
       {props.children}

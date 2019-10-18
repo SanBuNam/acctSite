@@ -3,8 +3,8 @@
 .container {
   width: $container-width;
   text-align: left;
-  background: #f2f2f2;
-  color: #263248;
+  background: $color-offWhite;
+  color: $color-black;
   padding: 2rem;
   .innerContainer {
     margin: 0 auto;
@@ -31,7 +31,7 @@
     a {
       font-style: normal;
       text-rendering: optimizeLegibility;
-      color: $color-blue;
+      color: $color-orange;
     }
     a,
     a:hover {

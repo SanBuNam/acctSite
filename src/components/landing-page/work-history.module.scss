@@ -25,5 +25,15 @@
     span {
       color: $color-orange;
     }
+    a {
+      font-style: normal;
+      text-rendering: optimizeLegibility;
+      color: $color-orange;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: $color-white;
+    }
   }
 }

@@ -1,0 +1,28 @@
+@import "../../styles/global";
+
+.container {
+  width: $container-width;
+  margin: 0 auto;
+  text-align: left;
+  background: #f2f2f2;
+  color: #263248;
+  .inner {
+    margin: 0 auto;
+    padding: 2rem;
+    width: $site-width;
+    color: $color-darkGray;
+    h5 {
+      margin-left: 3rem;
+      font-size: 3rem;
+    }
+    p {
+      margin-left: 3rem;
+    }
+    ul {
+      list-style: none;
+    }
+    span {
+      color: orange;
+    }
+  }
+}

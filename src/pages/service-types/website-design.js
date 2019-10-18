@@ -62,17 +62,13 @@ export default () => (
             is delighted (so far).
           </p>
           <p>
-            Naturally, our clients with{" "}
-            <Link to="/service-types/website-design/">design backgrounds</Link>{" "}
-            have wanted lots of input, and we’re happy to work elbow to elbow
-            tweaking this and nudging that. But even
-            <Link to="/service-types/website-design/">
-              {" "}
-              clients who have no particular design experience
-            </Link>{" "}
-            gave lots of terrific direction. We also produce great results if
-            you just leave us in our cave till we emerge with something. (Often
-            the first design we submit is approved on the spot!)
+            Naturally, our clients with design backgrounds have wanted lots of
+            input, and we’re happy to work elbow to elbow tweaking this and
+            nudging that. But even clients who have no particular design
+            experience gave lots of terrific direction. We also produce great
+            results if you just leave us in our cave till we emerge with
+            something. (Often the first design we submit is approved on the
+            spot!)
           </p>
         </Fragment>
         <Fragment>

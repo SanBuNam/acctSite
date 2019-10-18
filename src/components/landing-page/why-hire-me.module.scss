@@ -69,9 +69,14 @@
       font-weight: 400;
       color: $color-lightGray;
     }
-    span {
+    a {
+      font-style: normal;
+      text-rendering: optimizeLegibility;
       color: $color-orange;
-      font-weight: bold;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   }
 }
