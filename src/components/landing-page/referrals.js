@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import styles from "./referrals.module.scss"
 
 const Statement = () => {
@@ -12,9 +13,9 @@ const Statement = () => {
         </h5>
         <p>
           Learn about{" "}
-          <span>
+          <Link to="/process/">
             my approach to design, web development and working with you
-          </span>
+          </Link>
         </p>
       </div>
     </section>

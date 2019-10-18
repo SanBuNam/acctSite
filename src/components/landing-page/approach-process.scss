@@ -37,10 +37,17 @@
     text-align: center;
     position: absolute;
     margin: 0 auto;
-    top: 50%;
+    top: 60%;
     width: 100%;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
+  }
+
+  svg {
+    position: absolute;
+    margin-left: 8rem;
+    margin-top: 5rem;
+    text-align: center;
   }
 
   .cardText {

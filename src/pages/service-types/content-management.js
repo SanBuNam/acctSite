@@ -8,7 +8,7 @@ export default () => (
     <SEO title="graphic-design" />
     <div className={styles.container}>
       <div className={styles.innerContainer}>
-        <h5>Content Management Systems & E-commerce</h5>
+        <h2>Content Management Systems & E-commerce</h2>
         <p>
           Content Management Systems let a non-technical person update a website
           without messing up the layout and design.

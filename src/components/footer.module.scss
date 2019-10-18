@@ -4,6 +4,17 @@
   width: 100%;
   margin: 0 auto;
   background-color: $color-background;
+  a {
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    color: $color-orange;
+    text-decoration: none;
+    font-size: 1.4rem;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: $color-white;
+  }
   .innerContainer {
     margin: 0 auto;
     width: $site-width;
@@ -11,6 +22,7 @@
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     padding: 2rem;
+
     .leftContainer {
       padding: 2rem;
       width: 100%;
@@ -24,10 +36,6 @@
 
     .midContainer {
       padding: 2rem;
-      p {
-        font-size: 1.4rem;
-        color: $color-orange;
-      }
     }
 
     .rightContainer {

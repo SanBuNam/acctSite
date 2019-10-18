@@ -9,7 +9,6 @@
   justify-content: center;
   color: $color-black;
   background-color: $color-offWhite;
-
   .bottomRow {
     width: $site-width;
     margin: 0 auto;
@@ -27,14 +26,21 @@
       p {
         text-align: left;
         font-size: 1.5rem;
-        .color {
-          color: $color-orange;
-          font-weight: 600;
-        }
+
         .bolder {
           font-weight: 800;
           color: $color-black;
         }
+      }
+      a {
+        font-style: normal;
+        text-rendering: optimizeLegibility;
+        text-decoration: none;
+        color: $color-orange;
+        font-weight: 600;
+      }
+      a:hover {
+        text-decoration: underline;
       }
     }
   }

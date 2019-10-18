@@ -1,5 +1,6 @@
 import React from "react"
 import Image from "gatsby-image"
+import { Link } from "gatsby"
 import styles from "./why-hire-me.module.scss"
 import Button from "../buttons/round-button"
 import { useStaticQuery, graphql } from "gatsby"
@@ -28,7 +29,9 @@ const WhyMe = () => {
       <div className={styles.leftColumn}>
         <Image fixed={data.fixed.childImageSharp.fixed} />
         <p>Learn more about the services I offer</p>
-        <Button text="Contact me" />
+        <Link to="/pricing/">
+          <Button text="Compare Services" />
+        </Link>
       </div>
 
       <div className={styles.rightColumn}>
@@ -43,11 +46,11 @@ const WhyMe = () => {
         </ul>
         <p>
           If you are looking for a{" "}
-          <span>Freelance Web Developer in Orange County</span>, an experienced
-          full stack developer or simply want a few changes to your site I can
-          help you. I will work closely with you to deliver projects that best
-          matches your business values and objectives. If you already have a
-          site, I can provide regular, ongoing maintenance and support.
+          <Link to="/about/">Freelance Web Developer in Orange County</Link>, an
+          experienced full stack developer or simply want a few changes to your
+          site I can help you. I will work closely with you to deliver projects
+          that best matches your business values and objectives. If you already
+          have a site, I can provide regular, ongoing maintenance and support.
         </p>
       </div>
     </section>

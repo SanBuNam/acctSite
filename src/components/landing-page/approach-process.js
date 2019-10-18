@@ -1,6 +1,13 @@
 import React, { Fragment } from "react"
 import styled from "styled-components"
 import "./Approach-Process.scss"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faAddressBook,
+  faToolbox,
+  faTasks,
+  faGlobe,
+} from "@fortawesome/free-solid-svg-icons"
 
 const ContainerDiv = styled.section`
   padding: 3rem auto;
@@ -29,6 +36,7 @@ const Container = () => {
     <ContainerDiv>
       <div className="card">
         <div className="card__side card__side--front" style={frontOne}>
+          <FontAwesomeIcon spin={false} size="5x" icon={faAddressBook} />
           <h4 className="heading">Get In Touch</h4>
         </div>
         <div className="card__side card__side--back" style={backOne}>
@@ -53,6 +61,7 @@ const Container = () => {
       </div>
       <div className="card">
         <div className="card__side card__side--front" style={frontTwo}>
+          <FontAwesomeIcon spin={false} size="5x" icon={faToolbox} />
           <h4 className="heading">Tools</h4>
         </div>
         <div className="card__side card__side--back" style={backTwo}>
@@ -68,6 +77,7 @@ const Container = () => {
       </div>
       <div className="card">
         <div className="card__side card__side--front" style={frontThree}>
+          <FontAwesomeIcon spin={false} size="5x" icon={faGlobe} />
           <h4 className="heading">Experience</h4>
         </div>
         <div className="card__side card__side--back" style={backThree}>
@@ -83,6 +93,7 @@ const Container = () => {
       </div>
       <div className="card">
         <div className="card__side card__side--front" style={frontFour}>
+          <FontAwesomeIcon spin={false} size="5x" icon={faTasks} />
           <h4 className="heading">Projects</h4>
         </div>
         <div className="card__side card__side--back" style={backFour}>

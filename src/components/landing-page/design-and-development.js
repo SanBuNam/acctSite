@@ -1,15 +1,30 @@
 import React from "react"
+import { Link } from "gatsby"
 import styles from "./design-and-development.module.scss"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faLaptopCode,
+  faUsersCog,
+  faMobileAlt,
+} from "@fortawesome/free-solid-svg-icons"
 
 const Statement = () => (
   <div className={styles.container}>
     <div className={styles.bottomRow}>
       <div className={styles.inner}>
-        <img alt="random1" src={"https://source.unsplash.com/100x100/?"} />
+        <FontAwesomeIcon
+          className={styles.fontAwesome}
+          spin={false}
+          size="5x"
+          icon={faLaptopCode}
+        />
         <p>
-          Is your current site not <span>bringing in business?</span> Does it
-          need a <span className={styles.color}>new look?</span> Do you need
-          help with <span className={styles.color}>maintenance</span>, or want
+          Is your current site not{" "}
+          <Link to="/service-types/website-design/">bringing in business?</Link>{" "}
+          Does it need a{" "}
+          <Link to="/service-types/content-management/">new look?</Link> Do you
+          need help with{" "}
+          <Link to="/service-types/website-update/">maintenance</Link>, or want
           to <span className={styles.color}>update it yourself?</span>{" "}
           <span className={styles.bolder}>
             There’s a solution for every budget
@@ -18,7 +33,12 @@ const Statement = () => (
         </p>
       </div>
       <div className={styles.inner}>
-        <img alt="random1" src={"https://source.unsplash.com/100x100/?"} />
+        <FontAwesomeIcon
+          className={styles.fontAwesome}
+          spin={false}
+          size="5x"
+          icon={faUsersCog}
+        />
         <p>
           Web Developers Studio caters to businesses, professional services
           firms, and academics. We’ve also had great success with government,
@@ -29,13 +49,18 @@ const Statement = () => (
         </p>
       </div>
       <div className={styles.inner}>
-        <img alt="random1" src={"https://source.unsplash.com/100x100/?"} />
+        <FontAwesomeIcon
+          className={styles.fontAwesome}
+          spin={false}
+          size="5x"
+          icon={faMobileAlt}
+        />
         <p>
           Call David Lee, founder and lead developer of our in-house team, at{" "}
-          <span className={styles.bolder}>(714) 270-7255</span> for a{" "}
-          <span className={styles.color}>free 20 minute consultation</span>{" "}
-          about your project. No matter what you decide, you'll find the
-          information useful.
+          <Link to="/contact/">(714) 270-7255</Link> for a{" "}
+          <Link to="/contact/">free 20 minute consultation</Link> about your
+          project. No matter what you decide, you'll find the information
+          useful.
         </p>
       </div>
     </div>
