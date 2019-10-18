@@ -9,6 +9,7 @@ module.exports = {
     },
   },
   plugins: [
+    "gatsby-plugin-netlify",
     "gatsby-transformer-remark",
     "gatsby-plugin-sass",
     `gatsby-transformer-sharp`,

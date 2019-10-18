@@ -15,7 +15,7 @@ const Statement = () => (
         solutions and hand code them.
         <br />
         Learn more <Link to="/about/">about me</Link> or{" "}
-        <Link to="/approach/">the approach I take.</Link>
+        <Link to="/process/">the approach I take.</Link>
       </p>
     </div>
   </div>
