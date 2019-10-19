@@ -46,14 +46,10 @@ const Container = () => {
               <p className="desc">I'm in Orange County, CA</p>
             </Fragment>
             <Fragment>
-              <p className="subtitle">Skype</p>
-              <p className="desc">Skype Information iink</p>
-            </Fragment>
-            <Fragment>
               <p className="subtitle">Phone & Email</p>
               <p className="desc">
                 714) 270 - 7255 <br />
-                davidsanbunam@gmail.com
+                softdavidlee@gmail.com
               </p>
             </Fragment>
           </div>
@@ -83,9 +79,9 @@ const Container = () => {
         <div className="card__side card__side--back" style={backThree}>
           <div className="cardText">
             <p className="subtitle">Back-end</p>
-            <p className="desc">PHP OOP & MySQL</p>
+            <p className="desc">Node.js, MongoDB & MySQL</p>
             <p className="subtitle">Front-end</p>
-            <p className="desc">HTML CSS/SASS & JavaScript</p>
+            <p className="desc">HTML CSS/SASS, JavaScript & React</p>
             <p className="subtitle">Hosting & Infrastructure</p>
             <p className="desc">Unix, GIT, Docker/Vagrant</p>
           </div>
@@ -100,8 +96,6 @@ const Container = () => {
           <div className="cardText">
             <p className="subtitle">US Contracts</p>
             <p className="desc">Providing value beyond development</p>
-            <p className="subtitle">Freelance Clients</p>
-            <p className="desc">Successfully delivered over 120</p>
             <p className="subtitle">Projects</p>
             <p className="desc">
               International From US, S. Korea, France, India to UK

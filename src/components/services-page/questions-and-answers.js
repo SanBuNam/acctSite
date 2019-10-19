@@ -1,5 +1,12 @@
 import React from "react"
+import { Link } from "gatsby"
 import styles from "./questions-and-answers.module.scss"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faHeadset,
+  faQuestionCircle,
+  faCommentsDollar,
+} from "@fortawesome/free-solid-svg-icons"
 
 const Container = () => {
   return (
@@ -16,7 +23,7 @@ const Container = () => {
               two instalments during the project. For large projects I am happy
               to provide flexible payment options.
             </p>
-            <span>Learn what an estimate is and how payments work</span>
+            {/* <span>Learn what an estimate is and how payments work</span> */}
           </div>
           <br />
           <div>
@@ -36,7 +43,7 @@ const Container = () => {
               Additional services can include monthly maintenance, advanced SEO
               support and reporting and CRM integration.
             </p>
-            <span>Find out what you get with your website</span>
+            {/* <span>Find out what you get with your website</span> */}
           </div>
           <br />
           <div>
@@ -51,18 +58,25 @@ const Container = () => {
               be a rough range. If you are happy with the estimate you can then
               proceed by having me create a proposal for you.
             </p>
-            <span>
+            {/* <span>
               Learn how projects are estimated or what an estimate and proposal
               are.
-            </span>
+            </span> */}
           </div>
           <br />
         </div>
         <div className={styles.rightContainer}>
           <div>
-            <img src="https://source.unsplash.com/400x100/?" alt="random" />
+            <FontAwesomeIcon
+              className={styles.fontAwesome}
+              spin={false}
+              size="5x"
+              icon={faQuestionCircle}
+            />
             <div>
-              <h5>Questions?</h5>
+              <Link to="/process/">
+                <h5>Questions?</h5>
+              </Link>
               <p>
                 There is a treasure trove of answers just for you. Head over to
                 the frequently asked web development questions to find some
@@ -71,9 +85,16 @@ const Container = () => {
             </div>
           </div>
           <div>
-            <img src="https://source.unsplash.com/400x100/?" alt="random" />
+            <FontAwesomeIcon
+              className={styles.fontAwesome}
+              spin={false}
+              size="5x"
+              icon={faCommentsDollar}
+            />
             <div>
-              <h5>Prices</h5>
+              <Link to="/pricing/">
+                <h5>Prices</h5>
+              </Link>
               <p>
                 Want to know how much a project costs? Learn about how I
                 estimate web projects or request a free estimate for yours.
@@ -81,9 +102,16 @@ const Container = () => {
             </div>
           </div>
           <div>
-            <img src="https://source.unsplash.com/400x100/?" alt="random" />
+            <FontAwesomeIcon
+              className={styles.fontAwesome}
+              spin={false}
+              size="5x"
+              icon={faHeadset}
+            />
             <div>
-              <h5>Want to work with me?</h5>
+              <Link to="/contact/">
+                <h5>Want to work with me?</h5>
+              </Link>
               <p>Great! Simply get in touch & we can discuss the next steps.</p>
             </div>
           </div>

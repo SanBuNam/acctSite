@@ -2,6 +2,7 @@ import React from "react"
 import SEO from "../../components/seo"
 import Layout from "../../components/layouts/site-layout"
 import styles from "./content-management.module.scss"
+import Ecommerce from "../../../content/images/Ecommerce.png"
 
 export default () => (
   <Layout>
@@ -30,7 +31,7 @@ export default () => (
           the fonts on your posts, even update your main image gallery if you
           like.
         </p>
-        <img alt="random1" src={"https://source.unsplash.com/200x250/?"} />
+        <img alt="random1" src={Ecommerce} />
         <p>
           But you’re busy, and your expertise lies outside of web design. It
           takes practice to recognize which details make a website work. What

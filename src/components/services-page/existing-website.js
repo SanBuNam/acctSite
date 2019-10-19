@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import styles from "./existing-website.module.scss"
 
 const ExistingWebsite = () => {
@@ -17,8 +18,11 @@ const ExistingWebsite = () => {
         packages.
       </p>
       <p>
-        Read about <span>Website maintenance packages</span> or{" "}
-        <span>contact me</span>
+        Read about{" "}
+        <Link to="/service-types/website-design/">
+          Website maintenance packages
+        </Link>{" "}
+        or <Link to="/contact/">contact me</Link>
       </p>
     </div>
   )

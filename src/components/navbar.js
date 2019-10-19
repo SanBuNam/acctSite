@@ -6,11 +6,14 @@ import Modal from "./modalLayout"
 const Navbar = () => (
   <div className={Styles.navigation}>
     <ul>
-      <li className={Styles.downArrow}>
+      <li className={Styles.downArrow} style={{ cursor: "pointer" }}>
         <Modal />
       </li>
       <li>
-        <Link to="/process/">Approach</Link>
+        <Link to="/process/">My approach</Link>
+      </li>
+      <li>
+        <Link to="/blog/">Blogs</Link>
       </li>
       <li>
         <Link to="/about/">About me</Link>

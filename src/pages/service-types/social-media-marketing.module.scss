@@ -10,6 +10,7 @@
     margin: 0 auto;
     width: $site-width;
     img {
+      width: 22rem;
       float: left;
       margin-left: 3rem;
       margin-right: 1.5rem;
@@ -36,7 +37,7 @@
     a {
       font-style: normal;
       text-rendering: optimizeLegibility;
-      color: $color-blue;
+      color: $color-orange;
     }
     a,
     a:hover {

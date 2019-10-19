@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 import SEO from "../../components/seo"
 import Layout from "../../components/layouts/site-layout"
 import styles from "./social-media-marketing.module.scss"
+import Social from "../../../content/images/Social-Media1.jpg"
+import Social2 from "../../../content/images/Social-Media2.jpg"
 
 export default () => (
   <Layout>
@@ -10,7 +12,7 @@ export default () => (
     <div className={styles.container}>
       <div className={styles.innerContainer}>
         <h2>Social media & marketing</h2>
-        <img alt="random1" src={"https://source.unsplash.com/200x200/?"} />
+        <img alt="random1" src={Social} />
         <p>
           Many business and professional people are confused about social media.
           Afraid to go overboard, they don't bother at all.
@@ -47,7 +49,7 @@ export default () => (
           a awkward post or unfortunate professional news item that won't go
           away, we can assist in the unholy science of reputation control. Let
           us devise a plan to minimize the damage.{" "}
-          <Link to="/contact/">Call us</Link>.
+          <Link to="/contact/">Contact us</Link>.
         </p>
         <h5>For Social Media Skeptics</h5>
         <p>
@@ -64,7 +66,11 @@ export default () => (
           handicap yourself now?
         </p>
         <div className="right">
-          <img alt="random1" src={"https://source.unsplash.com/200x200/?"} />
+          <img
+            style={{ float: "right", width: "20rem" }}
+            alt="random1"
+            src={Social2}
+          />
           <p>
             Have you noticed that you receive fewer phone calls than before?
             That’s because a phone call is too intrusive for our casual society;

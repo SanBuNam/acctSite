@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import styles from "./process-intro.module.scss"
 
 const ProcessIntro = () => {
@@ -170,8 +171,11 @@ const ProcessIntro = () => {
             rate.
           </p>
           <p>
-            Learn more about the <span>Website maintenance package</span> or{" "}
-            <span>Craft CMS maintenance package.</span>
+            Learn more about the{" "}
+            <Link to="/service-types/website-update/">
+              Website maintenance package
+            </Link>{" "}
+            or <Link>Content Management & E - Commerce</Link>.
           </p>
         </div>
         <div>

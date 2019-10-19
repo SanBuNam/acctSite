@@ -1,5 +1,8 @@
 import React, { Fragment } from "react"
+import { Link } from "gatsby"
 import styles from "./my-story.module.scss"
+import CJfoodBanner from "../../../content/images/CJfoodBanner.jpeg"
+import pbCafeBanner from "../../../content/images/pbCafeBanner.jpg"
 
 const ProcessIntro = () => {
   return (
@@ -7,7 +10,7 @@ const ProcessIntro = () => {
       <div className={styles.inner}>
         <div className={styles.columnLeft}>
           <div className={styles.picture}>
-            <img alt="random1" src={"https://source.unsplash.com/500x350/?"} />
+            <img alt="random1" src={CJfoodBanner} />
           </div>
           <div className={styles.myStory}>
             <p>
@@ -33,11 +36,6 @@ const ProcessIntro = () => {
               business and sales skills from my talented mentors.
             </p>
             <div className={styles.imgs}>
-              <img
-                className={styles.floatRight}
-                alt="random1"
-                src={"https://source.unsplash.com/150x100/?"}
-              />
               <p>
                 identity, financial reports and websites. As the sole developer
                 on my team, I improved fast. I also learned about typography,
@@ -46,7 +44,7 @@ const ProcessIntro = () => {
               <img
                 className={styles.floatLeft}
                 alt="random1"
-                src={"https://source.unsplash.com/200x100/?"}
+                src={CJfoodBanner}
               />
               <p>
                 I later moved to USA and began work with a small start-up in
@@ -65,20 +63,10 @@ const ProcessIntro = () => {
               <img
                 className={styles.floatMiddle}
                 alt="random1"
-                src={"https://source.unsplash.com/150x100/?"}
-              />
-              <img
-                className={styles.floatMiddle}
-                alt="random1"
-                src={"https://source.unsplash.com/150x100/?"}
-              />
-              <img
-                className={styles.floatMiddle}
-                alt="random1"
-                src={"https://source.unsplash.com/150x100/?"}
+                src={pbCafeBanner}
               />
             </div>
-            <h3>Samsung Electronic</h3>
+            <h3>CJ Foods & Paris Baguette</h3>
             <p>
               The ability to combine technical knowledge with creativity is what
               enticed me to this field. My passion for web design began early,
@@ -93,16 +81,16 @@ const ProcessIntro = () => {
             <p>
               It’s not only about the big clients. Throughout my career I’ve
               also managed many smaller projects. I became a freelance web
-              developer in 2011 because I decided to reside in{" "}
-              <span>Orange County</span> and meet like-minded people.
+              developer in 2011 to reside in <Link to="/">Orange County</Link>{" "}
+              and meet like-minded people.
             </p>
             <p>
               My clients are based both in the USA and all across the world.
             </p>
             <p>
               If you’d like to discuss working together with me, give me a call
-              on <span>714-270-7255</span> or drop me an email on{" "}
-              <span>softdavidlee@gmail.com</span>
+              on <Link to="contact">714-270-7255</Link> or drop me an email on{" "}
+              <Link to="contact">softdavidlee@gmail.com</Link>
             </p>
           </div>
         </div>
@@ -131,8 +119,8 @@ const ProcessIntro = () => {
             <h4>Tools of choice</h4>
             <h5>Web development</h5>
             <p>React, Redux</p>
-            <p>Drupal 8/7, Craft CMS & Symfony</p>
-            <p>GIT, Mac, Sublime/PHP Storm</p>
+            <p>Gatsby, Craft CMS & Symfony</p>
+            <p>GIT, Mac, Visual Studio Code</p>
             <br />
             <h5>Project management</h5>
             <p>JIRA & Confluence</p>
@@ -144,7 +132,7 @@ const ProcessIntro = () => {
             <p>Ubuntu, CentOS & other unix</p>
             <br />
             <h5>systems</h5>
-            <p>Docker, Vagrant Apache, Nginx</p>
+            <p>Docker, Node.js, Vagrant Apache, Nginx</p>
           </Fragment>
           <br />
           <Fragment>

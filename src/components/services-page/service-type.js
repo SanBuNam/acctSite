@@ -1,6 +1,7 @@
 import React from "react"
 import styles from "./service-type.module.scss"
 import { StaticQuery, graphql } from "gatsby"
+import Samples from "./sample-sites"
 
 const ServiceType = () => (
   <StaticQuery
@@ -32,10 +33,9 @@ const ServiceType = () => (
         <div className={styles.container}>
           <div className={styles.outerContainer}>
             {data.allMarkdownRemark.edges.map(({ node }) => {
-              const { src, service, price, hosting, list } = node.frontmatter
+              const { service, price, hosting, list } = node.frontmatter
               return (
-                <div id="#new-projects" className={styles.innerContainer}>
-                  <img src={src} alt={service} />
+                <div className={styles.innerContainer}>
                   <div className={styles.option}>
                     <h3>{service}</h3>
                     <h4>{price}</h4>
@@ -50,6 +50,7 @@ const ServiceType = () => (
               )
             })}
           </div>
+          <Samples />
         </div>
       )
     }}

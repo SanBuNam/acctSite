@@ -6,8 +6,8 @@ import { Link } from "gatsby"
 const ModalRoot = styled.ul`
   position: absolute;
   z-index: 999;
-  top: 9rem;
-  left: 40rem;
+  top: 8.5rem;
+  left: 66rem;
   background-color: #000;
   opacity: 0.75;
   list-style: none;
@@ -20,6 +20,7 @@ const ModalRoot = styled.ul`
   }
   a:link,
   a:visited {
+    cursor: pointer;
     color: #ff9800;
     text-align: center;
     text-decoration: none;
@@ -27,45 +28,15 @@ const ModalRoot = styled.ul`
   }
   a:hover,
   a:active {
+    cursor: pointer;
     color: #ffffff;
   }
   a:link:active,
   a:visited:active {
+    cursor: pointer;
     color: orange;
   }
-
-  .downArrow {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: none;
-    -ms-word-break: normal;
-    word-break: normal;
-    transition: all 0.2s ease;
-    ::before {
-      color: orange;
-      font-weight: 600;
-      font-size: 2rem;
-      content: ">";
-      -webkit-transform: rotate(90deg);
-      -moz-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-      transform: rotate(90deg);
-      left: -22px;
-      padding: 0 0 2px;
-      position: absolute;
-      pointer-events: none;
-    }
-  }
-
-  .downArrow:hover {
-    ::before {
-      content: "<";
-      -webkit-transform: rotate(90deg);
-      -moz-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-      transform: rotate(90deg);
-    }
+  @media screen {
   }
 `
 

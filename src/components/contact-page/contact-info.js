@@ -17,13 +17,12 @@ const ContactInfo = () => {
       </div>
       <div>
         <h3>Contact details</h3>
-        <a href="tel:714-270-7255">
-          Contact number: <span>714-270-7255</span>
-        </a>
+        Contact number: <a href="tel:714-270-7255">714-270-7255</a>
         <br />
         <br />
+        Email:{" "}
         <a href="mailto: davidlee@davidcreativestudio.com">
-          Email: <span>davidlee@davidcreativestudio.com</span>
+          creator@davidcreativestudio.com{" "}
         </a>
         <hr align="left" width="300px" />
       </div>
