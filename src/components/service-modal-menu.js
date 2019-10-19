@@ -11,7 +11,7 @@ const Somomponent = () => {
           noScroll: false,
         }}
       >
-        Services
+        modal menu
       </Link>
     </>
   )

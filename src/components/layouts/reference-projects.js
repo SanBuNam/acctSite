@@ -8,14 +8,15 @@ import imageThree from "../../../content/images/unico.png"
 import imageFour from "../../../content/images/nmsi.png"
 import BackgroundDisplay from "./background-display"
 
-const width = "100%",
+const width = "1190px",
   height = "35rem"
 
 const Container = styled.section`
-  background-color: #7e8aa2;
+  background-color: #171e2b;
   position: relative;
   overflow: hidden;
   width: ${width};
+  margin: 0 auto;
 `
 const Children = styled.div`
   width: ${width};
@@ -26,14 +27,13 @@ const Dot = styled.span`
   margin: 0 auto;
   font-size: 1.5em;
   cursor: pointer;
-  text-shadow: 1px 1px 1px #fff;
   user-select: none;
 `
 const Dots = styled.div`
   text-align: center;
   width: ${width};
   z-index: 100;
-  background: #f2f2f2;
+  background-color: #171e2b;
   color: #ff9800;
 `
 

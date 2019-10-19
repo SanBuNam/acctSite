@@ -10,5 +10,6 @@ export default () => (
     <SEO title="web-development-process" />
     <MyApproach />
     <ProcessIntro />
+    <Questions />
   </Layout>
 )

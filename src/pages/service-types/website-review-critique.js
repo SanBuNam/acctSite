@@ -2,6 +2,7 @@ import React from "react"
 import SEO from "../../components/seo"
 import Layout from "../../components/layouts/site-layout"
 import styles from "./website-review-critique.module.scss"
+import websiteReview from "../../../content/images/websiteReview.png"
 
 export default () => (
   <Layout>
@@ -10,7 +11,7 @@ export default () => (
       <div className={styles.innerContainer}>
         <div>
           <h5>Website review & critique</h5>
-          <img alt="random1" src={"https://source.unsplash.com/100x150/?"} />
+          <img alt="random1" src={websiteReview} />
           <p>
             We don’t just design new websites. We can also examine your existing
             site and suggest improvements. Maybe it’s been a few years since
