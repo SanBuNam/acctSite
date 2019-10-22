@@ -25,7 +25,7 @@ const myApproachBox = () => (
           icon={faAddressCard}
         />
         <Link to="/contact/">
-          <TextButton text="Enquire" />
+          <button>Enquire</button>
         </Link>
       </div>
       <div className={styles.middle}>
@@ -36,8 +36,8 @@ const myApproachBox = () => (
           size="4x"
           icon={faFileContract}
         />
-        <Link to="/contact/">
-          <TextButton text="Request an estimate" />
+        <Link to="/pricing/">
+          <button>Request an estimate</button>
         </Link>
       </div>
       <div className={styles.sides}>
@@ -49,7 +49,7 @@ const myApproachBox = () => (
           icon={faMedkit}
         />
         <Link to="/contact/">
-          <TextButton text="Contact me" />
+          <button>Contact me</button>
         </Link>
       </div>
     </div>

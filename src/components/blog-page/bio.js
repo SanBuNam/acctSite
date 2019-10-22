@@ -5,7 +5,7 @@ import Image from "gatsby-image"
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+      avatar: file(absolutePath: { regex: "/boyRide.jpg/" }) {
         childImageSharp {
           fixed(width: 50, height: 50) {
             ...GatsbyImageSharpFixed
@@ -28,13 +28,15 @@ const Bio = () => {
     <div
       style={{
         display: `flex`,
+        borderBottom: `1px solid #7e8aa2`,
       }}
     >
       <Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author}
         style={{
-          marginBottom: 0,
+          marginLeft: `1rem`,
+          marginBottom: `2rem`,
           minWidth: 50,
           borderRadius: `100%`,
         }}
@@ -42,12 +44,24 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>
-        Written by <strong>{author}</strong> freelancer web developer in Orange
-        County, California.
+      <p
+        style={{
+          marginLeft: `1rem`,
+        }}
+      >
+        Presented by <strong>{author}</strong> freelancer web developer in
+        Orange County, California.
         {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow me on Twitter
+        <a
+          style={{
+            marginLeft: `1rem`,
+            textDecoration: `none`,
+            color: `orange`,
+            borderBottom: `1px solid orange`,
+          }}
+          href={`https://twitter.com/${social.twitter}`}
+        >
+          You can follow me on Twitter.
         </a>
       </p>
     </div>

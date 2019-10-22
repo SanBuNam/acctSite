@@ -5,7 +5,7 @@ const Button = props => {
   return (
     <Fragment>
       <button className={Styles.btnText}>
-        <a>{props.text}</a>
+        <p>{props.text}</p>
       </button>
     </Fragment>
   )

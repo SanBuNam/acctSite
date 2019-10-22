@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import styles from "./serivce-statement.module.scss"
 
 const Statement = () => {
@@ -15,8 +16,8 @@ const Statement = () => {
           is involved in creating a great site.
         </p>
         <p>
-          Learn more <span>approach, recent projects</span> or{" "}
-          <span>about me.</span>
+          Learn more <Link to="/process/">my approach</Link> or{" "}
+          <Link to="/about/">about me.</Link>
         </p>
       </div>
     </div>

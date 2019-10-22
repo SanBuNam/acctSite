@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `David Lee's website`,
-    author: `freelancer web devloper`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `David's Creative Studio`,
+    author: `David Lee`,
+    description: `Orange County, California Web Developer`,
+    siteUrl: `https://davidcreativestudio.com/`,
     social: {
-      twitter: `sanbunam`,
+      twitter: `davidcreativestudio`,
     },
   },
   plugins: [
@@ -31,15 +31,15 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "images",
-        path: `${__dirname}/content/images`,
+        name: "blogs",
+        path: `${__dirname}/content/markdown/blogs`,
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: `assets`,
-        path: `${__dirname}/content/assets`,
+        name: "images",
+        path: `${__dirname}/content/images`,
       },
     },
     {

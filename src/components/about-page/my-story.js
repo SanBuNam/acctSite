@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import styles from "./my-story.module.scss"
 import CJfoodBanner from "../../../content/images/CJfoodBanner.jpeg"
 import pbCafeBanner from "../../../content/images/pbCafeBanner.jpg"
+import Gatsbyjs from "../../../content/images/david-sign.jpeg"
 
 const ProcessIntro = () => {
   return (
@@ -115,6 +116,8 @@ const ProcessIntro = () => {
             with helping companies since 2004 with Team leading experiences.
           </Fragment>
           <br />
+          <br />
+          <img style={{ height: "15rem" }} alt="random1" src={Gatsbyjs} />
           <Fragment>
             <h4>Tools of choice</h4>
             <h5>Web development</h5>
@@ -152,13 +155,6 @@ const ProcessIntro = () => {
               Eventbrite, CiviCRM, HubSpot
             </p>
           </Fragment>
-          <div className={styles.middleGrid}>
-            <img
-              className={styles.floatMiddle}
-              alt="random1"
-              src={"https://source.unsplash.com/300x100/?"}
-            />
-          </div>
         </div>
       </div>
     </div>

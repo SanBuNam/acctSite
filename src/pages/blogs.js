@@ -14,14 +14,21 @@ class BlogIndex extends React.Component {
     return (
       <OuterLayout>
         <Layout location={this.props.location} title={siteTitle}>
-          <SEO title="David Lee's Blog" />
+          <SEO title="Web Design Blogs" />
           <Bio />
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
               <div key={node.fields.slug}>
                 <h3>
-                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                  <Link
+                    style={{
+                      boxShadow: `none`,
+                      color: `orange`,
+                      textDecoration: `underline`,
+                    }}
+                    to={node.fields.slug}
+                  >
                     {title}
                   </Link>
                 </h3>
@@ -49,7 +56,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      filter: { frontmatter: { category: { eq: "blog" } } }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       edges {
         node {
           excerpt

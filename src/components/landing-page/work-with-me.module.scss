@@ -44,8 +44,15 @@
       border: 1px solid $color-gray;
       border-radius: 8px;
       button {
-        background: $color-gray;
+        width: max-content;
+        min-width: 17rem;
+        padding: 1rem;
+        border-radius: 4px;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 1rem auto;
         border: none;
+        background: $color-gray;
         &:link,
         &:visited {
           color: $color-orange;
@@ -53,17 +60,17 @@
           text-decoration: none;
           border-bottom: 1px solid $color-orange;
           padding: 10rem;
-          transition: all 0.8s ease-in 0.8s;
+          transition: all 0.4s ease-in 0.4s;
+          background: $color-orange;
         }
+
         &:hover {
           background-color: $color-orange;
           color: $color-white;
           box-shadow: 0 1rem 2rem rgba($color-orange, 0.15);
-          transform: translateY(-1px);
-          .fontAwesome:hover {
-            background: red;
-          }
+          transform: translateY(-2px);
         }
+
         &:active {
           box-shadow: 0 0.5rem 1rem rgba($color-orange, 0.15);
           transform: translateY(0);
@@ -86,12 +93,35 @@
         padding: 1rem;
       }
       button {
+        width: max-content;
+        min-width: 17rem;
+        padding: 1rem;
+        border-radius: 4px;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 1rem auto;
         border: none;
+        background: $color-orange;
+        &:link,
+        &:visited {
+          color: $color-orange;
+          display: inline-block;
+          text-decoration: none;
+          border-bottom: 1px solid $color-orange;
+          padding: 10rem;
+          transition: all 0.4s ease-in 0.4s;
+        }
+
         &:hover {
-          background-color: $color-orange;
+          background-color: $color-gray;
           color: $color-white;
           box-shadow: 0 1rem 2rem rgba($color-orange, 0.15);
-          transform: translateY(-1px);
+          transform: translateY(-2px);
+        }
+
+        &:active {
+          box-shadow: 0 0.5rem 1rem rgba($color-orange, 0.15);
+          transform: translateY(0);
         }
       }
     }

@@ -63,7 +63,10 @@
       width: $site-width;
       text-align: left;
       padding: 1rem;
-      margin-right: 20rem;
+      margin-left: 10rem;
+      p {
+        font-size: 1.6rem;
+      }
     }
   }
 }

@@ -24,8 +24,9 @@
       font-family: $font-secondary;
       color: $color-grainsboro;
       font-size: 18px;
-      span {
+      a {
         color: $color-orange;
+        text-decoration: underline;
       }
     }
   }
