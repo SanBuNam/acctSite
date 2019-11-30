@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import styles from "./work-with-me.module.scss"
-import TextButton from "../buttons/text-button"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faAddressCard,

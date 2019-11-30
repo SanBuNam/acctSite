@@ -8,7 +8,7 @@ import imageThree from "../../../content/images/unico.png"
 import imageFour from "../../../content/images/nmsi.png"
 import BackgroundDisplay from "./background-display"
 
-const width = "1190px",
+const width = "100%",
   height = "35rem"
 
 const Container = styled.section`
@@ -16,7 +16,11 @@ const Container = styled.section`
   position: relative;
   overflow: hidden;
   width: ${width};
+  max-width: 1160px;
   margin: 0 auto;
+  @media (max-width: 900px) {
+    display: none;
+  }
 `
 const Children = styled.div`
   width: ${width};

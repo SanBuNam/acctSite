@@ -1,8 +1,8 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import Bio from "../components/blog-page/bio"
-import Layout from "../components/blog-page/layout-blogs"
 import SEO from "../components/seo"
+import Layout from "../components/blog-page/layout-blogs"
 import OuterLayout from "../components/layouts/site-layout"
 
 class BlogIndex extends React.Component {
@@ -21,16 +21,7 @@ class BlogIndex extends React.Component {
             return (
               <div key={node.fields.slug}>
                 <h3>
-                  <Link
-                    style={{
-                      boxShadow: `none`,
-                      color: `orange`,
-                      textDecoration: `underline`,
-                    }}
-                    to={node.fields.slug}
-                  >
-                    {title}
-                  </Link>
+                  <Link to={node.fields.slug}>{title}</Link>
                 </h3>
                 <small>{node.frontmatter.date}</small>
                 <p

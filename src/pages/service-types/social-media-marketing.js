@@ -65,12 +65,8 @@ export default () => (
           client. But you didn't; you had the business cards printed. Why
           handicap yourself now?
         </p>
-        <div className="right">
-          <img
-            style={{ float: "right", width: "20rem" }}
-            alt="random1"
-            src={Social2}
-          />
+        <div className={styles.right}>
+          <img alt="random1" src={Social2} />
           <p>
             Have you noticed that you receive fewer phone calls than before?
             That’s because a phone call is too intrusive for our casual society;

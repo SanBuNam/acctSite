@@ -46,6 +46,7 @@ class BlogPostTemplate extends React.Component {
           <h1
             style={{
               marginBottom: 0,
+              lineHeight: `1`,
             }}
           >
             {post.frontmatter.title}

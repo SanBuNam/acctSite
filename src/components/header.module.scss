@@ -1,26 +1,29 @@
 @import "../styles/global";
 
 .container {
-  max-width: 1360px;
-  min-height: 140px;
+  width: 100%;
+  max-width: 130rem;
   margin: 0 auto;
-  padding-top: 30px;
+  padding: 1.5rem;
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
-  .row {
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  .rowLeft {
+    grid-column: 1;
     text-align: center;
     padding: 2rem;
-    .logo {
-      width: 15rem;
-      z-index: 2;
-      -webkit-filter: drop-shadow(1.25px 1.25px 1.25px rgb(194, 176, 176));
-      filter: drop-shadow(1.25px 1.25px 1.25px rgb(194, 176, 176));
-    }
+  }
+  .rowRight {
+    @extend .rowLeft;
+    grid-column: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .button {
-    background-color: $color-offWhite;
+    background-color: $color-gray;
     display: inline-block;
-    color: $color-white;
     height: 30px;
     width: 30px;
     line-height: 30px;
@@ -63,6 +66,20 @@
     }
     &:not(:last-child) {
       padding-right: 30px;
+    }
+  }
+
+  @media (max-width: 970px) {
+    grid-template-columns: max-content max-content;
+    .rowRight {
+      display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    .rowLeft {
+      display: none;
     }
   }
 }

@@ -1,6 +1,7 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import Image from "gatsby-image"
+import Styles from "./bio.module.scss"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -25,12 +26,7 @@ const Bio = () => {
 
   const { author, social } = data.site.siteMetadata
   return (
-    <div
-      style={{
-        display: `flex`,
-        borderBottom: `1px solid #7e8aa2`,
-      }}
-    >
+    <div className={Styles.container}>
       <Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author}
@@ -49,20 +45,11 @@ const Bio = () => {
           marginLeft: `1rem`,
         }}
       >
-        Presented by <strong>{author}</strong> freelancer web developer in
-        Orange County, California.
+        Presented by {author} freelancer web developer in Orange County,
+        California.
         {` `}
-        <a
-          style={{
-            marginLeft: `1rem`,
-            textDecoration: `none`,
-            color: `orange`,
-            borderBottom: `1px solid orange`,
-          }}
-          href={`https://twitter.com/${social.twitter}`}
-        >
-          You can follow me on Twitter.
-        </a>
+        {` `}
+        <Link to="/blogs/">📰 Back to Blog List</Link>
       </p>
     </div>
   )

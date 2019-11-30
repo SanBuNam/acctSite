@@ -22,7 +22,7 @@ const WhyMe = () => {
 
   return (
     <section className={styles.container}>
-      <div className={styles.titleDiv}>
+      <div className={styles.title}>
         <h3>why hire me as your freelance web developer?</h3>
       </div>
 
@@ -49,7 +49,7 @@ const WhyMe = () => {
           <Link to="/about/">Freelance Web Developer in Orange County</Link>, an
           experienced full stack developer or simply want a few changes to your
           site I can help you. I will work closely with you to deliver projects
-          that best matches your business values and objectives. If you already
+          that best match your business values and objectives. If you already
           have a site, I can provide regular, ongoing maintenance and support.
         </p>
       </div>

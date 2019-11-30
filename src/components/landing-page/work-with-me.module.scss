@@ -2,7 +2,9 @@
 
 .container {
   width: 100%;
+  display: grid;
   justify-content: center;
+  justify-items: center;
   text-align: center;
   align-items: center;
   padding: 2rem;
@@ -24,9 +26,9 @@
   }
 
   .contactInfo {
-    width: $site-width;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10rem;
     justify-content: center;
     margin: 4rem auto;
     font-family: $font-secondary;
@@ -44,6 +46,7 @@
       border: 1px solid $color-gray;
       border-radius: 8px;
       button {
+        cursor: pointer;
         width: max-content;
         min-width: 17rem;
         padding: 1rem;
@@ -68,13 +71,15 @@
           background-color: $color-orange;
           color: $color-white;
           box-shadow: 0 1rem 2rem rgba($color-orange, 0.15);
-          transform: translateY(-2px);
         }
 
         &:active {
           box-shadow: 0 0.5rem 1rem rgba($color-orange, 0.15);
-          transform: translateY(0);
         }
+      }
+      &:hover {
+        color: $color-white;
+        border: 1px solid $color-white;
       }
     }
 
@@ -93,6 +98,7 @@
         padding: 1rem;
       }
       button {
+        cursor: pointer;
         width: max-content;
         min-width: 17rem;
         padding: 1rem;
@@ -116,12 +122,189 @@
           background-color: $color-gray;
           color: $color-white;
           box-shadow: 0 1rem 2rem rgba($color-orange, 0.15);
-          transform: translateY(-2px);
         }
 
         &:active {
           box-shadow: 0 0.5rem 1rem rgba($color-orange, 0.15);
-          transform: translateY(0);
+        }
+      }
+      &:hover {
+        color: $color-white;
+        border: 1px solid $color-white;
+      }
+    }
+  }
+
+  @media (max-width: 950px) {
+    h3 {
+      font-size: 2.7rem;
+      span {
+        font-size: 2.7rem;
+      }
+    }
+
+    .contactInfo {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 5rem;
+      h5 {
+        font-size: 1.6rem;
+      }
+      .sides {
+        display: flex;
+        flex-flow: column;
+        width: 20rem;
+        height: 20rem;
+        border-radius: 8px;
+        button {
+          width: max-content;
+          min-width: 17rem;
+          padding: 1rem;
+          border-radius: 4px;
+          font-size: 1.5rem;
+          font-weight: 600;
+          margin: 1rem auto;
+          &:link,
+          &:visited {
+            padding: 10rem;
+          }
+        }
+      }
+
+      .middle {
+        display: flex;
+        flex-flow: column;
+        width: 20rem;
+        height: 20rem;
+        border-radius: 8px;
+        img {
+          width: 10rem;
+        }
+        button {
+          width: max-content;
+          min-width: 17rem;
+          padding: 1rem;
+          border-radius: 4px;
+          font-size: 1.5rem;
+          font-weight: 600;
+          margin: 1rem auto;
+          &:link,
+          &:visited {
+            padding: 5rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+    h3 {
+      font-size: 2.4rem;
+      span {
+        font-size: 2.4rem;
+      }
+    }
+
+    .contactInfo {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 3rem;
+      .sides {
+        display: flex;
+        flex-flow: column;
+        width: 20rem;
+        height: 20rem;
+        border-radius: 8px;
+        button {
+          width: max-content;
+          min-width: 15rem;
+          padding: 1rem;
+          border-radius: 4px;
+          font-size: 1.4rem;
+          font-weight: 400;
+          margin: 1rem auto;
+          &:link,
+          &:visited {
+            padding: 5rem;
+          }
+        }
+      }
+
+      .middle {
+        display: flex;
+        flex-flow: column;
+        width: 20rem;
+        height: 20rem;
+        border-radius: 8px;
+        button {
+          width: max-content;
+          min-width: 15rem;
+          padding: 1rem;
+          border-radius: 4px;
+          font-size: 1.4rem;
+          font-weight: 400;
+          margin: 1rem auto;
+          &:link,
+          &:visited {
+            padding: 5rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 450px) {
+    h3 {
+      font-size: 2rem;
+      span {
+        font-size: 2rem;
+      }
+    }
+
+    .contactInfo {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 2rem;
+      .sides {
+        display: flex;
+        flex-flow: column;
+        width: 20rem;
+        height: 20rem;
+        border-radius: 8px;
+        button {
+          width: max-content;
+          min-width: 15rem;
+          padding: 1rem;
+          border-radius: 4px;
+          font-size: 1.4rem;
+          font-weight: 400;
+          margin: 1rem auto;
+          &:link,
+          &:visited {
+            padding: 5rem;
+          }
+        }
+      }
+
+      .middle {
+        display: flex;
+        flex-flow: column;
+        width: 20rem;
+        height: 20rem;
+        border-radius: 8px;
+        button {
+          width: max-content;
+          min-width: 15rem;
+          padding: 1rem;
+          border-radius: 4px;
+          font-size: 1.4rem;
+          font-weight: 400;
+          margin: 1rem auto;
+          &:link,
+          &:visited {
+            padding: 5rem;
+          }
         }
       }
     }

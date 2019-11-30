@@ -12,6 +12,7 @@ import {
 const ContainerDiv = styled.section`
   padding: 3rem auto;
   margin: 3rem auto;
+  width: 100%;
   max-width: 1080px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -20,6 +21,26 @@ const ContainerDiv = styled.section`
   background-color: #171e2b;
   align-items: center;
   justify-items: center;
+  @media (max-width: 1080px) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    grid-row-gap: 50px;
+  }
+  @media (max-width: 950px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    max-width: 600px;
+    justify-items: center;
+    grid-row-gap: 50px;
+  }
+  @media (max-width: 650px) {
+    max-width: 550px;
+    grid-row-gap: 25px;
+  }
+  @media (max-width: 600px) {
+    grid-template-columns: auto;
+  }
 `
 
 const Container = () => {

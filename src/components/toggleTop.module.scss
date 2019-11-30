@@ -1,0 +1,22 @@
+@import "../styles/global";
+
+.container {
+  border-radius: 4px;
+  border: 1.5px solid $color-orange;
+  padding: 4px;
+  position: fixed;
+  left: 15px;
+  top: 15px;
+  display: none;
+  background-color: $color-background;
+  z-index: 3000;
+  .button {
+    color: $color-orange;
+    border-radius: 2px;
+    font-size: 9px;
+    border: 1.2px solid $color-orange;
+  }
+  @media (max-width: 550px) {
+    display: block;
+  }
+}

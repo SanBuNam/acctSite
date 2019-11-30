@@ -74,10 +74,8 @@ export default () => (
           </p>
         </div>
       </div>
-    </div>
-    <div className={styles.address}>
-      <div className={styles.addressText}>
-        <Link to="/">
+      <div className={styles.address}>
+        <Link to="/home/">
           <p>© {new Date().getFullYear()}, David's Creative Studio, LLC.</p>
         </Link>
       </div>

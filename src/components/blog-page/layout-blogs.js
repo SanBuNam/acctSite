@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import Styles from "./layout-blogs.module.scss"
 
 class Layout extends React.Component {
   render() {
@@ -20,7 +21,7 @@ class Layout extends React.Component {
               textDecoration: `none`,
               color: `inherit`,
             }}
-            to={`/blog`}
+            to={`/blogs/`}
           >
             {title}
           </Link>
@@ -39,7 +40,7 @@ class Layout extends React.Component {
               textDecoration: `none`,
               color: `inherit`,
             }}
-            to={`/blog`}
+            to={`/blogs/`}
           >
             {title}
           </Link>
@@ -47,18 +48,11 @@ class Layout extends React.Component {
       )
     }
     return (
-      <div
-        style={{
-          width: `100%`,
-          padding: `3rem`,
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          backgroundColor: `#f2f2f2`,
-          color: `#222f3e`,
-        }}
-      >
-        <header>{header}</header>
-        <main>{children}</main>
+      <div className={Styles.container}>
+        <div className={Styles.innerContainer}>
+          <header>{header}</header>
+          <main>{children}</main>
+        </div>
       </div>
     )
   }
