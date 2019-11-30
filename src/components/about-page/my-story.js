@@ -1,8 +1,8 @@
-import React, { Fragment } from "react"
+import React from "react"
 import { Link } from "gatsby"
 import styles from "./my-story.module.scss"
 import CJfoodBanner from "../../../content/images/CJfoodBanner.jpeg"
-import pbCafeBanner from "../../../content/images/pbCafeBanner.jpg"
+import Gatsbyjs from "../../../content/images/david-sign.jpeg"
 
 const ProcessIntro = () => {
   return (
@@ -30,51 +30,40 @@ const ProcessIntro = () => {
               job, but I knew that my passion was in the web.
             </p>
             <p>
-              I later moved to USA and began work with a small start-up in not
-              here Media. I gained precious experience in this role. I worked
-              independently and drove new ideas even as I learned invaluable
-              business and sales skills from my talented mentors.
-            </p>
-            <div className={styles.imgs}>
-              <p>
-                identity, financial reports and websites. As the sole developer
-                on my team, I improved fast. I also learned about typography,
-                great design and business strategy.
-              </p>
-              <img
-                className={styles.floatLeft}
-                alt="random1"
-                src={CJfoodBanner}
-              />
-              <p>
-                I later moved to USA and began work with a small start-up in
-                California called Butterfly Media. I gained precious experience
-                in this role. I worked independently and drove new ideas even as
-                I learned invaluable business and sales skills mentors.
-              </p>
-              <p>
-                identity, financial reports and websites. As the sole developer
-                on my team, I improved fast. I also learned about typography,
-                great design and business strategy.
-              </p>
-            </div>
-
-            <div className={styles.middleGrid}>
-              <img
-                className={styles.floatMiddle}
-                alt="random1"
-                src={pbCafeBanner}
-              />
-            </div>
-            <h3>CJ Foods & Paris Baguette</h3>
-            <p>
-              The ability to combine technical knowledge with creativity is what
-              enticed me to this field. My passion for web design began early,
-              at the age of 14, when I developed and designed my school’s
-              website and test newspaper.
+              I later moved to USA and began work with a small start-up in
+              Butterfly media here in Orange County, CA. I gained precious
+              experience in this role. I worked independently and drove new
+              ideas even as I learned invaluable business and sales skills from
+              my talented mentors.
             </p>
             <p>
               identity, financial reports and websites. As the sole developer on
+              my team, I improved fast. I also learned about typography, great
+              design and business strategy.
+            </p>
+            <p>
+              I later moved to USA and began work with a small start-up in
+              California called Butterfly Media. I gained precious experience in
+              this role. I worked independently and drove new ideas even as I
+              learned invaluable business and sales skills mentors.
+            </p>
+            <p>
+              identity, financial reports and websites. As the sole developer on
+              my team, I improved fast. I also learned about typography, great
+              design and business strategy.
+            </p>
+            <div className={styles.picture}>
+              <img alt="random1" src={CJfoodBanner} />
+            </div>
+            <h3>Software Developer</h3>
+            <p>
+              The ability to combine technical knowledge with creativity is what
+              enticed me to this field. My passion for web design began early,
+              when I developed and designed my school’s website and test
+              newspaper.
+            </p>
+            <p>
+              Identity, financial reports and websites. As the sole developer on
               my team, I improved fast. I also learned about typography, great
               design and business strategy.
             </p>
@@ -96,68 +85,57 @@ const ProcessIntro = () => {
         </div>
 
         <div className={styles.columnRight}>
-          <Fragment>
-            <h4>Skill summary</h4>
-            <ul>
-              <li>Graphic Design & Logos</li>
-              <li>Business Contents Creation</li>
-              <li>Web Design and Development</li>
-              <li>Search Engine Optimization</li>
-              <li>CMS and E-commerce</li>
-              <li>Web Hosting</li>
-              <li>Website update and maintenance</li>
-              <li>Website review and Critique</li>
-            </ul>
-          </Fragment>
-          <br />
-          <Fragment>
+          <h4>Service summary</h4>
+          <ul>
+            <li>Graphic Design & Logos</li>
+            <li>Business Contents Creation</li>
+            <li>Web Design and Development</li>
+            <li>Search Engine Optimization</li>
+            <li>CMS and E-commerce</li>
+            <li>Web Hosting</li>
+            <li>Website update and maintenance</li>
+            <li>Website review and Critique</li>
+          </ul>
+          <p
+            style={{
+              borderBottom: "1px solid lightGray",
+              padding: "15px",
+              width: "80%",
+            }}
+          ></p>
+          <h4>Technologies & Tools of choice</h4>
+          <h5>Web design & UX</h5>
+          <ul>
+            <li>Adobe XD</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+          </ul>
+          <h5>Technologies</h5>
+          <ul>
+            <li>CSS, HTML, JavaScript & SASS</li>
+            <li>React & ASP.net</li>
+            <li>Node.js, C#, MySQL, postgreSQL, MongoDB</li>
+          </ul>
+          <h5>Frameworks, Hosting & Services</h5>
+          <ul>
+            <li>Gatsby</li>
+            <li>Next.js</li>
+            <li>ASP.net</li>
+            <li>Github</li>
+            <li>Shopify</li>
+            <li>Netlify</li>
+          </ul>
+          <h5>Integrations</h5>
+          <ul>
+            <li>Stripe, Shopify, Paypal,</li>
+            <li>Salesforce, SAP, Amazon AWS & etc.</li>
+          </ul>
+          <p>
             15+ years commercial experience Involved in over 130 projects Worked
             with helping companies since 2004 with Team leading experiences.
-          </Fragment>
-          <br />
-          <Fragment>
-            <h4>Tools of choice</h4>
-            <h5>Web development</h5>
-            <p>React, Redux</p>
-            <p>Gatsby, Craft CMS & Symfony</p>
-            <p>GIT, Mac, Visual Studio Code</p>
-            <br />
-            <h5>Project management</h5>
-            <p>JIRA & Confluence</p>
-            <br />
-            <h5>Web design & UX</h5>
-            <p>Axure Pro, Adobe Photoshop & Illustrator</p>
-            <br />
-            <h5>Hosting</h5>
-            <p>Ubuntu, CentOS & other unix</p>
-            <br />
-            <h5>systems</h5>
-            <p>Docker, Node.js, Vagrant Apache, Nginx</p>
-          </Fragment>
-          <br />
-          <Fragment>
-            <h5>Technologies</h5>
-            <p>PHP & MySQL</p>
-            <p>CSS, HTML, JavaScript & SASS</p>
-            <p>Bash scripts & Python</p>
-          </Fragment>
-          <br />
-          <Fragment>
-            <h4>Integrations</h4>
-            <p>
-              Salesforce, SAP, Amazon AWS,
-              <br />
-              Stripe,Worldpay, Paypal,
-              <br />
-              Eventbrite, CiviCRM, HubSpot
-            </p>
-          </Fragment>
-          <div className={styles.middleGrid}>
-            <img
-              className={styles.floatMiddle}
-              alt="random1"
-              src={"https://source.unsplash.com/300x100/?"}
-            />
+          </p>
+          <div className={styles.picture}>
+            <img alt="random1" src={Gatsbyjs} />
           </div>
         </div>
       </div>

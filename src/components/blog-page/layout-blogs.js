@@ -1,10 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
+import Styles from "./layout-blogs.module.scss"
 
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
-    const rootPath = `${__PATH_PREFIX__}/blog`
+    const rootPath = `${__PATH_PREFIX__}/blogs`
     let header
 
     if (location.pathname === rootPath) {
@@ -20,7 +21,7 @@ class Layout extends React.Component {
               textDecoration: `none`,
               color: `inherit`,
             }}
-            to={`/blog`}
+            to={`/blogs/`}
           >
             {title}
           </Link>
@@ -39,7 +40,7 @@ class Layout extends React.Component {
               textDecoration: `none`,
               color: `inherit`,
             }}
-            to={`/blog`}
+            to={`/blogs/`}
           >
             {title}
           </Link>
@@ -47,19 +48,11 @@ class Layout extends React.Component {
       )
     }
     return (
-      <div
-        style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
-        }}
-      >
-        <header>{header}</header>
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.sanbunam.com">David Lee</a>
-        </footer>
+      <div className={Styles.container}>
+        <div className={Styles.innerContainer}>
+          <header>{header}</header>
+          <main>{children}</main>
+        </div>
       </div>
     )
   }

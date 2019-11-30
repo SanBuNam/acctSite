@@ -1,7 +1,7 @@
 @import "../../styles/global";
 
 .container {
-  width: 100vw;
+  width: 100%;
   margin: 0 auto;
   padding: 8rem;
   text-align: center;
@@ -11,16 +11,18 @@
     .title {
       font-size: 2.2rem;
       color: $color-gray;
+      font-family: $font-secondary;
     }
     .subtitle {
       font-size: 3.6rem;
       color: $color-white;
+      text-shadow: 5px 5px 0px rgba(255, 255, 255, 0.2);
     }
   }
   .textDiv {
     margin: 0 auto;
     max-width: 67rem;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 1.25;
     span {
       color: $color-orange;
@@ -34,6 +36,43 @@
     a:hover {
       text-decoration: underline;
       color: $color-white;
+    }
+  }
+
+  @media (max-width: 1290px) {
+    padding: 4rem;
+  }
+
+  @media (max-width: 768px) {
+    h4 {
+      .title {
+        font-size: 1.46667rem;
+        color: $color-gray;
+        font-family: $font-secondary;
+      }
+      .subtitle {
+        font-size: 2.4rem;
+        color: $color-white;
+      }
+    }
+    .textDiv {
+      font-size: 1.36667rem;
+      max-width: 47rem;
+    }
+  }
+
+  @media (max-width: 350px) {
+    padding: 1.5rem 2.2rem;
+    h4 {
+      .title {
+        font-size: 1.4rem;
+      }
+      .subtitle {
+        font-size: 1.8rem;
+      }
+    }
+    .textDiv {
+      font-size: 1.3rem;
     }
   }
 }

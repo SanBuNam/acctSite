@@ -1,0 +1,68 @@
+@import "../../styles/global";
+
+.container {
+  max-width: $site-width;
+  margin: 10rem auto 5rem auto;
+  text-align: center;
+  h2 {
+    font-size: 6.6rem;
+    color: $color-white;
+    line-height: 1rem;
+  }
+  p {
+    margin: 5rem auto 0 auto;
+    padding: 0 1.5rem;
+    max-width: 90rem;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: $color-gray;
+  }
+
+  @media (max-width: 1050px) {
+    h2 {
+      font-size: 6rem;
+    }
+    p {
+      max-width: 80rem;
+      font-size: 1.7rem;
+    }
+  }
+
+  @media (max-width: 970px) {
+    h2 {
+      font-size: 5rem;
+    }
+    p {
+      max-width: 70rem;
+      font-size: 1.6rem;
+    }
+  }
+
+  @media (max-width: 850px) {
+    p {
+      max-width: 60rem;
+      font-size: 1.6rem;
+    }
+  }
+
+  @media (max-width: 700px) {
+    h2 {
+      font-size: 4rem;
+    }
+    p {
+      max-width: 55rem;
+      font-size: 1.5rem;
+    }
+  }
+
+  @media (max-width: 650px) {
+    margin: 3rem auto 5rem auto;
+    h2 {
+      font-size: 3.6rem;
+    }
+    p {
+      max-width: 50rem;
+      font-size: 1.3rem;
+    }
+  }
+}

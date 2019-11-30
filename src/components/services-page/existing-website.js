@@ -7,7 +7,7 @@ const ExistingWebsite = () => {
     <div className={styles.container}>
       <h5>Improving, maintaining & fixing nasty little bugs</h5>
       <h4>Web development for existing websites</h4>
-      <p>
+      <p className={styles.middeText}>
         If you need a freelance web developer for improvements, urgent fixes or
         continued support to your existing site, I can help.
       </p>

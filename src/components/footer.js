@@ -16,7 +16,6 @@ export default () => (
           <Link to="/approach/">my approach</Link> or{" "}
           <Link to="/pricing/">web development services</Link>.
         </p>
-        <p>© 2019. DTM Digital Ltd.</p>
       </div>
       <div className={styles.midContainer}>
         <div>
@@ -75,10 +74,10 @@ export default () => (
           </p>
         </div>
       </div>
-    </div>
-    <div className={styles.address}>
-      <div className={styles.addressText}>
-        <p>© 2019. David's Creative Studio, LLC.</p>
+      <div className={styles.address}>
+        <Link to="/home/">
+          <p>© {new Date().getFullYear()}, David's Creative Studio, LLC.</p>
+        </Link>
       </div>
     </div>
   </footer>

@@ -29,7 +29,7 @@ const Statement = () => (
           <span className={styles.bolder}>
             There’s a solution for every budget
           </span>{" "}
-          and our up front preparation guarantees great results.
+          and our upfront preparation guarantees great results.
         </p>
       </div>
       <div className={styles.inner}>
@@ -58,7 +58,7 @@ const Statement = () => (
         <p>
           Call David Lee, founder and lead developer of our in-house team, at{" "}
           <Link to="/contact/">(714) 270-7255</Link> for a{" "}
-          <Link to="/contact/">free 20 minute consultation</Link> about your
+          <Link to="/contact/">free 20-minute consultation</Link> about your
           project. No matter what you decide, you'll find the information
           useful.
         </p>

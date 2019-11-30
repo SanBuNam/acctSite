@@ -1,7 +1,8 @@
 @import "../styles/global";
 
 .navigation {
-  z-index: 10;
+  z-index: 100;
+  width: 100%;
   margin: 0 auto;
   padding: 2rem;
   ul {
@@ -12,15 +13,16 @@
       list-style: none;
       a {
         text-decoration: none;
-        color: $color-orange;
+        color: $color-gray;
         list-style: none;
-        margin-right: 5.555rem;
+        margin-right: 4rem;
         font-size: 1.6rem;
         font-weight: 400;
         position: relative;
+        font-family: $font-primary;
         &:after {
           height: 2px;
-          background: $color-orange;
+          background: $color-white;
           content: "";
           width: 0;
           position: absolute;
@@ -32,7 +34,7 @@
         }
         &:hover,
         &:focus {
-          color: $color-gray;
+          color: $color-white;
           outline: none;
           &:after {
             width: calc(95%);
@@ -50,9 +52,9 @@
     background-image: none;
     -ms-word-break: normal;
     word-break: normal;
-    transition: all 0.2s ease;
+    transition: all 0.4s ease-in-out;
     ::before {
-      color: $color-orange;
+      color: $color-gray;
       font-weight: 600;
       font-size: 2rem;
       content: ">";
@@ -70,11 +72,27 @@
   .downArrow:hover {
     ::before {
       content: "<";
+      color: $color-white;
       -webkit-transform: rotate(90deg);
       -moz-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
       transform: rotate(90deg);
     }
+  }
+
+  @media (max-width: 1170px) {
+    ul {
+      li {
+        a {
+          margin-right: 3rem;
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 550px) {
+    display: none;
   }
 }
 

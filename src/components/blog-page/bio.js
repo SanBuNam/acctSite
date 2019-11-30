@@ -1,11 +1,12 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import Image from "gatsby-image"
+import Styles from "./bio.module.scss"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+      avatar: file(absolutePath: { regex: "/boyRide.jpg/" }) {
         childImageSharp {
           fixed(width: 50, height: 50) {
             ...GatsbyImageSharpFixed
@@ -25,16 +26,13 @@ const Bio = () => {
 
   const { author, social } = data.site.siteMetadata
   return (
-    <div
-      style={{
-        display: `flex`,
-      }}
-    >
+    <div className={Styles.container}>
       <Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author}
         style={{
-          marginBottom: 0,
+          marginLeft: `1rem`,
+          marginBottom: `2rem`,
           minWidth: 50,
           borderRadius: `100%`,
         }}
@@ -42,13 +40,16 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>
-        Written by <strong>{author}</strong> freelancer web developer in Orange
-        County, California.
+      <p
+        style={{
+          marginLeft: `1rem`,
+        }}
+      >
+        Presented by {author} freelancer web developer in Orange County,
+        California.
         {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow me on Twitter
-        </a>
+        {` `}
+        <Link to="/blogs/">📰 Back to Blog List</Link>
       </p>
     </div>
   )

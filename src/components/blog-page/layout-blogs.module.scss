@@ -1,0 +1,39 @@
+@import "../../styles/global";
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $color-offWhite;
+  .innerContainer {
+    width: 100%;
+    max-width: 1000px;
+    padding: 2rem 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $color-offWhite;
+    color: $color-black;
+    h3 {
+      font-size: 1.8rem;
+    }
+    a {
+      box-shadow: none;
+      color: $color-orange;
+      text-decoration: underline;
+    }
+    p {
+      font-size: 1.55rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .innerContainer {
+      h3 {
+        font-size: 1.6rem;
+      }
+      p {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}

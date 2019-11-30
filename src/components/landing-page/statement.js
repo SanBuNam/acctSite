@@ -9,10 +9,10 @@ const Statement = () => (
       Turning a sketch into something fun and beautiful was amazing — and it
       still is.”
     </h5>
-    <div className={styles.bottom}>
+    <div className={styles.description}>
       <p>
         Every bit of that same enthusiasm is still there. Although, now I design
-        solutions and hand code them.
+        solutions and hand-code them.
         <br />
         Learn more <Link to="/about/">about me</Link> or{" "}
         <Link to="/process/">the approach I take.</Link>

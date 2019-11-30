@@ -5,11 +5,11 @@ import styles from "./referrals.module.scss"
 const Statement = () => {
   return (
     <section className={styles.container}>
-      <div className={styles.inncerContainer}>
+      <div className={styles.innerContainer}>
         <h5>
-          “David is quick to understand detailed technical issues and at the
+          “ David is quick to understand detailed technical issues and at the
           same time is able to step back and see the bigger business concerns,
-          this makes him an extremely effective developer.…”
+          this makes him an extremely effective developer.… ”
         </h5>
         <p>
           Learn about{" "}

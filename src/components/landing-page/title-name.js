@@ -6,9 +6,9 @@ import BackgroundImage from "gatsby-background-image"
 
 const imageQuery = graphql`
   query {
-    desktop: file(relativePath: { eq: "happy-child.jpeg" }) {
+    desktop: file(relativePath: { eq: "titleBackground.jpg" }) {
       childImageSharp {
-        fluid(quality: 90, maxWidth: 1360) {
+        fluid(quality: 90, maxWidth: 1130) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
@@ -16,22 +16,30 @@ const imageQuery = graphql`
   }
 `
 
-const BackgroundSection = ({ className }) => (
+const BackgroundSection = ({ backgroundStyle }) => (
   <StaticQuery
     query={imageQuery}
     render={data => {
-      const imageData = data.desktop.childImageSharp.fluid
+      const imageSharp = data.desktop.childImageSharp.fluid
+
       return (
-        <BackgroundImage Tag="section" className={className} fluid={imageData}>
+        <BackgroundImage
+          Tag="section"
+          className={backgroundStyle}
+          fluid={imageSharp}
+        >
           <div className={styles.container}>
-            <h1>
-              <span className={styles.title}>I am David,</span>
-              <br />
-              <p className={styles.subtitle}>
-                Freelance web developer in Orange County, California with over
-                15 years of experience.
-              </p>
-            </h1>
+            {/* <FixedNavigation /> */}
+            <div className={styles.innerContainer}>
+              <h1>
+                <span className={styles.title}>I am David,</span>
+                <br />
+                <p className={styles.subtitle}>
+                  Freelance web developer in <span>Orange County</span>,
+                  California with over 15 years of experience.
+                </p>
+              </h1>
+            </div>
           </div>
         </BackgroundImage>
       )
