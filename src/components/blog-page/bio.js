@@ -43,6 +43,7 @@ const Bio = () => {
       <p
         style={{
           marginLeft: `1rem`,
+          fontSize: "1.4rem",
         }}
       >
         Presented by {author} freelancer web developer in Orange County,

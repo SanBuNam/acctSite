@@ -16,6 +16,14 @@ export default () => (
           <Link to="/approach/">my approach</Link> or{" "}
           <Link to="/pricing/">web development services</Link>.
         </p>
+        <h3>Learn more about my work</h3>
+        <Link to="/process/">My approach</Link>
+        <br />
+        <Link to="/blogs/">Blogs</Link>
+        <br />
+        <Link to="/pricing/">Pricing</Link>
+        <br />
+        <Link to="/contact/">Contact me</Link>
       </div>
       <div className={styles.midContainer}>
         <div>

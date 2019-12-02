@@ -4,6 +4,8 @@ import Bio from "../components/blog-page/bio"
 import SEO from "../components/seo"
 import Layout from "../components/blog-page/layout-blogs"
 import OuterLayout from "../components/layouts/site-layout"
+import DesignDevelopment from "../components/landing-page/design-and-development"
+import Questions from "../components/common/questions"
 
 class BlogIndex extends React.Component {
   render() {
@@ -14,7 +16,7 @@ class BlogIndex extends React.Component {
     return (
       <OuterLayout>
         <Layout location={this.props.location} title={siteTitle}>
-          <SEO title="Web Design Blogs" />
+          <SEO title="Web-Designer-Blog" />
           <Bio />
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
@@ -32,6 +34,7 @@ class BlogIndex extends React.Component {
               </div>
             )
           })}
+          <DesignDevelopment />
         </Layout>
       </OuterLayout>
     )

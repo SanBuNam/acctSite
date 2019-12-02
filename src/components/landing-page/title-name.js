@@ -23,25 +23,25 @@ const BackgroundSection = ({ backgroundStyle }) => (
       const imageSharp = data.desktop.childImageSharp.fluid
 
       return (
-        <BackgroundImage
-          Tag="section"
-          className={backgroundStyle}
-          fluid={imageSharp}
-        >
-          <div className={styles.container}>
-            {/* <FixedNavigation /> */}
-            <div className={styles.innerContainer}>
-              <h1>
-                <span className={styles.title}>I am David,</span>
-                <br />
-                <p className={styles.subtitle}>
-                  Freelance web developer in <span>Orange County</span>,
-                  California with over 15 years of experience.
-                </p>
-              </h1>
-            </div>
+        // <BackgroundImage
+        //   Tag="section"
+        //   className={backgroundStyle}
+        //   fluid={imageSharp}
+        // >
+        <div className={styles.container}>
+          {/* <FixedNavigation /> */}
+          <div className={styles.innerContainer}>
+            <h1>
+              <span className={styles.title}>I am David,</span>
+              <br />
+              <p className={styles.subtitle}>
+                Freelance web developer in <span>Orange County</span>,
+                California with over 15 years of experience.
+              </p>
+            </h1>
           </div>
-        </BackgroundImage>
+        </div>
+        // </BackgroundImage>
       )
     }}
   />

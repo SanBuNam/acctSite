@@ -70,8 +70,9 @@ const ProcessIntro = () => {
             <p>
               It’s not only about the big clients. Throughout my career I’ve
               also managed many smaller projects. I became a freelance web
-              developer in 2011 to reside in <Link to="/">Orange County</Link>{" "}
-              and meet like-minded people.
+              developer in 2011 to reside in{" "}
+              <Link to="/home/">Orange County</Link> and meet like-minded
+              people.
             </p>
             <p>
               My clients are based both in the USA and all across the world.

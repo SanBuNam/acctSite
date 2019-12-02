@@ -3,14 +3,14 @@
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 5rem;
   color: $color-black;
+  background-color: $color-grainsboro;
   background-image: url("../../../content/images/why-hire-me-bg.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
   justify-content: space-around;
   .title {
@@ -18,7 +18,6 @@
     text-align: center;
     h3 {
       font-family: $font-primary;
-      padding: 2rem 0;
       font-size: 3.2rem;
     }
   }
@@ -41,7 +40,6 @@
       line-height: 1;
     }
     ul {
-      padding-top: 2rem;
       margin: 2.5rem 0;
       list-style-type: none;
       line-height: 1.55;
@@ -50,15 +48,9 @@
       }
     }
     ul li:before {
-      content: "";
-      display: inline-block;
-      height: 13.5px;
-      width: 13.5px;
-      background-size: 13.5px;
-      background-image: url("../../../content/images/check.png");
-      background-repeat: no-repeat;
-      margin-right: 10px;
-      color: $color-black;
+      content: "✔️";
+      font-size: 1.5rem;
+      margin-right: 5px;
     }
     p {
       padding-top: 2rem;
@@ -174,6 +166,9 @@
       display: none;
     }
     .rightColumn {
+      ul li:before {
+        font-size: 1.3rem;
+      }
       h5 {
         padding: 0;
         font-size: 2rem;
@@ -182,7 +177,16 @@
   }
 
   @media (max-width: 550px) {
+    padding-top: 0;
+    padding-bottom: 0;
     .rightColumn {
+      ul {
+        padding: 0 0 0 1.5rem;
+      }
+      ul li:before {
+        font-size: 1.2rem;
+        margin-right: 3px;
+      }
       h5 {
         font-size: 1.7rem;
       }
@@ -197,6 +201,10 @@
   @media (max-width: 450px) {
     .rightColumn {
       padding: 1.5rem;
+      ul li:before {
+        font-size: 1rem;
+        margin-right: 3px;
+      }
       h5 {
         font-size: 1.5rem;
       }
