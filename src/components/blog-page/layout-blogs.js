@@ -12,7 +12,10 @@ class Layout extends React.Component {
       header = (
         <h1
           style={{
-            marginTop: 0,
+            marginTop: "8rem",
+            fontSize: "4rem",
+            fontFamily: "Brevia",
+            textAlign: "center",
           }}
         >
           <Link
@@ -31,7 +34,12 @@ class Layout extends React.Component {
       header = (
         <h3
           style={{
-            marginTop: 0,
+            marginTop: "8rem",
+            marginLeft: "3rem",
+            fontSize: "4rem",
+            fontFamily: "Brevia",
+            textAlign: "left",
+            lineHeight: ".9",
           }}
         >
           <Link

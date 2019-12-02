@@ -31,7 +31,6 @@ const ServiceType = () => (
     render={data => {
       return (
         <div className={styles.container}>
-          <Samples />
           <h2>Price Range</h2>
           <div className={styles.outerContainer}>
             {data.allMarkdownRemark.edges.map(({ node }) => {
@@ -52,6 +51,7 @@ const ServiceType = () => (
               )
             })}
           </div>
+          <Samples />
         </div>
       )
     }}

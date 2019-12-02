@@ -105,7 +105,6 @@ export default function TemporaryDrawer() {
           "website-hosting",
           "website-review-critique",
           "website-update",
-          "privacy-notice",
         ].map((text, index) => (
           <ListItem button key={text}>
             <Link
