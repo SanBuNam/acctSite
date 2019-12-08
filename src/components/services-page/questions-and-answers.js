@@ -23,8 +23,8 @@ const Container = () => {
               two instalments during the project. For large projects I am happy
               to provide flexible payment options.
             </p>
-            <Link to="/pricing/">
-              Learn what an estimate is and how payments work
+            <Link to="/blogs/benefits-having-website/">
+              Find out what you get with your website
             </Link>
           </div>
           <br />
@@ -45,7 +45,9 @@ const Container = () => {
               Additional services can include monthly maintenance, advanced SEO
               support and reporting and CRM integration.
             </p>
-            <Link to="/pricing/">Find out what you get with your website</Link>
+            <Link to="/blogs/blog-marketing/">
+              Learn how to market your small business
+            </Link>
           </div>
           <br />
           <div>
@@ -60,7 +62,9 @@ const Container = () => {
               be a rough range. If you are happy with the estimate you can then
               proceed by having me create a proposal for you.
             </p>
-            <Link to="/pricing/">Learn how projects are estimated.</Link>
+            <Link to="/blogs/Optimize-business-website/">
+              Learn how Optimize your small business website.
+            </Link>
           </div>
           <br />
         </div>
