@@ -43,7 +43,7 @@ export default () => (
     render={data => (
       <header className={styles.container}>
         <div className={styles.rowLeft}>
-          <Link to="/home/">
+          <Link to="/">
             <Image fixed={data.fixed.childImageSharp.fixed} />
           </Link>
         </div>

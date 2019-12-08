@@ -76,7 +76,7 @@ export default function TemporaryDrawer() {
               textIndent: "5px",
               fontWeight: "600",
             }}
-            to={`/home/`}
+            to={`/`}
           >
             <HomeIcon /> Home
           </Link>

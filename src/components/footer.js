@@ -84,7 +84,7 @@ export default () => (
         </div>
       </div>
       <div className={styles.address}>
-        <Link to="/home/">
+        <Link to="/">
           <p>© {new Date().getFullYear()}, David's Creative Studio, LLC.</p>
         </Link>
       </div>

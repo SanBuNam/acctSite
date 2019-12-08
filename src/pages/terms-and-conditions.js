@@ -7,7 +7,7 @@ import Questions from "../components/common/questions"
 
 export default () => (
   <Layout>
-    <SEO title="terms-and-conditions" />
+    <SEO title="web-site-build" />
     <TermsHeader />
     <TermsConditions />
     <Questions />
