@@ -8,7 +8,7 @@
   text-align: center;
   align-items: center;
   padding: 2rem;
-  background: $color-navy;
+  background: transparent;
   .fontAwesome {
     margin: 0 auto;
     padding: 0.2rem;
@@ -16,7 +16,7 @@
   h3 {
     font-size: 3.2rem;
     font-family: $font-secondary;
-    color: $color-gray;
+    color: $color-white;
     line-height: 1.25;
     span {
       font-family: $font-primary;
@@ -42,8 +42,8 @@
       margin: 0 auto;
       width: 20rem;
       height: 20rem;
-      color: $color-gray;
-      border: 1px solid $color-gray;
+      color: $color-white;
+      border: 1px solid $color-white;
       border-radius: 8px;
       button {
         cursor: pointer;
@@ -55,7 +55,7 @@
         font-weight: 600;
         margin: 1rem auto;
         border: none;
-        background: $color-gray;
+        background: $color-white;
         &:link,
         &:visited {
           color: $color-orange;
@@ -69,7 +69,7 @@
 
         &:hover {
           background-color: $color-orange;
-          color: $color-white;
+          color: $color-black;
           box-shadow: 0 1rem 2rem rgba($color-orange, 0.15);
         }
 
@@ -78,8 +78,8 @@
         }
       }
       &:hover {
-        color: $color-white;
-        border: 1px solid $color-white;
+        color: $color-orange;
+        border: 1px solid $color-orange;
       }
     }
 
@@ -89,8 +89,8 @@
       margin: 0 auto;
       width: 20rem;
       height: 20rem;
-      color: $color-orange;
-      border: 1px solid $color-orange;
+      color: $color-white;
+      border: 1px solid $color-white;
       border-radius: 8px;
       img {
         width: 10rem;
@@ -107,7 +107,7 @@
         font-weight: 600;
         margin: 1rem auto;
         border: none;
-        background: $color-orange;
+        background: $color-white;
         &:link,
         &:visited {
           color: $color-orange;
@@ -119,8 +119,8 @@
         }
 
         &:hover {
-          background-color: $color-gray;
-          color: $color-white;
+          background-color: $color-orange;
+          color: $color-black;
           box-shadow: 0 1rem 2rem rgba($color-orange, 0.15);
         }
 
@@ -129,8 +129,8 @@
         }
       }
       &:hover {
-        color: $color-white;
-        border: 1px solid $color-white;
+        color: $color-orange;
+        border: 1px solid $color-orange;
       }
     }
   }

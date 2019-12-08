@@ -2,11 +2,14 @@ import React from "react"
 import { Link } from "gatsby"
 import styles from "./referrals.module.scss"
 import WorkWithMe from "./work-with-me"
+import Flip from "react-reveal/Flip"
 
 const Statement = () => {
   return (
-    <section className={styles.container}>
-      <WorkWithMe />
+    <div className={styles.container}>
+      <Flip left>
+        <WorkWithMe />
+      </Flip>
       <div className={styles.innerContainer}>
         <h5>
           “ David is quick to understand detailed technical issues and at the
@@ -20,7 +23,7 @@ const Statement = () => {
           </Link>
         </p>
       </div>
-    </section>
+    </div>
   )
 }
 

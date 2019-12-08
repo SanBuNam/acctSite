@@ -9,11 +9,6 @@ import ApproachProcess from "../components/landing-page/approach-process"
 import Questions from "../components/common/questions"
 import DesignDevelopment from "../components/landing-page/design-and-development"
 import Referrals from "../components/landing-page/referrals"
-import ProjectSlider from "../components/layouts/reference-projects"
-import Statement from "../components/landing-page/statement"
-{
-  /* <ProjectSlider />  <Statement /> */
-}
 
 export default () => (
   <Layout>

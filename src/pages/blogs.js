@@ -1,10 +1,10 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import Bio from "../components/blog-page/bio"
 import SEO from "../components/seo"
 import Layout from "../components/blog-page/layout-blogs"
 import OuterLayout from "../components/layouts/site-layout"
 import DesignDevelopment from "../components/landing-page/design-and-development"
+import Statement from "../components/landing-page/statement"
 import Questions from "../components/common/questions"
 
 class BlogIndex extends React.Component {
@@ -17,7 +17,6 @@ class BlogIndex extends React.Component {
       <OuterLayout>
         <Layout location={this.props.location} title={siteTitle}>
           <SEO title="Web-Designer-Blog" />
-          <Bio />
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
@@ -34,7 +33,9 @@ class BlogIndex extends React.Component {
               </div>
             )
           })}
-          <DesignDevelopment />
+          <Statement />
+          <Questions />
+          {/* <DesignDevelopment /> */}
         </Layout>
       </OuterLayout>
     )

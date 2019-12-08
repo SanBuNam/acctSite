@@ -6,10 +6,10 @@ import BackgroundImage from "gatsby-background-image"
 
 const imageQuery = graphql`
   query {
-    desktop: file(relativePath: { eq: "titleBackground.jpg" }) {
+    desktop: file(relativePath: { eq: "mainBG.jpg" }) {
       childImageSharp {
-        fluid(quality: 90, maxWidth: 1130) {
-          ...GatsbyImageSharpFluid_withWebp
+        fluid(quality: 90) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
@@ -23,34 +23,31 @@ const BackgroundSection = ({ backgroundStyle }) => (
       const imageSharp = data.desktop.childImageSharp.fluid
 
       return (
-        // <BackgroundImage
-        //   Tag="section"
-        //   className={backgroundStyle}
-        //   fluid={imageSharp}
-        // >
-        <div className={styles.container}>
-          {/* <FixedNavigation /> */}
-          <div className={styles.innerContainer}>
-            <h1>
-              <span className={styles.title}>I am David,</span>
-              <br />
-              <p className={styles.subtitle}>
-                Freelance web developer in <span>Orange County</span>,
-                California with over 15 years of experience.
-              </p>
-            </h1>
+        <BackgroundImage
+          Tag="section"
+          className={backgroundStyle}
+          fluid={imageSharp}
+        >
+          <div className={styles.container}>
+            <div className={styles.innerContainer}>
+              <h1>
+                <span className={styles.title}>I am David,</span>
+                <br />
+                <p className={styles.subtitle}>
+                  Freelance web developer in <span>Orange County</span>,
+                  California with over 10 years of experience.
+                </p>
+              </h1>
+            </div>
           </div>
-        </div>
-        // </BackgroundImage>
+        </BackgroundImage>
       )
     }}
   />
 )
 
 const StyledBackgroundSection = styled(BackgroundSection)`
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-size: center;
 `
 
 export default StyledBackgroundSection

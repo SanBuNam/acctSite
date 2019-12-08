@@ -8,6 +8,7 @@ import {
   faTasks,
   faGlobe,
 } from "@fortawesome/free-solid-svg-icons"
+import Fade from "react-reveal/Fade"
 
 const ContainerDiv = styled.section`
   padding: 3rem auto;
@@ -55,75 +56,79 @@ const Container = () => {
 
   return (
     <ContainerDiv>
-      <div className="card">
-        <div className="card__side card__side--front" style={frontOne}>
-          <FontAwesomeIcon spin={false} size="5x" icon={faAddressBook} />
-          <h4 className="heading">Get In Touch</h4>
+      <Fade left>
+        <div className="card">
+          <div className="card__side card__side--front" style={frontOne}>
+            <FontAwesomeIcon spin={false} size="5x" icon={faAddressBook} />
+            <h4 className="heading">Get In Touch</h4>
+          </div>
+          <div className="card__side card__side--back" style={backOne}>
+            <div className="cardText">
+              <Fragment>
+                <p className="subtitle">In person meeting</p>
+                <p className="desc">I'm in Orange County, CA</p>
+              </Fragment>
+              <Fragment>
+                <p className="subtitle">Phone & Email</p>
+                <p className="desc">
+                  714) 270 - 7255 <br />
+                  main@davidcreativestudio.com
+                </p>
+              </Fragment>
+            </div>
+          </div>
         </div>
-        <div className="card__side card__side--back" style={backOne}>
-          <div className="cardText">
-            <Fragment>
-              <p className="subtitle">In person meeting</p>
-              <p className="desc">I'm in Orange County, CA</p>
-            </Fragment>
-            <Fragment>
-              <p className="subtitle">Phone & Email</p>
+        <div className="card">
+          <div className="card__side card__side--front" style={frontTwo}>
+            <FontAwesomeIcon spin={false} size="5x" icon={faToolbox} />
+            <h4 className="heading">Tools</h4>
+          </div>
+          <div className="card__side card__side--back" style={backTwo}>
+            <div className="cardText">
+              <p className="subtitle">Project Management</p>
+              <p className="desc">JIRA & Confluence</p>
+              <p className="subtitle">Design/UX</p>
               <p className="desc">
-                714) 270 - 7255 <br />
-                softdavidlee@gmail.com
+                Adobe Photoshop, Illustrator & Final Cut Pro
               </p>
-            </Fragment>
+              <p className="subtitle">Development</p>
+              <p className="desc">React & Craft CMS</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="card">
-        <div className="card__side card__side--front" style={frontTwo}>
-          <FontAwesomeIcon spin={false} size="5x" icon={faToolbox} />
-          <h4 className="heading">Tools</h4>
-        </div>
-        <div className="card__side card__side--back" style={backTwo}>
-          <div className="cardText">
-            <p className="subtitle">Project Management</p>
-            <p className="desc">JIRA & Confluence</p>
-            <p className="subtitle">Design/UX</p>
-            <p className="desc">Adobe Photoshop, Illustrator & Final Cut Pro</p>
-            <p className="subtitle">Development</p>
-            <p className="desc">React & Craft CMS</p>
+        <div className="card">
+          <div className="card__side card__side--front" style={frontThree}>
+            <FontAwesomeIcon spin={false} size="5x" icon={faGlobe} />
+            <h4 className="heading">Experience</h4>
+          </div>
+          <div className="card__side card__side--back" style={backThree}>
+            <div className="cardText">
+              <p className="subtitle">Back-end</p>
+              <p className="desc">Node.js, MongoDB & MySQL</p>
+              <p className="subtitle">Front-end</p>
+              <p className="desc">HTML CSS/SASS, JavaScript & React</p>
+              <p className="subtitle">Hosting & Infrastructure</p>
+              <p className="desc">Unix, GIT, Docker/Vagrant</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="card">
-        <div className="card__side card__side--front" style={frontThree}>
-          <FontAwesomeIcon spin={false} size="5x" icon={faGlobe} />
-          <h4 className="heading">Experience</h4>
-        </div>
-        <div className="card__side card__side--back" style={backThree}>
-          <div className="cardText">
-            <p className="subtitle">Back-end</p>
-            <p className="desc">Node.js, MongoDB & MySQL</p>
-            <p className="subtitle">Front-end</p>
-            <p className="desc">HTML CSS/SASS, JavaScript & React</p>
-            <p className="subtitle">Hosting & Infrastructure</p>
-            <p className="desc">Unix, GIT, Docker/Vagrant</p>
+        <div className="card">
+          <div className="card__side card__side--front" style={frontFour}>
+            <FontAwesomeIcon spin={false} size="5x" icon={faTasks} />
+            <h4 className="heading">Projects</h4>
+          </div>
+          <div className="card__side card__side--back" style={backFour}>
+            <div className="cardText">
+              <p className="subtitle">US Contracts</p>
+              <p className="desc">Providing value beyond development</p>
+              <p className="subtitle">Projects</p>
+              <p className="desc">
+                International From USA, Japan, S. Korea to UK
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="card">
-        <div className="card__side card__side--front" style={frontFour}>
-          <FontAwesomeIcon spin={false} size="5x" icon={faTasks} />
-          <h4 className="heading">Projects</h4>
-        </div>
-        <div className="card__side card__side--back" style={backFour}>
-          <div className="cardText">
-            <p className="subtitle">US Contracts</p>
-            <p className="desc">Providing value beyond development</p>
-            <p className="subtitle">Projects</p>
-            <p className="desc">
-              International From US, S. Korea, France, India to UK
-            </p>
-          </div>
-        </div>
-      </div>
+      </Fade>
     </ContainerDiv>
   )
 }

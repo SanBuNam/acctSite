@@ -71,7 +71,8 @@ export default () => (
           <h3>Get in touch</h3>
           <p>
             Get in touch via <Link to="/contact/">my contact form</Link> or send
-            me an email <Link to="/contact/">SoftDavidLee@gmail.com</Link>.
+            me an email <Link to="/contact/">main@davidcreativestudio.com</Link>
+            .
           </p>
           <p>
             Call me on <Link to="/contact/">714 270 7255</Link>

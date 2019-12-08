@@ -1,7 +1,7 @@
 ---
 category: "blog"
 title: "What a Blog Can Do For Your Small Business"
-date: "2019-09-19"
+date: "2019-04-19"
 description: The blogging movement is picking up speed as businesses begin to realize the benefits of blogging. Discover what a business blog can do for you.
 ---
 

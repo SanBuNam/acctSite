@@ -11,6 +11,8 @@
   color: $color-black;
   background-color: $color-offWhite;
   transition: all 0.3s ease-in;
+  border-top: 1px solid $color-space;
+  border-bottom: 1px solid $color-space;
   h5 {
     padding: 1rem;
     width: 100%;

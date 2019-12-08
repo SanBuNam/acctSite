@@ -16,7 +16,6 @@
     .subtitle {
       font-size: 3.6rem;
       color: $color-white;
-      text-shadow: 5px 5px 0px rgba(255, 255, 255, 0.2);
     }
   }
   .textDiv {
@@ -44,9 +43,10 @@
   }
 
   @media (max-width: 768px) {
+    padding: 2rem;
     h4 {
       .title {
-        font-size: 1.46667rem;
+        font-size: 1.86667rem;
         color: $color-gray;
         font-family: $font-secondary;
       }
@@ -58,6 +58,20 @@
     .textDiv {
       font-size: 1.36667rem;
       max-width: 47rem;
+    }
+  }
+
+  @media (max-width: 500px) {
+    h4 {
+      .title {
+        font-size: 1.5rem;
+        color: $color-gray;
+        font-family: $font-secondary;
+      }
+      .subtitle {
+        font-size: 2rem;
+        color: $color-white;
+      }
     }
   }
 
