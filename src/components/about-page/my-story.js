@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import styles from "./my-story.module.scss"
-import CJfoodBanner from "../../../content/images/CJfoodBanner.jpeg"
-import Gatsbyjs from "../../../content/images/david-sign.jpeg"
+import programmer from "../../../content/images/programmer.jpg"
+import laughing from "../../../content/images/laughing.jpeg"
 
 const ProcessIntro = () => {
   return (
@@ -10,77 +10,59 @@ const ProcessIntro = () => {
       <div className={styles.inner}>
         <div className={styles.columnLeft}>
           <div className={styles.picture}>
-            <img alt="random1" src={CJfoodBanner} />
+            <img alt="programmer" src={programmer} />
           </div>
           <div className={styles.myStory}>
             <p>
               I am an Orange County-based freelance web developer and designer
-              with more than 15 years of experience working on websites and
-              apps, including 8 years developing ERP systems. My background in
-              IT and development covers a range of sectors, from charity to
-              agency work to e-commerce. That experience, along with my passion
-              for travel, mean I have the expertise to take on most projects.
+              with more than 10 years of experience, including 5 years ERP
+              systems. My work in IT and development covers a range of sectors,
+              from charity to agency work to e-commerce. That experience, along
+              with my passion for travel, mean I have the expertise to take on
+              most projects.
             </p>
             <p>
               Growing up in South Korea, I successfully completed an
               apprenticeship for CJ Corp., one of South Korea’s largest
               conglomerate company which later founded Samsung Electronic Inc. I
-              received above-average grades as an IT Specialist in System
-              Integration. I thoroughly enjoyed the technical aspects of that
-              job, but I knew that my passion was in the web.
+              received above-average grades as an IT Specialist in System . I
+              thoroughly enjoyed the technical aspects of that job, but I knew
+              that my passion was in the web.
             </p>
-            <p>
-              I later moved to USA and began work with a small start-up in
-              Butterfly media here in Orange County, CA. I gained precious
-              experience in this role. I worked independently and drove new
-              ideas even as I learned invaluable business and sales skills from
-              my talented mentors.
-            </p>
-            <p>
-              identity, financial reports and websites. As the sole developer on
-              my team, I improved fast. I also learned about typography, great
-              design and business strategy.
-            </p>
-            <p>
-              I later moved to USA and began work with a small start-up in
-              California called Butterfly Media. I gained precious experience in
-              this role. I worked independently and drove new ideas even as I
-              learned invaluable business and sales skills mentors.
-            </p>
-            <p>
-              identity, financial reports and websites. As the sole developer on
-              my team, I improved fast. I also learned about typography, great
-              design and business strategy.
-            </p>
-            <div className={styles.picture}>
-              <img alt="random1" src={CJfoodBanner} />
+            <h3>David's Creative Studio</h3>
+            <div className={styles.pictureTwo}>
+              <img alt="laughing-man" src={laughing} />
             </div>
-            <h3>Software Developer</h3>
+            <p>
+              I began work with a small start-up in Butterfly media here in
+              Orange County, CA. I gained precious experience in this role. I
+              worked independently and drove new ideas even as I learned
+              invaluable business and sales skills from my talented mentors.
+            </p>
+            <p>
+              identity, financial reports and websites. As the sole developer on
+              my team, I improved fast. I also learned about typography, great
+              design and business strategy.
+            </p>
+
             <p>
               The ability to combine technical knowledge with creativity is what
               enticed me to this field. My passion for web design began early,
-              when I developed and designed my school’s website and test
-              newspaper.
-            </p>
-            <p>
-              Identity, financial reports and websites. As the sole developer on
-              my team, I improved fast. I also learned about typography, great
-              design and business strategy.
+              when I developed and designed.
             </p>
             <p>
               It’s not only about the big clients. Throughout my career I’ve
               also managed many smaller projects. I became a freelance web
-              developer in 2011 to reside in{" "}
-              <Link to="/home/">Orange County</Link> and meet like-minded
-              people.
+              developer in <Link to="/home/">Orange County</Link> and meet
+              like-minded people.
             </p>
             <p>
               My clients are based both in the USA and all across the world.
             </p>
             <p>
-              If you’d like to discuss working together with me, give me a call
-              on <Link to="contact">714-270-7255</Link> or drop me an email on{" "}
-              <Link to="contact">softdavidlee@gmail.com</Link>
+              If you’d like to discuss working with me, give me a call on{" "}
+              <Link to="contact">714-270-7255</Link> or drop me an email on{" "}
+              <Link to="contact">main@davidcreativestudio.com</Link>
             </p>
           </div>
         </div>
@@ -132,12 +114,10 @@ const ProcessIntro = () => {
             <li>Salesforce, SAP, Amazon AWS & etc.</li>
           </ul>
           <p>
-            15+ years commercial experience Involved in over 130 projects Worked
-            with helping companies since 2004 with Team leading experiences.
+            10+ years commercial experience Involved in over many big and small
+            projects Worked with helping companies since 2005 with Team leading
+            experiences.
           </p>
-          <div className={styles.picture}>
-            <img alt="random1" src={Gatsbyjs} />
-          </div>
         </div>
       </div>
     </div>

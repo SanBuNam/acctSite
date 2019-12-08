@@ -1,7 +1,7 @@
 ---
 category: "blog"
 title: "Search Engine Optimization Tutorial"
-date: "2019-09-18"
+date: "2019-02-18"
 description: Do-It-Yourself SEO Tips
 ---
 

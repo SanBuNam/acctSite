@@ -74,6 +74,7 @@
     .innerContainer {
       grid-template-columns: 1fr;
       justify-items: start;
+      padding: 0 1rem;
       .midContainer {
         grid-row: 1;
       }

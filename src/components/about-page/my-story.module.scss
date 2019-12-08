@@ -24,6 +24,16 @@
           display: block;
           margin: 0 auto;
           width: 100%;
+          padding: 1rem;
+        }
+      }
+      .pictureTwo {
+        img {
+          float: right;
+          max-width: 30rem;
+          display: block;
+          margin: 0 auto;
+          padding: 1rem;
         }
       }
       .myStory {
@@ -38,12 +48,11 @@
         h3 {
           margin-top: 3rem;
           margin-right: 2rem;
-          float: left;
+          float: right;
           font-size: 2.4rem;
         }
       }
     }
-
     .columnRight {
       text-align: left;
       padding: 2rem;
@@ -52,7 +61,7 @@
         img {
           display: block;
           margin: 0;
-          width: 23rem;
+          width: 40rem;
         }
       }
       h4 {

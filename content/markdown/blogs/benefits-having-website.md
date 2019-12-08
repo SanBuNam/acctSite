@@ -1,11 +1,11 @@
 ---
 category: "blog"
 title: "10 Benefits of a Website for a Small Business"
-date: "2017-09-21"
+date: "2019-08-02"
 description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
 ---
 
-![image sample](../../images/Los_Angeles.jpeg)
+![image sample](../../images/Los_Angeles.jpg)
 
 In this day and age where digital technology and the Internet has influenced how we live and work, it is shocking to know that very few small business owners have a website.
 

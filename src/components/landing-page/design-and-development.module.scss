@@ -155,13 +155,14 @@
   @media (max-width: 400px) {
     .bottomRow {
       .inner {
-        max-width: 35rem;
+        max-width: 32rem;
       }
     }
   }
 
   @media (max-width: 350px) {
     .bottomRow {
+      padding: 0 1rem;
       .inner {
         max-width: 27rem;
       }

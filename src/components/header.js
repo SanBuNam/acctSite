@@ -3,7 +3,7 @@ import { Link, StaticQuery, graphql } from "gatsby"
 import styles from "./header.module.scss"
 import Navbar from "./navbar"
 import Image from "gatsby-image"
-import ToggleTop from "../components/toggleTop"
+import ToggleMenu from "../components/toggle-menu"
 
 const SocialButton = props => {
   let style = ""
@@ -49,11 +49,17 @@ export default () => (
         </div>
         <Navbar />
         <div className={styles.rowRight}>
-          <SocialButton site="facebook" username="sanbunam"></SocialButton>
-          <SocialButton site="linkedin" username="sanbunam"></SocialButton>
-          <SocialButton site="twitter" username="sanbunam"></SocialButton>
+          <SocialButton
+            site="linkedin"
+            username="in/david-lee-480985119/"
+          ></SocialButton>
+          <SocialButton site="facebook" username="softdavidlee/"></SocialButton>
+          <SocialButton
+            site="twitter"
+            username="DavidLe38822103/"
+          ></SocialButton>
         </div>
-        <ToggleTop />
+        <ToggleMenu />
       </header>
     )}
   />

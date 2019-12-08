@@ -86,7 +86,7 @@ module.exports = {
         name: `David Lee`,
         short_name: `Freelancer Developer`,
         start_url: `/`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/images/freelance-developer.png`,
       },
     },
     `gatsby-plugin-offline`,

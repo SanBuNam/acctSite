@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./service-type.module.scss"
 import { StaticQuery, graphql } from "gatsby"
-import Samples from "./sample-sites"
+import Samples2 from "./industry-reference"
 
 const ServiceType = () => (
   <StaticQuery
@@ -51,7 +51,7 @@ const ServiceType = () => (
               )
             })}
           </div>
-          <Samples />
+          <Samples2 />
         </div>
       )
     }}

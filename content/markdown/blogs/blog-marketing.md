@@ -1,7 +1,7 @@
 ---
 category: "blog"
 title: "Blog Marketing: What It Is and How to Do It"
-date: "2019-09-18"
+date: "2019-03-18"
 description: Promote and Grow Your Business.
 ---
 

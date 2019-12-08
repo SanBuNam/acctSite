@@ -26,7 +26,7 @@ const ContactInfo = () => {
           <br />
           Email:{" "}
           <a href="mailto: davidlee@davidcreativestudio.com">
-            creator@davidcreativestudio.com{" "}
+            main@davidcreativestudio.com{" "}
           </a>
         </p>
         <hr width="100%" />

@@ -1,7 +1,7 @@
 ---
 category: "blog"
 title: "How to Optimize Your Small Business Website to Get More Visitors?"
-date: "2019-09-18"
+date: "2019-06-18"
 description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
 ---
 
@@ -27,7 +27,7 @@ When your have optimized your website for search engines, seeing positive change
 
 Building up solid search ranking <a href="https://www.seomechanic.com/seo-101-how-long-does-seo-take/" target="blank" style="text-decoration: underline; color:#ff9800"><span style="color:#ff9800">takes a bit of time – in some cases a few months</span></a> to see results. Don’t be discouraged. Stay committed to your SEO efforts, and continue monitoring your web page performance.
 
-<a href="https://blog.hubspot.com/marketing/seo-analysis-tools" target="blank" style="text-decoration: underline; color:#5eabe2"><span style="color:#5eabe2">Check out some other SEO tools to help stay on the right track.</span></a>
+<a href="https://blog.hubspot.com/marketing/seo-analysis-tools" target="blank" style="text-decoration: underline; color:#ff9800"><span style="color:#ff9800">Check out some other SEO tools to help stay on the right track.</span></a>
 
 ## Mobile Friendly Website
 

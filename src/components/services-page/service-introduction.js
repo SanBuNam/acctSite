@@ -12,7 +12,7 @@ export default props => (
     </div>
     <div className={styles.text}>
       <p>
-        With 15+ years of experience I have a deep understanding of the ins and
+        Over 10 years of experience I have a deep understanding of the ins and
         outs of developing a functioning website that matches the needs of your
         business. Need a simple fix to the current site? Or a new image gallery
         for your website? As a freelance web developer, I’m here to get it done

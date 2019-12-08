@@ -3,7 +3,7 @@ import styles from "./my-approach.module.scss"
 
 const MyApproach = () => {
   return (
-    <section className={styles.container}>
+    <div className={styles.container}>
       <h3>My approach</h3>
       <h4>Experience & Transparency</h4>
       <p className={styles.topParagraph}>
@@ -20,7 +20,7 @@ const MyApproach = () => {
         <br />I believe in transparency and honesty. This underlines everything
         I do.
       </p>
-    </section>
+    </div>
   )
 }
 
