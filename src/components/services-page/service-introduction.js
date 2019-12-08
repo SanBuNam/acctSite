@@ -2,7 +2,7 @@ import React from "react"
 import styles from "./service-introduction.module.scss"
 
 export default props => (
-  <section className={styles.container} key={props.key}>
+  <section className={styles.container}>
     <div>
       <h2 className={styles.title}>Web developer services</h2>
       <p className={styles.subtitle}>
