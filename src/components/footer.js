@@ -8,7 +8,7 @@ export default () => (
       <div className={styles.leftContainer}>
         <h3>About David</h3>
         <p>
-          I‘m a freelance web developer in Orange County with 15+ years‘
+          I‘m a freelance web developer in Orange County with 10+ years‘
           experience. My clients come from Orange County and all over the world.
           <br />
           <br />

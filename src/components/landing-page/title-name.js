@@ -34,8 +34,8 @@ const BackgroundSection = ({ backgroundStyle }) => (
                 <span className={styles.title}>I am David,</span>
                 <br />
                 <p className={styles.subtitle}>
-                  Freelance web developer in <span>Orange County</span>,
-                  California with over 10 years of experience.
+                  Freelance web developer in <span>Orange County</span>,
+                  California. E-Commerce specialist.
                 </p>
               </h1>
             </div>

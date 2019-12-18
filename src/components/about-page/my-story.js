@@ -23,7 +23,7 @@ const ProcessIntro = () => {
             </p>
             <p>
               Growing up in South Korea, I successfully completed an
-              apprenticeship for CJ Corp., one of South Korea’s largest
+              apprenticeship for CJ Corporation, one of South Korea’s largest
               conglomerate company which later founded Samsung Electronic Inc. I
               received above-average grades as an IT Specialist in System . I
               thoroughly enjoyed the technical aspects of that job, but I knew
