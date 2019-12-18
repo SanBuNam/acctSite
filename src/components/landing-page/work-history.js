@@ -15,7 +15,7 @@ export default () => (
         <br />
       </p>
       <p>
-        Over the last 15 years, I’ve worked with Orange County-based companies
+        Over the last 10 years, I’ve worked with Orange County-based companies
         such as{" "}
         <a href="https://www.cjfoods.com/" target="_blank">
           CJ Foods

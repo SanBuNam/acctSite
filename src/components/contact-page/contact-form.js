@@ -1,13 +1,7 @@
 import React, { Component } from "react"
 import styles from "./contact-form.module.scss"
 import ContactInfo from "./contact-info"
-import Button from "../buttons/round-button"
 import { Collapse } from "react-collapse"
-import Styled from "styled-components"
-
-const StyledP = Styled.p`
-  font-size: 1.4rem;
-`
 
 class ContactForm extends Component {
   constructor(props) {
@@ -15,7 +9,7 @@ class ContactForm extends Component {
 
     this.state = {
       service: "",
-      name: "",
+      fullname: "",
       phone: "",
       email: "",
       time: "",
@@ -25,11 +19,6 @@ class ContactForm extends Component {
     }
 
     this.handleInputChange = this.handleInputChange.bind(this)
-    this.handleSubmit = this.handleSubmit.bind(this)
-  }
-
-  handleSubmit(event) {
-    event.preventDefault()
   }
 
   handleInputChange(event) {
@@ -47,7 +36,7 @@ class ContactForm extends Component {
       isOpened,
       isOpened2,
       service,
-      name,
+      fullname,
       time,
       email,
       phone,
@@ -60,14 +49,17 @@ class ContactForm extends Component {
           <div className={styles.formDiv}>
             <form
               onSubmit={this.handleSubmit}
-              action="POST"
+              name="Contact Form"
+              method="POST"
               data-netlify="true"
-              data-netlify-honeypot="bot-field"
+              data-netlify-recaptcha="true"
+              action="/"
             >
-              <input type="hidden" name="bot-field" />
-              <input type="hidden" name="form-name" value="contact" />
-              <label htmlFor="service">
-                What services are you interested in?
+              <input type="hidden" name="form-name" value="Contact Form" />
+              <div>
+                <label htmlFor="service">
+                  What services are you interested in?
+                </label>
                 <select
                   id="serivce"
                   name="service"
@@ -81,21 +73,21 @@ class ContactForm extends Component {
                   <option value="standardWebsite">Standard Website</option>
                   <option value="completeWebsite">Complete Web-Suite</option>
                 </select>
-              </label>
+              </div>
               <br />
-              <label htmlFor="name">
-                What is your name?*
+              <div>
+                <label htmlFor="fullname">What is your name?*</label>
                 <input
-                  id="name"
-                  name="name"
+                  id="fullname"
+                  name="fullname"
                   type="text"
                   placeholder={"First and last name"}
-                  value={name}
+                  value={fullname}
                   onChange={this.handleInputChange}
                 />
-              </label>
+              </div>
               <br />
-              <label htmlFor="phoneCollapsive">
+              <div>
                 <input
                   id="phoneCollapsive"
                   name="phoneCollapsive"
@@ -105,22 +97,23 @@ class ContactForm extends Component {
                     this.setState({ isOpened: checked })
                   }
                 />
-                Please call me back to discuss this in more detail
-              </label>
+                <label htmlFor="phoneCollapsive">
+                  Please call me back to discuss this in more detail
+                </label>
+              </div>
               <br />
               <Collapse isOpened={isOpened}>
-                <br />
                 <label htmlFor="phone">
                   What is the best phone number to call you on?
-                  <input
-                    id="phone"
-                    name="phone"
-                    type="text"
-                    placeholder={"Your contact number"}
-                    value={phone}
-                    onChange={this.handleInputChange}
-                  />
                 </label>
+                <input
+                  id="phone"
+                  name="phone"
+                  type="text"
+                  placeholder={"Your contact number"}
+                  value={phone}
+                  onChange={this.handleInputChange}
+                />
                 <br />
                 <label htmlFor="time">
                   What is the best time to call you?
@@ -135,24 +128,24 @@ class ContactForm extends Component {
                 </label>
               </Collapse>
               <br />
+              <input
+                id="phoneCollapsive2"
+                name="phoneCollapsive2"
+                type="checkbox"
+                checked={isOpened2}
+                onChange={({ target: { checked } }) =>
+                  this.setState({ isOpened2: checked })
+                }
+              />
               <label htmlFor="phoneCollapsive2">
-                <input
-                  id="phoneCollapsive2"
-                  name="phoneCollapsive2"
-                  type="checkbox"
-                  checked={isOpened2}
-                  onChange={({ target: { checked } }) =>
-                    this.setState({ isOpened2: checked })
-                  }
-                />
                 I'm happy to provide more detailed info now
               </label>
               <Collapse isOpened={isOpened2}>
-                <StyledP>
+                <p style={{ fontSize: "1.4rem" }}>
                   Thank you. This will help me better assess how I can work with
                   you. The information here is optional so feel free to provide
                   as much as you can and have time for.
-                </StyledP>
+                </p>
                 <textarea
                   className={styles.textarea}
                   placeholder={
@@ -166,22 +159,19 @@ class ContactForm extends Component {
                 />
               </Collapse>
               <br />
-              <label htmlFor="email">
-                Email* :
-                <input
-                  id="email"
-                  name="email"
-                  type="text"
-                  placeholder={"Email"}
-                  value={email}
-                  onChange={this.handleInputChange}
-                />
-              </label>
-              <div className="field">
-                <div data-netlify-recaptcha="true"></div>
-              </div>
+              <label htmlFor="email">Email* :</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder={"Email"}
+                value={email}
+                onChange={this.handleInputChange}
+              />
               <br />
-              <Button text="Send enquiry" type="submit" value="Send Inquiry" />
+              <div data-netlify-recaptcha="true"></div>
+              <br />
+              <button type="submit">Submit</button>
             </form>
           </div>
           <ContactInfo />

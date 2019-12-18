@@ -12,7 +12,7 @@ export default () => (
     <div className={styles.container}>
       <div className={styles.innerContainer}>
         <h2>Social media & marketing</h2>
-        <img alt="random1" src={Social} />
+        <img alt="Social" src={Social} />
         <p>
           Many business and professional people are confused about social media.
           Afraid to go overboard, they don't bother at all.
@@ -66,7 +66,7 @@ export default () => (
           handicap yourself now?
         </p>
         <div className={styles.right}>
-          <img alt="random1" src={Social2} />
+          <img alt="Social2" src={Social2} />
           <p>
             Have you noticed that you receive fewer phone calls than before?
             That’s because a phone call is too intrusive for our casual society;
