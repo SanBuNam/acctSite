@@ -53,7 +53,7 @@ export default () => (
             site="linkedin"
             username="in/david-lee-480985119/"
           ></SocialButton>
-          <SocialButton site="facebook" username="softdavidlee/"></SocialButton>
+          <SocialButton site="facebook" username="GiftFactory2U"></SocialButton>
           <SocialButton
             site="twitter"
             username="DavidLe38822103/"

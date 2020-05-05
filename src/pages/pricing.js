@@ -9,7 +9,7 @@ import ServiceStatement from "../components/services-page/serivce-statement"
 
 export default () => (
   <Layout>
-    <SEO title="web-site-cost" />
+    <SEO title="Website Builder" />
     <ServiceIntroduction />
     <ServiceTypes />
     <ExistingWebsites />

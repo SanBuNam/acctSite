@@ -56,7 +56,7 @@ const Container = () => {
 
   return (
     <ContainerDiv>
-      <Fade left>
+      <Fade left fraction={1}>
         <div className="card">
           <div className="card__side card__side--front" style={frontOne}>
             <FontAwesomeIcon spin={false} size="5x" icon={faAddressBook} />

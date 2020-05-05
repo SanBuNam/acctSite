@@ -7,7 +7,7 @@ import Questions from "../components/common/questions"
 
 export default () => (
   <Layout>
-    <SEO title="web-orange-county" />
+    <SEO title="Online Marketing OC, CA" />
     <PrivacyHeader />
     <PrivacyPolicy />
     <Questions />

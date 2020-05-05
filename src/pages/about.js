@@ -7,7 +7,7 @@ import DesignDevelopment from "../components/landing-page/design-and-development
 
 export default () => (
   <Layout>
-    <SEO title="website-design-oc" />
+    <SEO title="Web Designer in OC, CA" />
     <AboutMeIntroduction />
     <MyStory />
     <DesignDevelopment />

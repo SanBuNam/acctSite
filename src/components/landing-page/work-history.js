@@ -1,4 +1,4 @@
-import React, { Fragment } from "react"
+import React from "react"
 import styles from "./work-history.module.scss"
 
 export default () => (
@@ -6,7 +6,7 @@ export default () => (
     <h4>
       <span className={styles.title}>Looking to hire a Orange County, CA</span>
       <br />
-      <span className={styles.subtitle}>Freelance Web Developer?</span>
+      <span className={styles.subtitle}>Full Stack Software Developer?</span>
     </h4>
     <div className={styles.textDiv}>
       <p>
@@ -17,6 +17,10 @@ export default () => (
       <p>
         Over the last 10 years, I’ve worked with Orange County-based companies
         such as{" "}
+        <a href="https://www.giftfactory2u.com/" target="_blank">
+          Gift Factory 2U
+        </a>
+        ,{" "}
         <a href="https://www.cjfoods.com/" target="_blank">
           CJ Foods
         </a>
@@ -31,8 +35,8 @@ export default () => (
         ,{" "}
         <a href="http://www.unicologx.com/" target="_blank">
           Unico Logistics
-        </a>
-        , Aldex America and many more small to large businesses.
+        </a>{" "}
+        and many more small to large businesses.
       </p>
     </div>
   </div>

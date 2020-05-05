@@ -45,10 +45,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
-        typekit: {
-          id: "ovw1wra",
-          api: "https://use.typekit.net/ovw1wra.css",
-        },
+        typekit: {},
       },
     },
     {
