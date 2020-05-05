@@ -52,8 +52,7 @@ class ContactForm extends Component {
               name="Contact Form"
               method="POST"
               data-netlify="true"
-              data-netlify-recaptcha="true"
-              action="/"
+              action="/thankyou/"
             >
               <input type="hidden" name="form-name" value="Contact Form" />
               <div>
@@ -168,8 +167,6 @@ class ContactForm extends Component {
                 value={email}
                 onChange={this.handleInputChange}
               />
-              <br />
-              <div data-netlify-recaptcha="true"></div>
               <br />
               <button type="submit">Submit</button>
             </form>

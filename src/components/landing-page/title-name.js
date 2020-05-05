@@ -8,7 +8,7 @@ const imageQuery = graphql`
   query {
     desktop: file(relativePath: { eq: "mainBG.jpg" }) {
       childImageSharp {
-        fluid(quality: 90) {
+        fluid(quality: 80) {
           ...GatsbyImageSharpFluid
         }
       }
@@ -34,8 +34,8 @@ const BackgroundSection = ({ backgroundStyle }) => (
                 <span className={styles.title}>I am David,</span>
                 <br />
                 <p className={styles.subtitle}>
-                  Freelance web developer in <span>Orange County</span>,
-                  California. E-Commerce specialist.
+                  Full Stack Software Developer & E-Commerce Builder{" "}
+                  <span>Orange County</span>, California.
                 </p>
               </h1>
             </div>

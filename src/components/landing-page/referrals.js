@@ -3,13 +3,14 @@ import { Link } from "gatsby"
 import styles from "./referrals.module.scss"
 import WorkWithMe from "./work-with-me"
 import Flip from "react-reveal/Flip"
+import Zoom from "react-reveal/Zoom"
 
 const Statement = () => {
   return (
     <div className={styles.container}>
-      <Flip left>
+      <Zoom top duration={1500}>
         <WorkWithMe />
-      </Flip>
+      </Zoom>
       <div className={styles.innerContainer}>
         <h5>
           “ David is quick to understand detailed technical issues and at the

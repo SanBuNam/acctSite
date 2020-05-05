@@ -7,7 +7,7 @@ import DesignDevelopment from "../components/landing-page/design-and-development
 
 export default () => (
   <Layout>
-    <SEO title="web-designer-contact" />
+    <SEO title="Contact Web Designer" />
     <ContactMe />
     <ContactForm />
     <DesignDevelopment />

@@ -6,7 +6,7 @@ import ProcessExplained from "../components/process-page/process-explained"
 
 export default () => (
   <Layout>
-    <SEO title="web-development-process" />
+    <SEO title="Web Development Steps" />
     <ProcessIntroduction />
     <ProcessExplained />
   </Layout>

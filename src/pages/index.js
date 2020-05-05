@@ -12,7 +12,7 @@ import Referrals from "../components/landing-page/referrals"
 
 export default () => (
   <Layout>
-    <SEO title="freelancer-web-developer" />
+    <SEO title="Freelancer Web Developer" />
     <TitleName />
     <WorkHistory />
     <DesignDevelopment />

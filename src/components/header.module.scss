@@ -77,9 +77,18 @@
   }
 
   @media (max-width: 768px) {
-    grid-template-columns: 1fr;
+    grid-template-columns: min-content 1fr;
     .rowLeft {
-      display: none;
+      padding: 1rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+  @media (max-width: 350px) {
+    .rowLeft {
+      padding-left: 2rem;
     }
   }
 }

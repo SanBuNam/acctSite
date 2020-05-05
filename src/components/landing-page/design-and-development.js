@@ -12,7 +12,7 @@ import {
 const Statement = () => (
   <div className={styles.container}>
     <div className={styles.bottomRow}>
-      <Bounce left>
+      <Bounce left fraction={0.5} delay={500}>
         <div className={styles.inner}>
           <FontAwesomeIcon
             className={styles.fontAwesome}
@@ -37,7 +37,7 @@ const Statement = () => (
           </p>
         </div>
       </Bounce>
-      <Bounce bottom>
+      <Bounce bottom fraction={0.75} delay={500}>
         <div className={styles.inner}>
           <FontAwesomeIcon
             className={styles.fontAwesome}
@@ -56,7 +56,7 @@ const Statement = () => (
         </div>
       </Bounce>
 
-      <Bounce right>
+      <Bounce right fraction={0.5} delay={500}>
         <div className={styles.inner}>
           <FontAwesomeIcon
             className={styles.fontAwesome}

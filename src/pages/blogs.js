@@ -15,7 +15,7 @@ class BlogIndex extends React.Component {
     return (
       <OuterLayout>
         <Layout location={this.props.location} title={siteTitle}>
-          <SEO title="web-developer-oc" />
+          <SEO title="Website Blogger" />
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (

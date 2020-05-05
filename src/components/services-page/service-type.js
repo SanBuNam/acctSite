@@ -31,7 +31,7 @@ const ServiceType = () => (
     render={data => {
       return (
         <div className={styles.container}>
-          <h2>Price Range</h2>
+          <h2>Service Types</h2>
           <div className={styles.outerContainer}>
             {data.allMarkdownRemark.edges.map(({ node }) => {
               const { service, price, hosting, list } = node.frontmatter
@@ -39,8 +39,6 @@ const ServiceType = () => (
                 <div className={styles.innerContainer}>
                   <div className={styles.option}>
                     <h3>{service}</h3>
-                    <h4>{price}</h4>
-                    <span>{hosting}</span>
                     <ul>
                       {list.map(item => (
                         <li>{item}</li>
