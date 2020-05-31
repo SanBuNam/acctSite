@@ -66,13 +66,6 @@
           transition: all 0.4s ease-in 0.4s;
           background: $color-orange;
         }
-
-        &:hover {
-          background-color: $color-orange;
-          color: $color-black;
-          box-shadow: 0 1rem 2rem rgba($color-orange, 0.15);
-        }
-
         &:active {
           box-shadow: 0 0.5rem 1rem rgba($color-orange, 0.15);
         }
@@ -80,6 +73,11 @@
       &:hover {
         color: $color-orange;
         border: 1px solid $color-orange;
+        button {
+          background-color: $color-orange;
+          color: $color-black;
+          box-shadow: 0 1rem 2rem rgba($color-orange, 0.15);
+        }
       }
     }
 
@@ -117,13 +115,6 @@
           padding: 10rem;
           transition: all 0.4s ease-in 0.4s;
         }
-
-        &:hover {
-          background-color: $color-orange;
-          color: $color-black;
-          box-shadow: 0 1rem 2rem rgba($color-orange, 0.15);
-        }
-
         &:active {
           box-shadow: 0 0.5rem 1rem rgba($color-orange, 0.15);
         }
@@ -131,6 +122,11 @@
       &:hover {
         color: $color-orange;
         border: 1px solid $color-orange;
+        button {
+          background-color: $color-orange;
+          color: $color-black;
+          box-shadow: 0 1rem 2rem rgba($color-orange, 0.15);
+        }
       }
     }
   }

@@ -18,6 +18,9 @@ const SocialButton = props => {
   } else if (props.site === "twitter") {
     style = styles.buttonTwitter
     url = "https://www.twitter.com/" + props.username
+  } else if (props.site === "instagram") {
+    style = styles.buttonInstagram
+    url = "https://www.instagram.com/" + props.username
   }
 
   return (
@@ -50,13 +53,16 @@ export default () => (
         <Navbar />
         <div className={styles.rowRight}>
           <SocialButton
+            site="instagram"
+            username="codingdokhak/"
+          ></SocialButton>
+          <SocialButton
             site="linkedin"
             username="in/david-lee-480985119/"
           ></SocialButton>
-          <SocialButton site="facebook" username="GiftFactory2U"></SocialButton>
           <SocialButton
-            site="twitter"
-            username="DavidLe38822103/"
+            site="facebook"
+            username="DavidCreativeStudio"
           ></SocialButton>
         </div>
         <ToggleMenu />

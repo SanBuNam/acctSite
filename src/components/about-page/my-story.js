@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styles from "./my-story.module.scss"
-import programmer from "../../../content/images/programmer.jpg"
+import programmer from "../../../content/images/gorillalogo.jpg"
 import laughing from "../../../content/images/laughing.jpeg"
 
 const ProcessIntro = () => {

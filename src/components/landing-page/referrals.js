@@ -8,9 +8,7 @@ import Zoom from "react-reveal/Zoom"
 const Statement = () => {
   return (
     <div className={styles.container}>
-      <Zoom top duration={1500}>
-        <WorkWithMe />
-      </Zoom>
+      <WorkWithMe />
       <div className={styles.innerContainer}>
         <h5>
           “ David is quick to understand detailed technical issues and at the
