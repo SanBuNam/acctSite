@@ -1,0 +1,18 @@
+{
+  "main.js": "render-page.js",
+  "main.js.map": "render-page.js.map",
+  "static/Ecommerce.png": "static/Ecommerce-8f14be2e5b62b181cd427f8caadd7fbf.png",
+  "static/Social-Media1.jpg": "static/Social-Media1-5eb0f1e888bda5c894ed5b68e1333ca1.jpg",
+  "static/Social-Media2.jpg": "static/Social-Media2-195f9d71238bc4a57678767a325b2c04.jpg",
+  "static/auto.jpg": "static/auto-ad6e6a877616a24a73df22b8bb60c2a9.jpg",
+  "static/big-house320x320.jpg": "static/big-house320x320-4907d81ccefa3b9985089696ebf5d38b.jpg",
+  "static/communication320x320.jpg": "static/communication320x320-12d8cab39b2fab2694cd78e3e1313b92.jpg",
+  "static/doctor400x400.jpg": "static/doctor400x400-014a254779d1cc1f2bd95fbfc6fe502d.jpg",
+  "static/finance320x320.jpg": "static/finance320x320-40d92352defd751b7510942a7b9fbe67.jpg",
+  "static/gorillalogo.jpg": "static/gorillalogo-5a0a4b65b705456b4c5b2ef68fc268be.jpg",
+  "static/healthcare320x320.jpg": "static/healthcare320x320-f282e57825ebf5ee8f7510fa75d32147.jpg",
+  "static/laughing.jpeg": "static/laughing-ef490abf2a75a92fbfeefeaf6d6f7aca.jpeg",
+  "static/programmer.jpg": "static/programmer-d098c97d7d818a65c24235d65e791577.jpg",
+  "static/shoping-carts320x320.jpg": "static/shoping-carts320x320-99cf1c5b0ad158c71243c9d4312ca29f.jpg",
+  "static/travel320x320.jpg": "static/travel320x320-583d5d26a2409fc9b9f26f7941abb845.jpg"
+}

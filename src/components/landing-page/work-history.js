@@ -6,21 +6,17 @@ export default () => (
     <h4>
       <span className={styles.title}>Looking to hire a Orange County, CA</span>
       <br />
-      <span className={styles.subtitle}>Full Stack Software Developer?</span>
+      <span className={styles.subtitle}>Website or Online Store Builder?</span>
     </h4>
     <div className={styles.textDiv}>
       <p>
         I create websites and applications, built to convert, improve business
-        processes and <span>maximize ROI here in Orange County, CA</span>.
+        processes and maximize ROI.
         <br />
       </p>
       <p>
         Over the last 10 years, I’ve worked with Orange County-based companies
         such as{" "}
-        <a href="https://www.giftfactory2u.com/" target="_blank">
-          Gift Factory 2U
-        </a>
-        ,{" "}
         <a href="https://www.cjfoods.com/" target="_blank">
           CJ Foods
         </a>

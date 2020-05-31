@@ -4,12 +4,13 @@
   width: 100%;
   max-width: 130rem;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 2.5rem;
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
   justify-content: center;
   justify-items: center;
   align-items: center;
+  // background-color: $color-white;
   .rowLeft {
     grid-column: 1;
     text-align: center;
@@ -22,7 +23,7 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
   .button {
-    background-color: $color-gray;
+    background-color: $color-white;
     display: inline-block;
     height: 30px;
     width: 30px;
@@ -31,8 +32,9 @@
     margin-right: 10px;
     padding-right: 10px;
     margin-bottom: 10px;
+    transition: all 0.2s ease-in-out;
     &:hover {
-      background-color: $color-white;
+      transform: scale(1.1);
     }
   }
   .button-icon {
@@ -54,6 +56,11 @@
   .button-twitter {
     @extend .button-icon;
     background-image: url("../../content/images/twitter.png");
+    border-radius: 4.333px;
+  }
+  .button-instagram {
+    @extend .button-icon;
+    background-image: url("../../content/images/instagram-logo-i.png");
     border-radius: 4.333px;
   }
   .link {

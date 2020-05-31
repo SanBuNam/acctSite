@@ -3,10 +3,11 @@ import { graphql, StaticQuery } from "gatsby"
 import styles from "./title-name.module.scss"
 import styled from "styled-components"
 import BackgroundImage from "gatsby-background-image"
+import WorkHistory from "./work-history"
 
 const imageQuery = graphql`
   query {
-    desktop: file(relativePath: { eq: "mainBG.jpg" }) {
+    desktop: file(relativePath: { eq: "landingPageBg.jpg" }) {
       childImageSharp {
         fluid(quality: 80) {
           ...GatsbyImageSharpFluid
@@ -31,15 +32,16 @@ const BackgroundSection = ({ backgroundStyle }) => (
           <div className={styles.container}>
             <div className={styles.innerContainer}>
               <h1>
-                <span className={styles.title}>I am David,</span>
+                <span className={styles.title}>David Lee,</span>
                 <br />
                 <p className={styles.subtitle}>
-                  Full Stack Software Developer & E-Commerce Builder{" "}
-                  <span>Orange County</span>, California.
+                  Website & Online Store Builder <span>|</span> Software
+                  Developer <span>Orange County</span>, California.
                 </p>
               </h1>
             </div>
           </div>
+          <WorkHistory />
         </BackgroundImage>
       )
     }}
