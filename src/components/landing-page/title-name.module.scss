@@ -1,0 +1,109 @@
+@import "../../styles/global";
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+  text-align: left;
+  text-transform: uppercase;
+  justify-items: center;
+  justify-content: center;
+  .innerContainer {
+    width: max-content;
+    margin: 0 auto;
+    // padding-left: 50rem;
+    display: flex;
+    .title {
+      vertical-align: middle;
+      font-size: 7rem;
+      color: $color-orange;
+    }
+    .subtitle {
+      color: $color-navy;
+      display: inline-block;
+      max-width: 65rem;
+      font-family: $font-secondary;
+      font-size: 2.8rem;
+      font-weight: 600;
+      line-height: 1;
+      background: rgba(243, 239, 239, 0.5);
+      -moz-box-shadow: 0 0 0 10px rgba(243, 239, 239, 0.5);
+      -webkit-box-shadow: 0 0 0 10px rgba(243, 239, 239, 0.5);
+      box-shadow: 0 0 0 10px rgba(243, 239, 239, 0.5);
+      border-radius: 5px;
+      span {
+        color: $color-orange;
+        font-weight: 800;
+      }
+    }
+  }
+
+  @media (max-width: 1290px) {
+    padding-top: 6rem;
+    .innerContainer {
+      .title {
+        font-size: 6rem;
+      }
+    }
+    .subtitle {
+      font-size: 2.6rem;
+    }
+  }
+
+  @media (max-width: 975px) {
+    .innerContainer {
+      .title {
+        font-size: 5rem;
+      }
+      .subtitle {
+        font-size: 2.4rem;
+      }
+    }
+  }
+
+  @media (max-width: 700px) {
+    .innerContainer {
+      .title {
+        font-size: 3rem;
+      }
+      .subtitle {
+        font-size: 2rem;
+        max-width: 40rem;
+      }
+    }
+  }
+
+  @media (max-width: 647px) {
+    padding-top: 2rem;
+  }
+
+  @media (max-width: 500px) {
+    .innerContainer {
+      .subtitle {
+        font-size: 1.8rem;
+        max-width: 30rem;
+      }
+    }
+  }
+
+  @media (max-width: 400px) {
+    padding-bottom: 0;
+    .innerContainer {
+      .subtitle {
+        max-width: 25rem;
+      }
+    }
+  }
+
+  @media (max-width: 350px) {
+    .innerContainer {
+      .title {
+        font-size: 2.5rem;
+      }
+      .subtitle {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}

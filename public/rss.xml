@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[David's Creative Studio]]></title><description><![CDATA[Orange County, California Web Developer]]></description><link>https://davidcreativestudio.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 31 May 2020 05:11:46 GMT</lastBuildDate><item><title><![CDATA[services]]></title><link>https://davidcreativestudio.com/services/1/</link><guid isPermaLink="false">https://davidcreativestudio.com/services/1/</guid><pubDate>Sun, 22 Sep 2019 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[services]]></title><link>https://davidcreativestudio.com/services/2/</link><guid isPermaLink="false">https://davidcreativestudio.com/services/2/</guid><pubDate>Sat, 21 Sep 2019 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[services]]></title><link>https://davidcreativestudio.com/services/3/</link><guid isPermaLink="false">https://davidcreativestudio.com/services/3/</guid><pubDate>Fri, 20 Sep 2019 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[services]]></title><link>https://davidcreativestudio.com/services/4/</link><guid isPermaLink="false">https://davidcreativestudio.com/services/4/</guid><pubDate>Thu, 19 Sep 2019 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[10 Benefits of a Website for a Small Business]]></title><description><![CDATA[In this day and age where digital technology and the Internet has influenced how we live and work, it is shocking to know that very few…]]></description><link>https://davidcreativestudio.com/blogs/benefits-having-website/</link><guid isPermaLink="false">https://davidcreativestudio.com/blogs/benefits-having-website/</guid><pubDate>Fri, 02 Aug 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c7e64731794c566cd07b4ae0c86144c6/c09ed/Los_Angeles.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.54135338345864%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABQABA//EABUBAQEAAAAAAAAAAAAAAAAAAAED/9oADAMBAAIQAxAAAAFPiNpZuFh//8QAGRAAAwEBAQAAAAAAAAAAAAAAAQIDABIT/9oACAEBAAEFAjZc1wDOnau5G9G4NSu//8QAFxEBAAMAAAAAAAAAAAAAAAAAAAEREv/aAAgBAwEBPwHKof/EABURAQEAAAAAAAAAAAAAAAAAAAAS/9oACAECAQE/AZQ//8QAGhAAAwEAAwAAAAAAAAAAAAAAAAEREiEiQf/aAAgBAQAGPwJ55Yp2NP0iESH/xAAcEAEAAgMAAwAAAAAAAAAAAAABABEhMUFRYZH/2gAIAQEAAT8hp2AF7x9gwKN3XIQgHB6mEAE5HeZ8xygn/9oADAMBAAIAAwAAABA8/wD/xAAYEQADAQEAAAAAAAAAAAAAAAAAAREhMf/aAAgBAwEBPxCFhDrP/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPxDa8v/EABwQAQEAAgIDAAAAAAAAAAAAAAERACExUUFhkf/aAAgBAQABPxBxx2IFuPTWEWsrXQvznAoqpcnhfeTGYdOL1gnDemNuFUQCW5//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image sample&quot;
+        title=&quot;image sample&quot;
+        src=&quot;/static/c7e64731794c566cd07b4ae0c86144c6/88218/Los_Angeles.jpg&quot;
+        srcset=&quot;/static/c7e64731794c566cd07b4ae0c86144c6/7237a/Los_Angeles.jpg 148w,
+/static/c7e64731794c566cd07b4ae0c86144c6/0cfdf/Los_Angeles.jpg 295w,
+/static/c7e64731794c566cd07b4ae0c86144c6/88218/Los_Angeles.jpg 590w,
+/static/c7e64731794c566cd07b4ae0c86144c6/77d57/Los_Angeles.jpg 885w,
+/static/c7e64731794c566cd07b4ae0c86144c6/5a917/Los_Angeles.jpg 1180w,
+/static/c7e64731794c566cd07b4ae0c86144c6/c09ed/Los_Angeles.jpg 4256w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In this day and age where digital technology and the Internet has influenced how we live and work, it is shocking to know that very few small business owners have a website.&lt;/p&gt;
+&lt;p&gt;It is hard to believe that only &lt;a href=&quot;https://www.entrepreneur.com/article/271068&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;46% of small businesses&lt;/span&gt;&lt;/a&gt; have a website. This statistic is confounding when you realize people spend &lt;a href=&quot;https://www.entrepreneur.com/article/271068&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;6 hours a day&lt;/span&gt;&lt;/a&gt; on the Internet.&lt;/p&gt;
+&lt;p&gt;Based on 2014 survey results, &lt;a href=&quot;https://www.entrepreneur.com/article/271068&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;41% of small business owners&lt;/span&gt;&lt;/a&gt; reported they don’t think they need a website. What that means is they probably don’t know the benefits of having a website for their small business.&lt;/p&gt;
+&lt;h2&gt;1. Improve Business Credibility.&lt;/h2&gt;
+&lt;p&gt;A simple way to view a website is that it is your online business address. This is where your customers, clients and associates go to find you on the Internet.&lt;/p&gt;
+&lt;p&gt;The Home page identifies your branded value proposition, the About Us page tells visitors all about your business and the Contact Us page informs everyone how to get in touch with you.&lt;/p&gt;
+&lt;p&gt;It legitimizes your business and improves your credibility. It gives your business an identity and is virtual proof that it exists.&lt;/p&gt;
+&lt;p&gt;Don’t be mislead into thinking a company page in Facebook is enough to build your credibility. A 2015 survey showed that 84% of consumers believe that having a website makes your business more credible than just a social media page.&lt;/p&gt;
+&lt;p&gt;Having a website means you have your own domain. In the same survey, 65% of respondents regards a company-branded e-mail as more credible than a generic one.&lt;/p&gt;
+&lt;h2&gt;2. Build Your Business.&lt;/h2&gt;
+&lt;p&gt;Before broadband technology became widespread in 2004, websites were used primarily for marketing and informational purposes. A website functioned more like a brochure; you put one up to stay ahead of the competition. But there wasn’t much thought and purpose behind the content.&lt;/p&gt;
+&lt;p&gt;With the growth of the Internet, the influence of social media and the popularity of mobile devices, the website has become a crucial tool to build your business.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;&lt;strong&gt;Share Your Story&lt;/strong&gt; –&lt;/span&gt; According to Nobel Prize winning psychiatrist Daniel Kahneman, &lt;a href=&quot;https://www.economist.com/business/2013/12/07/nothing-more-than-feelings&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;consumers patronize brands&lt;/span&gt;&lt;/a&gt; they can align their values with.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A website is a great way to share your story; tell your audience why you started this business, your goals and what you hope to accomplish with it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;&lt;strong&gt;Get Clients&lt;/strong&gt; –&lt;/span&gt; It’s not enough to have a rock star online profile. 36% of clients prefer to &lt;a href=&quot;https://www.brightlocal.com/research/34-of-consumers-think-a-smart-website-gives-a-local-business-more-credibility/&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;deal with businesses&lt;/span&gt;&lt;/a&gt; that have websites. By contrast, only 21% will work with businesses without websites.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A website gives you the platform to highlight your experience and expertise.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;&lt;strong&gt;Find Your Team&lt;/strong&gt; –&lt;/span&gt; Are you looking for people to help you run your business?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Set up a Career page in your website where prospective candidates can fill out an application form and attach their resume. Post your job requirement in social media and link it back to your website. You should have a good number of candidates in no time!&lt;/p&gt;
+&lt;h2&gt;3. Enhance Your Online Presence.&lt;/h2&gt;
+&lt;p&gt;Here’s a statistical fact that will blow your mind:&lt;/p&gt;
+&lt;p&gt;Of the 7.4 Billion people in this world, 3.5 Billion people or 47% are online every day. They are searching for information, sharing on social media or shopping on e-commerce websites.&lt;/p&gt;
+&lt;p&gt;This number is expected to grow as the world becomes increasingly dependent on mobile technology to search the Internet. Today there are an estimated 2.3 Billion smartphones worldwide. But in 2020, the total number of smartphones is expected to hit 6.1 Billion.&lt;/p&gt;
+&lt;p&gt;If your small business does not have a website, you will be undermining its ability to generate income. And not just any website; but a mobile responsive website, one that can be accessed by mobile devices such as smartphones and tablets. Statistically, 65% of online traffic comes from mobile devices.&lt;/p&gt;
+&lt;p&gt;A mobile responsive website will help you capitalize on the opportunities available on the Internet through the following ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;&lt;strong&gt;Improve Search Rankings&lt;/strong&gt; –&lt;/span&gt; By optimizing your web pages, it will be easier for people to find your content.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;&lt;strong&gt;Distribute Content&lt;/strong&gt; –&lt;/span&gt; Create relevant, unique and usable content and distribute them through different channels such as social media and blog sites. People who love your content would want to know more about you and visit your website.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;&lt;strong&gt;Open 24/7&lt;/strong&gt; –&lt;/span&gt; Unlike a brick- and- mortar business that operates 9- to- 5, a website never closes shop. It is open 24/7, even on holidays.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;&lt;strong&gt;Introduce Business Flexibility&lt;/strong&gt; –&lt;/span&gt; If you don’t want to miss out on opportunities, outsource customer service and have your agents manage all concerns and inquiries via chat or e-mail support at your website.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;4. Build a Strong Relationship with Your Market.&lt;/h2&gt;
+&lt;p&gt;A business by definition is a living, breathing entity. Loyalty is achieved when customers know they are dealing with a company that understands their needs and not just a company that wants to profit.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;&lt;strong&gt;Let the Market Know “Who You Are”.&lt;/strong&gt;&lt;/span&gt; Outside the Home and About Us pages, you can set up a blog page where you can share your thoughts and ideas with your audience.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;&lt;strong&gt;Address the Needs of Your Market.&lt;/strong&gt;&lt;/span&gt; Invite your audience to engage you by encouraging them to post comments on your blogs. Embed survey forms and ask your audience to participate and convey their needs.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;&lt;strong&gt;Educate the Market of Your Business.&lt;/strong&gt;&lt;/span&gt; Utilize the 80-20 Rule; 80% of your content should be usable or relevant to the needs of your audience while 20% should educate them about your business.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;&lt;strong&gt;Improve Customer Service.&lt;/strong&gt;&lt;/span&gt; In addition to e-mail, social media, mobile and landline, install chat support as the 5th avenue for customer service. This will give your end-users more options to relay concerns and inquiries.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;5. Efficient Way to Promote Your Business.&lt;/h2&gt;
+&lt;p&gt;If you are still using traditional forms of marketing, you are wasting valuable resources, time and money. Traditional forms include press releases, print ads, flyers and distribution Point- of- Purchase materials.&lt;/p&gt;
+&lt;p&gt;While still popular, traditional methods cost more money and cover less ground. It is also unsustainable; flyers, posters, print ads and press releases usually end up in the trash can.&lt;/p&gt;
+&lt;p&gt;Online marketing is faster, more efficient and inexpensive. There are many tools and techniques that you can use for online marketing but without a website, these strategies will fall short.&lt;/p&gt;
+&lt;p&gt;Think of the website as the sun with these online marketing tools as the planets revolving around it. Your online marketing efforts will create inbound avenues to a specified destination place which is your website.&lt;/p&gt;
+&lt;p&gt;Among the most popular online marketing tools that you can use to create inbound traffic to your website:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;&lt;strong&gt;Social Media –&lt;/strong&gt;&lt;/span&gt; Of the 3.5 Billion people online every day, &lt;a href=&quot;https://www.statista.com/topics/1164/social-networks/&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;2.34 Billion&lt;/span&gt;&lt;/a&gt; or 67% are on social media.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;&lt;strong&gt;Blogging –&lt;/strong&gt;&lt;/span&gt; Companies that &lt;a href=&quot;https://blog.hubspot.com/marketing/blogging-frequency-benchmarks?_ga=1.243375943.37333869.1489061237#sm.001eff5g71462elhtkr2lfvlzg1qg&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;blogged 16 times a month&lt;/span&gt;&lt;/a&gt; received 4.5 times more leads than those that blogged 0-4 posts per month.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;&lt;strong&gt;E-mail Marketing –&lt;/strong&gt;&lt;/span&gt; E-mail marketing is &lt;a href=&quot;https://www.campaignmonitor.com/resources/guides/email-marketing-new-rules/&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;40 times more effective&lt;/span&gt;&lt;/a&gt; in acquiring customers than Facebook.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;&lt;strong&gt;Use Videos –&lt;/strong&gt;&lt;/span&gt; Embed a video on your Home page. A video can deliver your messaging content faster and more efficiently than text. &lt;a href=&quot;https://blog.hubspot.com/marketing/video-marketing-statistics#sm.001eff5g71462elhtkr2lfvlzg1qg&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;Video on a landing page&lt;/span&gt;&lt;/a&gt; can increase conversion rates by 80%.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Finally, online marketing is a sustainable process. Your content will not go to waste. You can easily update it and reuse after a few months.&lt;/p&gt;
+&lt;h2&gt;6. Boost Your Reputation as an Authority.&lt;/h2&gt;
+&lt;p&gt;If your business is in a competitive industry, a website will give you the forum to boost your reputation as an authority figure.
+&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;&lt;strong&gt;Blogging –&lt;/strong&gt;&lt;/span&gt; There’s one reason why blogging is the cornerstone of the content marketing process: It works! Here are 3 key &lt;a href=&quot;https://www.impactbnd.com/blog/blogging-statistics-to-boost-your-strategy&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;statistics&lt;/span&gt;&lt;/a&gt; on the benefits of blogging:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Websites with a blog have 434% more indexed pages.&lt;/li&gt;
+&lt;li&gt;47% of buyers read 3 to 5 blogs before engaging a sales rep.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.socialmediatoday.com/content/blogconomy-blogging-stats-infographic&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;61% of consumers&lt;/span&gt;&lt;/a&gt; report a blog influenced their decision to buy.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;&lt;strong&gt;Podcast –&lt;/strong&gt;&lt;/span&gt; Set up a podcast in your website, distribute the schedule via Twitter, Facebook and invite experts to discuss topics that interest your audience. &lt;a href=&quot;https://www.convinceandconvert.com/social-media-measurement/the-5-key-2016-podcast-statistics/&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;21% more people&lt;/span&gt;&lt;/a&gt; listened to podcasts in 2016 compared to 2015.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;&lt;strong&gt;Seminars –&lt;/strong&gt;&lt;/span&gt; Conduct seminars on your website. This is a great way to share your knowledge with your market. Encourage your audience to actively engage during the seminar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;7. Create a Tool for Sales Generation.&lt;/h2&gt;
+&lt;p&gt;A website can also be an active and passive tool for generating income because it is the termination or exit point in the sales funnel.&lt;/p&gt;
+&lt;p&gt;It is very difficult to convert sales in social media. There are no available mechanisms to complete the transaction on- the- spot. An e-commerce website for example, has a checkout counter where goods and services can be paid for right away.&lt;/p&gt;
+&lt;p&gt;It can also be a good source for passive income via PPC or Pay- Per- Click advertising. Advertisers will pay you every time a user clicks through their ad in your website.&lt;/p&gt;
+&lt;h2&gt;8. Showcase Your Work.&lt;/h2&gt;
+&lt;p&gt;Here’s a valuable tip for those who want a clear advantage in the job market:&lt;/p&gt;
+&lt;p&gt;That is one valuable tip that &lt;a href=&quot;https://www.forbes.com/sites/jacquelynsmith/2013/04/26/why-every-job-seeker-should-have-a-personal-website-and-what-it-should-include/#6a760dc3119e&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;Hiring Managers&lt;/span&gt;&lt;/a&gt; all over the country wish job applicants knew. The same can be said for small business owners. A website will give you the venue to present samples of your work.&lt;/p&gt;
+&lt;p&gt;If you’re offering interior design services, content writing, professional web design services and other types of work that can be made visual, a portfolio page will encourage more clients to try you out.&lt;/p&gt;
+&lt;p&gt;If you want to increase the impact of your portfolio page, include 5 or more client testimonies. You can put the client testimonies in the Home page which is where users land after clicking unto your link or the Services page.&lt;/p&gt;
+&lt;h2&gt;9. Keep Track of Your Business in Real Time.&lt;/h2&gt;
+&lt;p&gt;One of the most significant benefits of having a website for a small business is that you can keep track of its performance in real time through the use of analytics.&lt;/p&gt;
+&lt;p&gt;Analytics will provide you valuable data on how your business has been moving within a period of time. Key indicators of business performance include the following metrics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Number of visitors going to your website.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Number of “unique visitors” or those who visit your website only once.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Page views or impressions tell how many times a page has been read or visited. This will give you an idea on which type of content visitors find interesting.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Bounce rate is the percentage of visitors who leave your website without exploring past the page they landed on.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Average time on site will show how long visitors view your content. The longer the average time on site, the better for your website.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;10. Professionalize Your Brand.&lt;/h2&gt;
+&lt;p&gt;Many small business owners make the mistake of not working on their brand until they gain traction.&lt;/p&gt;
+&lt;p&gt;You have to start working on your brand before launching your business. The brand gives your business its identity and makes it easier for customers and clients to understand what it is all about.&lt;/p&gt;
+&lt;p&gt;The website is the most effective and efficient way to build and professionalize your brand:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It places your branded value proposition front and center in the Home page.&lt;/li&gt;
+&lt;li&gt;Website optimization techniques can help Internet users find your brand.&lt;/li&gt;
+&lt;li&gt;It can be distributed seamlessly through various online channels.&lt;/li&gt;
+&lt;li&gt;A professionally made website shows you are serious about your business.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you want an effective website or one that can help you take your business to another level, you have to be prepared to invest in one. In a survey of small business owners, &lt;a href=&quot;https://www.statisticbrain.com/small-business-website-statistics/&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;19% identified cost&lt;/span&gt;&lt;/a&gt; as another reason for foregoing a website.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#ff9800; font-size:2.4rem; font-weight: 600;&quot;&gt;A website is not an expense. It is an investment because you should expect a return on your money within a period of time.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;For your investment to pay out, you have to make sure your website is professionally designed, fully functioning with fast download speed and packed with great content.&lt;/p&gt;
+&lt;p&gt;Do not penny- pinch and try to do a website on your own despite the availability of free templates. Your best option would always be to hire a professional web designer who has the experience and training to build a functional yet aesthetically beautiful website.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to Optimize Your Small Business Website to Get More Visitors?]]></title><description><![CDATA[We are performing more tasks than ever before online. Shopping is done online, reading reviews before making crucial purchases is done…]]></description><link>https://davidcreativestudio.com/blogs/Optimize-business-website/</link><guid isPermaLink="false">https://davidcreativestudio.com/blogs/Optimize-business-website/</guid><pubDate>Tue, 18 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;We are performing more tasks than ever before online. Shopping is done online, reading reviews before making crucial purchases is done online, talking to friends and making new ones is also done on the web.&lt;/p&gt;
+&lt;p&gt;Let’s not forget; finding new products or services that can improve lives, is also done from the comfort of ones home while browsing the internet.&lt;/p&gt;
+&lt;p&gt;What this means is for any business to stay competitive also &lt;a href=&quot;https://smallbusiness.chron.com/reasons-small-business-needs-online-presence-27742.html&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;needs to establish themselves on the internet&lt;/span&gt;&lt;/a&gt;. A well designed and maintained website can create that valuable exposure a business needs to help propel them forward.&lt;/p&gt;
+&lt;p&gt;You may be considering creating a website of your own. Perhaps you already have one but it hasn’t been performing as well as you had hopped. There are a variety of faux pas that people make when creating a website that can hamper their effectiveness.&lt;/p&gt;
+&lt;p&gt;There are a few things you can do to help direct online traffic to your web page. That’s what we’re here to talk about. Let’s dive right in.&lt;/p&gt;
+&lt;h2&gt;Search Engine Optimization (SEO)&lt;/h2&gt;
+&lt;p&gt;Search engines are &lt;a href=&quot;https://searchengineland.com/study-organic-search-drives-51-traffic-social-5-202063&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;some of the most essential online traffic driving tools&lt;/span&gt;&lt;/a&gt; at your disposal. Optimizing your own web page for search engines is crucial if you want to attract valuable attention from internet users.&lt;/p&gt;
+&lt;p&gt;If you already have a website, I highly suggest analyzing your current SEO performance with a tool such as Website Grader. It will tell you all the vital information regarding your current website’s SEO performance.&lt;/p&gt;
+&lt;p&gt;Before making any changes in regards to SEO you need to check and see what needs to be adjusted – if anything at all. So once you go through your SEO performance test, you will be able to see what you did right, and what aspects of your page could use some help.&lt;/p&gt;
+&lt;p&gt;When your have optimized your website for search engines, seeing positive changes may take some time. You will not be rewarded instantly for your efforts.&lt;/p&gt;
+&lt;p&gt;Building up solid search ranking &lt;a href=&quot;https://www.seomechanic.com/seo-101-how-long-does-seo-take/&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;takes a bit of time – in some cases a few months&lt;/span&gt;&lt;/a&gt; to see results. Don’t be discouraged. Stay committed to your SEO efforts, and continue monitoring your web page performance.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.hubspot.com/marketing/seo-analysis-tools&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;Check out some other SEO tools to help stay on the right track.&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Mobile Friendly Website&lt;/h2&gt;
+&lt;p&gt;More users everyday access and browse internet on their mobile devices. In fact, more people use their mobile phone or tablet to surf the web than their desktop computers.&lt;/p&gt;
+&lt;p&gt;For the sake of your website traffic, you need to be sure your web page is a mobile friendly one. Seeing how most internet traffic derives from a mobile device, it would be foolish to not cater to those users.&lt;/p&gt;
+&lt;p&gt;I spoke about SEO before. When it comes to SEO, sites that are mobile friendly tend to rank higher in search engines than the ones that are not. Google recently &lt;a href=&quot;https://techcrunch.com/2016/03/16/googles-makes-having-a-mobile-friendly-site-more-important-get-page-one-listing-seo/&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;changed their search algorithm&lt;/span&gt;&lt;/a&gt; that gives ranking priority to mobile friendly web pages.&lt;/p&gt;
+&lt;p&gt;Having a website that’s mobile friendly typically isn’t a problem for most companies. Usually the website creating platforms that we have available do this automatically. Although do check and see if yours is optimized the way it should be.&lt;/p&gt;
+&lt;h2&gt;Create and Manage a Blog&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9f46a31f37e5336d9174dc72b1779f6d/b09e7/blogImg.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 48.509485094850945%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsSAAALEgHS3X78AAACbUlEQVQozwFiAp39AKSUf2NPQEo0JkcwIlA6K1E8LVA5KkYxIUUkE0uel03Z1k3Nyk3PzFLNylLMyVPMyU3LyE7LyFPMyVLMyQDu48jc0LW1p5CBb11VPzBPOSpXQjOHenCOenFypaBlurlotrRnt7VVyMVSzcpMysdg0M5h0M1Ny8hTzMkA4NW57ePJ7OLF6+HHZVBASDMlaVhO7+7u+/7/2+bmy9ra1eLir8LBUb26Ts7KZ9TSqq6pn7u3VdHPUcvIAPHozenexevfxMW4o043KFNBMohtZuTc3Ozr69zq6dTr693u7qDGxk7GxE3Oy3nX1fHl5Njd3FfLyFDMyQDUyLHm28D479OKeWdILyFQQTPAX07KZliFaGaejYqOnJyXlZZ3p6VNzclRw8BMuLWAxsVuz81MysZTzMkAUj0ufGpYopN+WUQ0UDgpSDcoyFZC8mNPlWdjgX19iIuKkIeHdaWjQ6ajQ318P3p4OJORTNHNU8vIUszJAE84KVM+MXVkWmJOQFA8L1E7LLNSQbphVrRaTox0cHmAgId+fm6cmkrFwk69uk/Fwlatq1DDwVLNylLMyQBJMiKAcmfn7OvBu7RRTktlRDacSz5GYmxVd4GVnqCgnp6ZkJB7pqRKzcpT1NFctbTJy89txcRMzcpTy8kARi8fl42E5+/vq6aga15TZz8wvlNEg1BLoGtls6WjnaSjmpOTdqWkSszIVMzJUMfEtcvOf6eoSMbDVM3KAE85Kl1JPIB0amxeU086K1E5Kmk+L3BAMHAzIliOh0+9u1K0sE68uVDMyVLLyFLQzUeWlEedm1LOy1LMyezdS4jz3363AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image sample&quot;
+        title=&quot;image sample&quot;
+        src=&quot;/static/9f46a31f37e5336d9174dc72b1779f6d/799d3/blogImg.png&quot;
+        srcset=&quot;/static/9f46a31f37e5336d9174dc72b1779f6d/00d96/blogImg.png 148w,
+/static/9f46a31f37e5336d9174dc72b1779f6d/0b23c/blogImg.png 295w,
+/static/9f46a31f37e5336d9174dc72b1779f6d/799d3/blogImg.png 590w,
+/static/9f46a31f37e5336d9174dc72b1779f6d/2a3d6/blogImg.png 885w,
+/static/9f46a31f37e5336d9174dc72b1779f6d/ae92f/blogImg.png 1180w,
+/static/9f46a31f37e5336d9174dc72b1779f6d/b09e7/blogImg.png 1476w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Along with your website, you should consider creating a blog – if you haven’t already done so. This gives you another platform to post relevant content, and help guide your consumer through the buyers journey. Not to mention an extra platform to help direct them to your main website too.&lt;/p&gt;
+&lt;p&gt;Present your audience with great content that they will find useful on your blog. Blogging helps you persuade the reader that you are a trustworthy individual with valid information that can also relate back to your business operations.&lt;/p&gt;
+&lt;p&gt;Assert your knowledge through solid blog content. You can post any type of content here – videos, infographics, interviews, guides.&lt;/p&gt;
+&lt;p&gt;Just make sure that the blog is relevant to you and your business operations. If your blog contains information about gardening, but you’re a dentist, you may lose credibility and your audience won’t be very enticed to visit your dentistry site.&lt;/p&gt;
+&lt;h2&gt;Blog SEO&lt;/h2&gt;
+&lt;p&gt;Your &lt;a href=&quot;https://www.evergreenfeed.com/blog/blog-search-engine-optimization/&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;blog can also benefit from SEO&lt;/span&gt;&lt;/a&gt; efforts. Instead of having only your website gathering search engine traffic, your blog can too. This way you expand your online presence through multiple channels.&lt;/p&gt;
+&lt;p&gt;There is a saying – “all roads lead to Rome.” Well online, all the digital content you create, will lead to your main website, generating valuable traffic.&lt;/p&gt;
+&lt;h2&gt;Publishing Guest Posts&lt;/h2&gt;
+&lt;p&gt;Guest posting is a &lt;a href=&quot;https://moz.com/blog/the-real-benefits-of-guest-blogging&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;great way to build valuable connections&lt;/span&gt;&lt;/a&gt; with companies and influential individuals in similar industries. You can share valuable insights with others and post your knowledge on sites that may have more traction than you.&lt;/p&gt;
+&lt;p&gt;Reach out to relevant blog pages and other media outlets that publish topics that relate to your business. See if they will allow you to be the guest star that publishes great content on their pages.&lt;/p&gt;
+&lt;p&gt;This can help get your name out there and promote your business website. Include links within the posts that can guide the audience to your page.&lt;/p&gt;
+&lt;h2&gt;Promote On Social Media&lt;/h2&gt;
+&lt;p&gt;Social media is a great tool that can be used for communication with your audience and promoting your company. Digital marketers have been using social media for marketing purposes for almost as long as social media has existed on the internet.&lt;/p&gt;
+&lt;p&gt;Of course you can &lt;a href=&quot;https://www.evergreenfeed.com/blog/improve-social-media-strategy/&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;utilize social media to create exposure&lt;/span&gt;&lt;/a&gt; for your web page. No matter if you have an e-commerce site or just a normal page that introduced the consumer with your product, social media can direct traffic your way.&lt;/p&gt;
+&lt;p&gt;Now depending on &lt;a href=&quot;https://www.evergreenfeed.com/blog/how-to-create-a-social-media-plan/&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;what social media platforms you choose&lt;/span&gt;&lt;/a&gt;, your promotion style may differ. When filling out your social media profile, almost all platforms allow you to include your website in the profile. Don’t skip this simple step.&lt;/p&gt;
+&lt;p&gt;If you upload images on social media, include a watermark with your company’s name and website. When publishing text-heavy posts, include a link within. Your links can lead to your web page that contains more extensive information or just drop a plain link at the end of your post.&lt;/p&gt;
+&lt;p&gt;You shouldn’t forget to cross-promote your social media across your blogs, email, and your website. Your business web presence should be intertwined and constantly promoting whatever platforms you choose to utilize.&lt;/p&gt;
+&lt;h2&gt;Relevant Website Name&lt;/h2&gt;
+&lt;p&gt;A proper business name can say a lot about the company. It’s one aspect that brands are built upon, and the name should also carry over to your website. There should be no confusion between the name of your business and the website URL or the main header of your landing pages.&lt;/p&gt;
+&lt;p&gt;It can be hard to get the right URL that aligns with the name of your company, but you need to try your best to make it work.&lt;/p&gt;
+&lt;h2&gt;Website Functionality&lt;/h2&gt;
+&lt;p&gt;How does the website itself operate? Is it user-friendly? Look at your page from a new customers point-of-view. Would they be happy with the layout and would they be able to find what they’re looking for?&lt;/p&gt;
+&lt;p&gt;You need to take a hard look at how your layout looks and if it’s intuitive to use for newcomers. Avoid creating lengthy drop-down menus and links that lead to a never ending link black hole. What I mean by that is pressing on a button on the menu which sends me to more menus which then lead me to more selections.&lt;/p&gt;
+&lt;p&gt;Most valuable information needs to be available with as few clicks as possible. Think about what the most important information is and how to make it easily accessible.&lt;/p&gt;
+&lt;h2&gt;Content Placement&lt;/h2&gt;
+&lt;p&gt;Developing a solid understanding of your content placement may take some time. You may try a few methods to distribute and to display the essentials for your audience, and you will need to monitor your websites performance to see how people respond.&lt;/p&gt;
+&lt;p&gt;One great way to understand the browsing habits of your demographic is to &lt;a href=&quot;https://www.crazyegg.com/blog/understanding-using-heatmaps-studies/&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;implement a heat map&lt;/span&gt;&lt;/a&gt; on your website. Having it will show you where the user is clicking, how far they’re scrolling down, or how much time they spend on a certain page.&lt;/p&gt;
+&lt;p&gt;With this information you can tailor your pages and your content in a way that it’s placed in the most optimal location within easy reach.&lt;/p&gt;
+&lt;p&gt;Most valuable content will get the attention of your audience – captivate them. You then are able to add more content that may take a fee additional clicks to reach, but at that point you made your audience crave for more. They will gladly dwell deeper into your site.&lt;/p&gt;
+&lt;p&gt;Think of this from your own perspective. If you go to a new website, and the first few clicks don’t invoke a sense of curiosity, &lt;a href=&quot;https://www.tributemedia.com/blog/you-have-7-seconds-what-a-visitor-should-know-about-your-website-within-moments&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;you may not even spend 30 seconds&lt;/span&gt;&lt;/a&gt; on the site and move on.&lt;/p&gt;
+&lt;h2&gt;Website Content&lt;/h2&gt;
+&lt;p&gt;Many websites rely on variety of content to present their information with. There is usually a healthy balance between images, videos, and text. You may want to adapt multiple types of mediums for your content as well, but that will depend on your target audience.&lt;/p&gt;
+&lt;p&gt;Things like guides can be introduced in a video format or a text based walk-through with images. You will need to see what type of content performs best and where it all should be located within the website.&lt;/p&gt;
+&lt;p&gt;The quality of your content is what will &lt;a href=&quot;https://www.sandcrestseo.com/why-is-quality-content-essential-to-gain-mileage-in-seo/&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;intrigue your audience and will make them stay&lt;/span&gt;&lt;/a&gt; and dwell deeper. Quality content will help guide your potential consumer through buyer’s journey. If there is any discrepancies within the journey, you may lose credibility and trust with your audience.&lt;/p&gt;
+&lt;h2&gt;Wrapping It Up&lt;/h2&gt;
+&lt;p&gt;Creating a website isn’t so hard. Creating an effective website that engages users, educates them and creates customers…well that’s a whole different story.&lt;/p&gt;
+&lt;p&gt;A web page is just another tool that will lead your business to success. It’s there to do the talking for you without you ever facing the client and the website can do this anywhere on the globe. Now you see why it’s important to create a strong web presence that bolsters your web site and along with it your company as a whole.&lt;/p&gt;
+&lt;p&gt;This tips are even more detrimental to incorporate if your business is based completely online. Your website is the store front and you need to direct the right traffic through those digital doors.&lt;/p&gt;
+&lt;p&gt;Implement these steps, and watch your web traffic grow. All this newly acquired attention will surely lead to great business opportunities and influx of paying customers.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[What a Blog Can Do For Your Small Business]]></title><description><![CDATA[What is a Blog? According to Pyra Labs Blogger, “A blog is a web page made up of usually short, frequently updated posts that are arranged…]]></description><link>https://davidcreativestudio.com/blogs/blogs-for-small-business/</link><guid isPermaLink="false">https://davidcreativestudio.com/blogs/blogs-for-small-business/</guid><pubDate>Fri, 19 Apr 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9f46a31f37e5336d9174dc72b1779f6d/b09e7/blogImg.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 48.509485094850945%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsSAAALEgHS3X78AAACbUlEQVQozwFiAp39AKSUf2NPQEo0JkcwIlA6K1E8LVA5KkYxIUUkE0uel03Z1k3Nyk3PzFLNylLMyVPMyU3LyE7LyFPMyVLMyQDu48jc0LW1p5CBb11VPzBPOSpXQjOHenCOenFypaBlurlotrRnt7VVyMVSzcpMysdg0M5h0M1Ny8hTzMkA4NW57ePJ7OLF6+HHZVBASDMlaVhO7+7u+/7/2+bmy9ra1eLir8LBUb26Ts7KZ9TSqq6pn7u3VdHPUcvIAPHozenexevfxMW4o043KFNBMohtZuTc3Ozr69zq6dTr693u7qDGxk7GxE3Oy3nX1fHl5Njd3FfLyFDMyQDUyLHm28D479OKeWdILyFQQTPAX07KZliFaGaejYqOnJyXlZZ3p6VNzclRw8BMuLWAxsVuz81MysZTzMkAUj0ufGpYopN+WUQ0UDgpSDcoyFZC8mNPlWdjgX19iIuKkIeHdaWjQ6ajQ318P3p4OJORTNHNU8vIUszJAE84KVM+MXVkWmJOQFA8L1E7LLNSQbphVrRaTox0cHmAgId+fm6cmkrFwk69uk/Fwlatq1DDwVLNylLMyQBJMiKAcmfn7OvBu7RRTktlRDacSz5GYmxVd4GVnqCgnp6ZkJB7pqRKzcpT1NFctbTJy89txcRMzcpTy8kARi8fl42E5+/vq6aga15TZz8wvlNEg1BLoGtls6WjnaSjmpOTdqWkSszIVMzJUMfEtcvOf6eoSMbDVM3KAE85Kl1JPIB0amxeU086K1E5Kmk+L3BAMHAzIliOh0+9u1K0sE68uVDMyVLLyFLQzUeWlEedm1LOy1LMyezdS4jz3363AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image sample&quot;
+        title=&quot;image sample&quot;
+        src=&quot;/static/9f46a31f37e5336d9174dc72b1779f6d/799d3/blogImg.png&quot;
+        srcset=&quot;/static/9f46a31f37e5336d9174dc72b1779f6d/00d96/blogImg.png 148w,
+/static/9f46a31f37e5336d9174dc72b1779f6d/0b23c/blogImg.png 295w,
+/static/9f46a31f37e5336d9174dc72b1779f6d/799d3/blogImg.png 590w,
+/static/9f46a31f37e5336d9174dc72b1779f6d/2a3d6/blogImg.png 885w,
+/static/9f46a31f37e5336d9174dc72b1779f6d/ae92f/blogImg.png 1180w,
+/static/9f46a31f37e5336d9174dc72b1779f6d/b09e7/blogImg.png 1476w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;What is a Blog?&lt;/h2&gt;
+&lt;p&gt;According to Pyra Labs Blogger, “A blog is a web page made up of usually short, frequently updated posts that are arranged chronologically-like a what’s new page or a journal.” The term is actually weblogs coined by Jorn Barger in 1997.&lt;/p&gt;
+&lt;p&gt;The boom of weblogs happened in 1999 when several companies &amp;#x26; developers made easy blogging software and tools. Since 1999, the number of blogs on the Internet has exploded from a few thousand to over 100 million.&lt;/p&gt;
+&lt;p&gt;Blogs can fall into two general categories.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Personal Blogs: a mixture of a personal diary, opinion posts and research links.
+Business Blogs: a corporate tool for communicating with customers or employees to share knowledge and expertise.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Business blogs are sweeping the business community. Blogs are an excellent method to share a company’s expertise, build additional web traffic, and connect with &lt;a href=&quot;https://www.thebalancecareers.com/how-to-format-a-business-letter-2062540&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;potential customers&lt;/span&gt;&lt;/a&gt;..&lt;/p&gt;
+&lt;h3&gt;What does Blogging Provide to Small Business?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Blog software is easy to use. Simply write your thoughts, link to resources, and publish to your blog, all at the push of a few buttons. &lt;a href=&quot;https://www.thebalancesmb.com/what-is-a-blogging-platform-2531835&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;Blog software&lt;/span&gt;&lt;/a&gt; companies such as: Movable Type, Blogger.com and Typepad all offer easy blogging tools to get started.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Blogging is a low-cost alternative to having a web presence. &lt;span style=&quot;color:#ff9800&quot;&gt;For small business owners&lt;/span&gt;
+without the time to learn web html or the money to hire a designer/developer, blogging offers an inexpensive method to get your company’s name out on the Internet.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Updating the weblog is a much quicker process than contacting a web designer with changes or doing the coding and uploading yourself.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Business blogs provide your &lt;a href=&quot;https://www.thebalancesmb.com/the-pros-and-cons-of-starting-a-consulting-business-2951461&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;small business&lt;/span&gt;&lt;/a&gt; with a chance to share your expertise and knowledge with a larger audience. A powerful benefit for consultants and knowledge workers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Blogs do have a downside. Blogging does not provide the functionality of web pages, has limits for e-commerce solutions and can be time-consuming with regular posts. But with minimal costs, it maybe advantageous to start blogging. Is your small business blog ready?&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Blog Marketing: What It Is and How to Do It]]></title><description><![CDATA[What Blog Marketing Is Blog marketing is the process of reaching your home business’ target market through the use of a blog. Initially…]]></description><link>https://davidcreativestudio.com/blogs/blog-marketing/</link><guid isPermaLink="false">https://davidcreativestudio.com/blogs/blog-marketing/</guid><pubDate>Mon, 18 Mar 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;What Blog Marketing Is&lt;/h2&gt;
+&lt;p&gt;Blog marketing is the process of reaching your home business’ target market through the use of a blog. Initially, business owners had a blog separate from their websites, but today, you can easily integrate the two to make it easier for you to manage, as well as easier for visitors to access. Many business owners use a blogging platform, such as WordPress, for both their website and blog.&lt;/p&gt;
+&lt;p&gt;Further, as blogging has grown in ease and popularity, many people have created businesses from blogging all on its own, as opposed to having a business first and then blogging. For example, some &lt;a href=&quot;https://www.thebalancesmb.com/how-to-start-and-profit-from-a-food-blog-1794076&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;food blogs&lt;/span&gt;&lt;/a&gt; are businesses in and of themselves.&lt;/p&gt;
+&lt;h2&gt;The Pros of Blog Marketing&lt;/h2&gt;
+&lt;p&gt;The very nature of blogging makes them ideal for marketing since they provide new content to draw people back, and offer a way for consumers and businesses to interact. Here are a few other benefits:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Inexpensive to Start and Run: For the cost of a domain name and web hosting, you can have a customized blog marketing setup.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Easy to Use: Most blogging platforms are simple to use. If you can copy, paste, type, drag and drop, and upload, you can have a professional looking blog.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Builds Website Traffic: Offering tips, updates, and other new contents give people a reason to come and return to your business website, which gives them the opportunity to buy.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Improves Search Engine Ranking: Google, in particular, likes to find and rank new content. For that reason, many entrepreneurs use blogging specifically for &lt;a href=&quot;/blogs/&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;search engine optimization (SEO).&lt;/span&gt;&lt;/a&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Allows You to Gain Trust and Credibility: People like to know who they’re doing business with. With a blog, you can prove you’re an &lt;a href=&quot;https://www.thebalancesmb.com/growing-consultant-niche-markets-845810&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;expert&lt;/span&gt;&lt;/a&gt; and provide helpful tips and other valuable information—all of which help consumers feel good about spending money on your product or service.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Engages Your Market: While most businesses now use Twitter and other social platforms more than blogs for engagement, blogs can allow you to have a conversation with your market. This gives you the opportunity to build trust and rapport, as well as get feedback and provide customer service.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Creates More Opportunities for Revenue: You can accept advertising, promote affiliate products and get sponsors, &lt;a href=&quot;https://www.thebalancesmb.com/earning-multiple-streams-of-income-1794348&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;additional sources of revenue&lt;/span&gt;&lt;/a&gt; adding to your business.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;The Cons of Blog Marketing&lt;/h2&gt;
+&lt;p&gt;Like just everything else in life, there can be a downside to blogging.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Can Be Time-Consuming:&lt;/strong&gt; Creating new content and updating your blog can take a significant amount of time. Hiring freelance writers and a &lt;a href=&quot;https://www.thebalancesmb.com/how-to-hire-a-virtual-assistant-1794792&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;virtual assistant&lt;/span&gt;&lt;/a&gt;
+can help.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Needs a Constant Stream of Ideas:&lt;/strong&gt; Along with time, thinking of new content ideas is one of the biggest challenges bloggers face.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;It Can Take Time to See Results:&lt;/strong&gt; It can take time to begin building an audience for your blog—you won’t necessarily see traffic right away.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;It Needs to Be Marketed Too:&lt;/strong&gt; You’re using the blog to market your business, but for it to work, people need to know about it, which means you have to find your target market and entice them to your blog.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;How to Do Blog Marketing&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;
+Starting a blog and using it to promote your business can be set up within minutes. It’s the ongoing management and marketing that will take time.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Make a Blog Marketing Plan:&lt;/strong&gt; What are you going to share on your blog? News, tips, resources, etc? How often will you update your blog? (Daily, weekly, etc.)
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create Your Blog:&lt;/strong&gt; Decide on your blogging platform, and set it up, including customization that fits your business. Be sure to use the same logo on your blog as on your website (if you have a separate website) to retain consistency. If you use a free blog platform (not recommended for business blogging), have a domain name pointing to the blog to make it easier for consumers to get to your site.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fill Your Blog with Several Posts ASAP:&lt;/strong&gt; Readers don’t like to visit a blog with only one or two posts. Add ten or more posts quickly to start out, and then switch to your regular post schedule.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Market Your Blog:&lt;/strong&gt; It’s very easy to integrate social media into your blogs so that your blog posts go out to your followers. Include your blog on your marketing materials as well.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reply to Comments:&lt;/strong&gt; Remember, blogs are social, so people will ask questions, provide feedback, or share their opinion. Delete spam posts.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use Your Blog to Encourage Email Signups.&lt;/strong&gt; &lt;a href=&quot;https://www.thebalancesmb.com/great-lead-magnets-to-build-your-email-list-4149983&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;Signups&lt;/span&gt;&lt;/a&gt; are another great way to keep people who are interested in your business coming back to your blog, which again, gives them more opportunity to spend money with you.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&quot;&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Search Engine Optimization Tutorial]]></title><description><![CDATA[Search engines are a fantastic resource to get visitors to your website. Unfortunately, helping search engines find and rank your website…]]></description><link>https://davidcreativestudio.com/blogs/search-engine-optimization/</link><guid isPermaLink="false">https://davidcreativestudio.com/blogs/search-engine-optimization/</guid><pubDate>Mon, 18 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Search engines are a fantastic resource to get visitors to your website. Unfortunately, helping search engines find and rank your website for inclusion in its listings is challenging. Like many online strategies, there are tricks and tasks that you can use to improve your results. However, similar to social media marketing, you can spend an inordinate amount of time on search engine optimization. Here are tips on how to get your website noticed in search engines legitimately, without spending to much time.&lt;/p&gt;
+&lt;h2&gt;What Is Search Engine Optimization (SEO)?&lt;/h2&gt;
+&lt;p&gt;Search engine optimization (SEO) is the method website owners use to help search engines find, index, and rank their web pages, hopefully above competitors’ websites. While there are several search engines you can rank on, including Bing and Yahoo, the majority of Internet search (80%) is done through Google. As a result, most SEO tips you’ll come across are geared toward getting noticed and ranked by Google.&lt;/p&gt;
+&lt;p&gt;Further, the tasks done to increase search engine ranking are geared toward organic or natural results. It is possible to pay for the opportunity to appear higher in search engine results through Pay Per Click (PPC) advertising campaigns, such as Google AdWords, however, this doesn’t require SEO tactics as outlined in this tutorial.&lt;/p&gt;
+&lt;p&gt;Instead, this article is focused on organic search results with a goal of getting your website placed in the top 10 search results for your targeted keywords. There are several benefits to organic ranking over paid options, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Consumers prefer organic search results over paid ads.&lt;/li&gt;
+&lt;li&gt;Organic ranking is free.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;The Science of SEO&lt;/h3&gt;
+&lt;p&gt;Sometimes getting ranked on Google feels like rocket science, especially since how Google decides to list your site is based on algorithms that frequently change. This requires you keeping up on current rules and trends. For example, in 2015 Google decided it would give &lt;a href=&quot;https://webmasters.googleblog.com/2015/04/faqs-april-21st-mobile-friendly.html&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;preferential ranking to sites that were mobile-friendly&lt;/span&gt;&lt;/a&gt; since so many people are now using mobile devices. Even more recently, &lt;a href=&quot;https://security.googleblog.com/2016/09/moving-towards-more-secure-web.html&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;Google added a notice in the Chrome browser&lt;/span&gt;&lt;/a&gt;
+to indicate if a site was secure with SSL or not (FireFox has this feature as well) and includes it as part of it’s ranking formula.&lt;/p&gt;
+&lt;p&gt;These changes forced website owners who want to stay well-ranked on Google to update their sites to be responsive and add SSL certificates (this is most important for sites that accept money).&lt;/p&gt;
+&lt;p&gt;With that said, SEO doesn’t have to be overwhelming. Understanding the basics of how Google and other search engines work can make it easy to help Google help you.&lt;/p&gt;
+&lt;h3&gt;What Search Engines Look for When Ranking Your Site&lt;/h3&gt;
+&lt;p&gt;Over the years, SEO has become more involved as search engines developed more aspects to how it ranked sites. For example, in the early 2000’s, simply having the page’s name as part of the URL increased the odds of getting ranked (instead of www.yoursite.com/page1 the site had www.yoursite.com/titleofpage). As the Internet grew, bringing order and reliable results became more difficult. There are many website owners who use &lt;a href=&quot;https://www.thebalancesmb.com/seo-basics-to-make-your-website-google-friendly-4145377&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;blackhat&lt;/span&gt;&lt;/a&gt; tactics to game the system. The problem with this is that it meant search engines weren’t delivering the content web searchers were looking for. Google in particular has been fighting this which is good for web searchers, but more difficult for website owners.&lt;/p&gt;
+&lt;p&gt;Today, by understanding what Google does and wants, can go a long way to improve your SEO. Here is basic list of what Google looks at to rank your site.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Length of time online.&lt;/strong&gt; Newer sites have a harder time with SEO because there is so much competition and because Google favors sites with a good history over brand new sites.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keywords.&lt;/strong&gt; When search engines visit your site they scour the page content and meta information to learn what it’s about. When people use these keywords in their engine, they know to deliver your page as a result. That means it’s important for you to know what words and phrases your market uses on search engines. You can do this through keyword research. Include keywords in your site and page title, in your meta tags (keywords, description), and in the content help search engines understand what the page is about. However, it’s important to not over use keywords, or it might think you’re trying to cheat the system. If a keyword comes up a lot, consider using variations of the word.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Outgoing links.&lt;/strong&gt; Search engines like to see links to other sites as well as within your site (i.e. linking to other content on your own site).
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Incoming links.&lt;/strong&gt; These are links to your website from other sites. Social media can be very helpful in this, but also, having other quality sites linking to your content goes a long way to improving your ranking. Search engines will judge you by the company you keep, so your goal is to have quality outgoing and incoming links.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Responsive web design.&lt;/strong&gt; Because so many people use phones or tablets to go online, Google has now included mobile-friendly as one of the aspects it looks for when ranking a site.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Security.&lt;/strong&gt; With all the malware and viruses online, Google has decided to include security as one of the factors in web site ranking. This covers two important issues: One is the SSL certificate mentioned earlier. Another is insuring your website and servers are up-to-date and free of infection. You’d be surprised at how many bots are poking at websites looking for vulnerabilities. Google will pull you out of search results if your website is compromised (although you can ask for re-ranking once you clean up your site).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;10 DIY Tasks for SEO&lt;/h3&gt;
+&lt;p&gt;Now that you know some of what search engines consider when deciding how to index and rank your site, here are 10 tasks you do to improve your search engine ranking to boost traffic and profits.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select the right keywords
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Select the right domain name
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Use keywords in file names and folders
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Use your keywords in your page titles
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Use keyword text in your navigation
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Create useful keyword content — repeat often
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Make keywords part of your META Description
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Secure high-quality incoming links
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Use keyword text (not “click here”) in your links
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Create a site map&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While there are other techniques an ethical SEO professional will use to boost your rankings, these 10 DIY SEO tips form the basis for the search engine optimization tutorial to get you on the right track. Even eCommerce and other sites that are controlled by a content management system, which can create its own SEO challenges, can benefit by following these suggestions. And, if your keywords are highly competitive, you may not ever be able to rank in the top 10 search results, but you will move up in the rankings and you should find traffic to your site on the rise.&lt;/p&gt;
+&lt;h3&gt;Should You Hire an SEO Pro?&lt;/h3&gt;
+&lt;p&gt;There’s no question that an ethical, or “white hat” search engine optimization firm can work wonders for your website traffic. However, search engine ranking isn’t something you achieve indefinitely. Search engines are constantly searching and ranking websites, which means you can be ranked top 10 today, and on page 3 of results tomorrow. As a home business owner on a budget, maintaining the expense of an SEO firm may not be feasible, unless you’re relying solely on search engines for traffic (which you shouldn’t do). However, hiring a professional to get your site search engine-friendly, while you do the long-term maintenance, might be worth it.&lt;/p&gt;
+&lt;h3&gt;Patience and Persistence Are SEO Virtues&lt;/h3&gt;
+&lt;p&gt;Keep in mind that SEO takes time. You won’t see improvements by following the tips in this tutorial overnight, so don’t be discouraged if your traffic doesn’t jump through the roof right away. And, don’t expect to use this search engine optimization tutorial tips once and then forget about them. Make it a practice to keep these SEO tips in mind whenever you update your website, go through a redesign, or plan a new site. Also, keyword popularity and competitiveness changes over time, so revisit your targeted keywords periodically to see if they still draw traffic.&lt;/p&gt;
+&lt;p&gt;Finally, check your analytics to learn how people are finding your site, what pages they like best, and what keywords they’re using, so you can tailor your SEO to what works.&lt;/p&gt;
+&lt;h3&gt;Search Engine Optimization Tutorial and the Bigger Picture&lt;/h3&gt;
+&lt;p&gt;Search engine optimization is just one piece of a large set of tools you can use to promote your business online. Develop a &lt;a href=&quot;https://www.thebalancesmb.com/what-is-a-marketing-plan-1794426&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;marketing plan&lt;/span&gt;&lt;/a&gt; the includes a variety of strategies to reach your target market. If you’re on a budget, there are other &lt;a href=&quot;https://www.thebalancesmb.com/free-home-business-marketing-1794602&quot; target=&quot;blank&quot; style=&quot;text-decoration: underline; color:#ff9800&quot;&gt;&lt;span style=&quot;color:#ff9800&quot;&gt;free marketing&lt;/span&gt;&lt;/a&gt; options along with SEO that you can do.&lt;/p&gt;</content:encoded></item></channel></rss>

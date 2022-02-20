@@ -1,0 +1,101 @@
+@import "../styles/global";
+
+.container {
+  width: 100%;
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  // background-color: $color-white;
+  .rowLeft {
+    grid-column: 1;
+    text-align: center;
+    padding: 2rem;
+  }
+  .rowRight {
+    @extend .rowLeft;
+    grid-column: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .button {
+    background-color: $color-white;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .button-icon {
+    @extend .button;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .button-facebook {
+    @extend .button-icon;
+    background-image: url("../../content/images/facebook.png");
+    border-radius: 4.333px;
+  }
+  .button-linkedin {
+    @extend .button-icon;
+    background-image: url("../../content/images/linkedin.png");
+    border-radius: 4.333px;
+  }
+  .button-twitter {
+    @extend .button-icon;
+    background-image: url("../../content/images/twitter.png");
+    border-radius: 4.333px;
+  }
+  .button-instagram {
+    @extend .button-icon;
+    background-image: url("../../content/images/instagram-logo-i.png");
+    border-radius: 4.333px;
+  }
+  .link {
+    color: $color-black;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    &:hover {
+      color: $color-white;
+    }
+    &:not(:last-child) {
+      padding-right: 30px;
+    }
+  }
+
+  @media (max-width: 970px) {
+    grid-template-columns: max-content max-content;
+    .rowRight {
+      display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: min-content 1fr;
+    .rowLeft {
+      padding: 1rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+  @media (max-width: 350px) {
+    .rowLeft {
+      padding-left: 2rem;
+    }
+  }
+}

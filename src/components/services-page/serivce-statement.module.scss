@@ -1,0 +1,90 @@
+@import "../../styles/global";
+
+.container {
+  width: 100%;
+  padding: 4rem;
+  margin: 0 auto;
+  text-align: center;
+  background: $color-navy;
+  line-height: 1.25;
+  display: grid;
+  justify-content: center;
+  .inner {
+    padding: 2rem;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    h5 {
+      max-width: 100rem;
+      font-size: 24px;
+      color: $color-offWhite;
+    }
+    p {
+      margin: 0.75rem auto;
+      font-family: $font-secondary;
+      color: $color-grainsboro;
+      font-size: 18px;
+      a {
+        color: $color-orange;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  @media (max-width: 1150px) {
+    .inner {
+      h5 {
+        font-size: 22px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .inner {
+      h5 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+
+  @media (max-width: 750px) {
+    .inner {
+      h5 {
+        font-size: 18px;
+        margin: 0;
+      }
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+
+  @media (max-width: 750px) {
+    .inner {
+      h5 {
+        font-size: 16px;
+      }
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    padding: 1rem;
+    .inner {
+      padding: 1rem;
+      h5 {
+        font-size: 14px;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+@import "../styles/global";
+
+.navigation {
+  z-index: 100;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  ul {
+    display: flex;
+    justify-self: center;
+    transition: all 0.2s ease;
+    li {
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: $color-white;
+        list-style: none;
+        margin-right: 4rem;
+        font-size: 1.6rem;
+        font-weight: 400;
+        position: relative;
+        font-family: $font-primary;
+        &:after {
+          height: 2px;
+          background: $color-orange;
+          content: "";
+          width: 0;
+          position: absolute;
+          transform: translateX(-50%);
+          transition: width 0.4s;
+          transition-timing-function: cubic-bezier(1, -0.65, 0, 2.31);
+          left: 50%;
+          margin-top: 2rem;
+        }
+        &:hover,
+        &:focus {
+          color: $color-orange;
+          outline: none;
+          &:after {
+            width: calc(95%);
+          }
+        }
+        transition: all 0.2s ease;
+      }
+    }
+  }
+
+  .downArrow {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: none;
+    -ms-word-break: normal;
+    word-break: normal;
+    transition: all 0.4s ease-in-out;
+    ::before {
+      color: $color-white;
+      font-weight: 600;
+      font-size: 2rem;
+      content: ">";
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg);
+      left: -22px;
+      padding: 0 0 2px;
+      position: absolute;
+      pointer-events: none;
+    }
+  }
+
+  .downArrow:hover {
+    ::before {
+      content: "<";
+      color: $color-orange;
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg);
+    }
+  }
+
+  @media (max-width: 1170px) {
+    ul {
+      li {
+        a {
+          margin-right: 3rem;
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    ul {
+      li {
+        a {
+          margin-right: 1.5rem;
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 647px) {
+    display: none;
+  }
+}
+
+/*To remove button from IE11 */
+select::-ms-expand {
+  display: none;
+}

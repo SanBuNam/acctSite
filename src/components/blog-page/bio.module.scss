@@ -1,0 +1,43 @@
+@import "../../styles/global";
+
+.container {
+  padding: 2rem;
+  display: flex;
+  border-bottom: 1px solid #7e8aa2;
+  p {
+    font-size: 1.6rem;
+  }
+  a {
+    &:link,
+    &:visited {
+      font-size: 1.6rem;
+      color: $color-black;
+      display: inline-block;
+      text-decoration: none;
+      transition: all 0.1s ease-in;
+    }
+
+    &:hover {
+      color: $color-orange;
+      box-shadow: 0 1rem 2rem rgba($color-orange, 0.15);
+      transform: translateY(-2px);
+    }
+
+    &:active {
+      box-shadow: 0 0.5rem 1rem rgba($color-orange, 0.15);
+      transform: translateY(0);
+    }
+  }
+
+  @media (max-width: 600px) {
+    p {
+      font-size: 1.4rem;
+    }
+    a {
+      &:link,
+      &:visited {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}

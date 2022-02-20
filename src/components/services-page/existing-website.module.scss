@@ -1,0 +1,107 @@
+@import "../../styles/global";
+
+.container {
+  width: $container-width;
+  text-align: center;
+  padding: 4rem 2rem;
+  background: $color-navy;
+  transition: all 0.2s ease-in-out;
+  h5 {
+    font-size: 2.6rem;
+    color: $color-gray;
+    line-height: 0;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  h4 {
+    font-size: 3.6rem;
+    color: $color-white;
+    line-height: 0;
+    font-weight: 600;
+  }
+  p {
+    line-height: 1.2;
+    font-size: 1.8rem;
+  }
+  .middeText {
+    margin: 0 auto;
+    max-width: 100rem;
+  }
+  a {
+    text-decoration-line: none;
+    color: $color-orange;
+  }
+  a:hover {
+    text-decoration-line: underline;
+    color: $color-white;
+  }
+
+  @media (max-width: 1100px) {
+    padding: 2rem;
+    h5 {
+      font-size: 2.4rem;
+    }
+    h4 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1.6rem;
+    }
+    .middeText {
+      max-width: 90rem;
+    }
+  }
+
+  @media (max-width: 907px) {
+    padding: 2rem;
+    h5 {
+      font-size: 2rem;
+    }
+    h4 {
+      font-size: 2.4rem;
+    }
+    p {
+      font-size: 1.4rem;
+    }
+    .middeText {
+      max-width: 80rem;
+    }
+  }
+
+  @media (max-width: 650px) {
+    padding: 1rem;
+    h5 {
+      font-size: 1.8rem;
+      line-height: 1;
+    }
+    h4 {
+      font-size: 2rem;
+      line-height: 1;
+    }
+    p {
+      font-size: 1.4rem;
+    }
+    .middeText {
+      max-width: 50rem;
+      padding: 1rem;
+    }
+  }
+
+  @media (max-width: 450px) {
+    h5 {
+      font-size: 1.6rem;
+      line-height: 1;
+    }
+    h4 {
+      font-size: 1.8rem;
+      line-height: 1;
+    }
+    p {
+      font-size: 1.3rem;
+    }
+    .middeText {
+      max-width: 30rem;
+    }
+  }
+}

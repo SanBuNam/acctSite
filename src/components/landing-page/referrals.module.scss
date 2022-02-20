@@ -1,0 +1,97 @@
+@import "../../styles/global";
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 5rem;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  background: linear-gradient(
+      to bottom,
+      rgba(23, 30, 43, 0.05),
+      rgba(23, 30, 43, 0.25),
+      rgba(23, 30, 43, 0.5)
+    ),
+    url("../../../content/images/footerBackground.jpg") no-repeat top center;
+  background-size: cover;
+  .innerContainer {
+    margin: 0 auto;
+    line-height: 1;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    transition: all 0.3s ease-in;
+    h5 {
+      padding: 1rem;
+      margin-left: 4.5rem;
+      text-align: left;
+      max-width: 100rem;
+      font-size: 2.4rem;
+      color: $color-orange;
+    }
+    p {
+      margin-bottom: 4rem;
+      text-align: center;
+      font-family: $font-secondary;
+      color: $color-grainsboro;
+      max-width: 100rem;
+      font-size: 18px;
+      span {
+        color: $color-orange;
+      }
+    }
+    a {
+      font-style: normal;
+      text-rendering: optimizeLegibility;
+      text-decoration: none;
+      color: $color-orange;
+    }
+    a:hover {
+      color: $color-white;
+      text-decoration: underline;
+    }
+  }
+
+  @media (max-width: $tabletL) {
+    padding: 4rem;
+    .innerContainer {
+      border-top: 1px solid;
+      border-bottom: 1px solid;
+      h5 {
+        padding: 1rem;
+        margin-left: 3.5rem;
+        max-width: 90rem;
+        font-size: 2.2rem;
+      }
+      p {
+        margin-bottom: 3rem;
+        max-width: 90rem;
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  @media (max-width: $tabletM) {
+    padding: 3rem;
+    .innerContainer {
+      h5 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  @media (max-width: $tabletS) {
+    padding: 2rem;
+    .innerContainer {
+      h5 {
+        font-size: 1.6rem;
+      }
+      p {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
