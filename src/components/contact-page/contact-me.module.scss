@@ -1,0 +1,67 @@
+@import "../../styles/global";
+
+.container {
+  max-width: 1080px;
+  margin: 10rem auto 5rem auto;
+  text-align: center;
+  color: $color-offWhite;
+  line-height: 1.25;
+  padding: 0 2rem;
+  .title {
+    font-size: 6.6rem;
+    color: $color-white;
+    line-height: 1rem;
+  }
+  .text {
+    margin: 5rem auto 0 auto;
+    max-width: 90rem;
+    font-size: 1.7rem;
+    line-height: 1.5;
+    color: $color-offWhite;
+  }
+  @media (max-width: 1000px) {
+    margin: 5rem auto;
+    .title {
+      font-size: 4.6rem;
+    }
+    .subtitle {
+      margin: 5rem auto 0 auto;
+      font-size: 1.8rem;
+    }
+    .text {
+      margin: 3rem auto 0 auto;
+      max-width: 70rem;
+      font-size: 1.4rem;
+    }
+  }
+
+  @media (max-width: 750px) {
+    margin: 3rem auto;
+    .title {
+      font-size: 4rem;
+    }
+    .subtitle {
+      margin: 2rem auto 0 auto;
+      font-size: 1.6rem;
+    }
+    .text {
+      margin: 2rem auto 0 auto;
+      max-width: 60rem;
+      font-size: 1.4rem;
+    }
+  }
+
+  @media (max-width: 650px) {
+    margin: 2rem auto;
+    .title {
+      font-size: 3rem;
+    }
+    .subtitle {
+      margin: 2rem auto 0 auto;
+    }
+    .text {
+      margin: 1rem auto 0 auto;
+      max-width: 50rem;
+    }
+  }
+}

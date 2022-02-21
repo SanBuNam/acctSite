@@ -1,0 +1,153 @@
+@import "../../styles/global";
+
+.container {
+  width: $container-width;
+  margin: 0 auto;
+  text-align: left;
+  background: $color-offWhite;
+  color: $color-darkNavy;
+  .innerContainer {
+    margin: 0 auto;
+    padding: 2rem;
+    width: $site-width;
+    max-width: 1100px;
+    color: $color-darkGray;
+    h3 {
+      margin-left: 3rem;
+      font-size: 3rem;
+      line-height: 1;
+    }
+    h4 {
+      margin-left: 3rem;
+      font-size: 2.4rem;
+    }
+    h5 {
+      margin-left: 3rem;
+      font-size: 2.2rem;
+    }
+    p {
+      margin-left: 3rem;
+      font-size: 1.6rem;
+    }
+    ul {
+      list-style: disc;
+      margin-left: 2rem;
+      list-style: circle;
+      li {
+        line-height: 1.5;
+        font-size: 1.6rem;
+      }
+    }
+    a {
+      font-style: normal;
+      text-rendering: optimizeLegibility;
+      color: $color-orange;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .innerContainer {
+      h3 {
+        font-size: 2.6rem;
+      }
+      h4 {
+        font-size: 2.2rem;
+      }
+      h5 {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  @media (max-width: 750px) {
+    .innerContainer {
+      h3 {
+        font-size: 2.4rem;
+      }
+      h4 {
+        font-size: 2rem;
+      }
+      h5 {
+        font-size: 1.8rem;
+      }
+      p {
+        font-size: 1.4rem;
+      }
+      ul {
+        li {
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 650px) {
+    .innerContainer {
+      h3 {
+        font-size: 2rem;
+      }
+      h4 {
+        font-size: 1.8rem;
+      }
+      h5 {
+        font-size: 1.6rem;
+      }
+      p {
+        font-size: 1.3rem;
+      }
+      ul {
+        li {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 400px) {
+    .innerContainer {
+      h3 {
+        font-size: 1.8rem;
+      }
+      h4 {
+        font-size: 1.6rem;
+      }
+      h5 {
+        font-size: 1.4rem;
+      }
+      p {
+        font-size: 1.2rem;
+      }
+      ul {
+        li {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 350px) {
+    .innerContainer {
+      h3 {
+        font-size: 1.7rem;
+      }
+      h4 {
+        font-size: 1.5rem;
+      }
+      h5 {
+        font-size: 1.3rem;
+      }
+      p {
+        font-size: 1.1rem;
+      }
+      ul {
+        li {
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+}

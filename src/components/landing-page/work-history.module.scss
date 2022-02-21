@@ -1,0 +1,94 @@
+@import "../../styles/global";
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 4rem 8rem;
+  text-align: center;
+  line-height: 1.25;
+  h4 {
+    .title {
+      font-size: 2.2rem;
+      font-weight: 500;
+      color: $color-orange;
+      font-family: $font-secondary;
+    }
+    .subtitle {
+      font-size: 3.6rem;
+      font-weight: 500;
+      color: $color-orange;
+    }
+  }
+  .textDiv {
+    margin: 0 auto;
+    max-width: 67rem;
+    font-size: 2rem;
+    font-weight: 500;
+    background: rgba(243, 239, 239, 0.5);
+    -moz-box-shadow: 0 0 0 10px rgba(243, 239, 239, 0.5);
+    -webkit-box-shadow: 0 0 0 10px rgba(243, 239, 239, 0.5);
+    box-shadow: 0 0 0 10px rgba(243, 239, 239, 0.5);
+    border-radius: 5px;
+    line-height: 1.25;
+    color: $color-navy;
+    span {
+      color: $color-orange;
+    }
+    a {
+      font-style: normal;
+      text-rendering: optimizeLegibility;
+      color: $color-orange;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: $color-orangeRed;
+    }
+  }
+
+  @media (max-width: 1290px) {
+    padding: 4rem;
+  }
+
+  @media (max-width: 768px) {
+    padding: 2rem;
+    h4 {
+      .title {
+        font-size: 1.86667rem;
+      }
+      .subtitle {
+        font-size: 2.4rem;
+      }
+    }
+    .textDiv {
+      font-size: 1.36667rem;
+      max-width: 47rem;
+    }
+  }
+
+  @media (max-width: 500px) {
+    h4 {
+      .title {
+        font-size: 1.5rem;
+      }
+      .subtitle {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  @media (max-width: 350px) {
+    padding: 1.5rem 2.2rem;
+    h4 {
+      .title {
+        font-size: 1.4rem;
+      }
+      .subtitle {
+        font-size: 1.8rem;
+      }
+    }
+    .textDiv {
+      font-size: 1.3rem;
+    }
+  }
+}

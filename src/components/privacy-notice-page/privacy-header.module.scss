@@ -1,0 +1,118 @@
+@import "../../styles/global";
+
+.container {
+  width: $container-width;
+  margin: 10rem auto 5rem auto;
+  text-align: center;
+  color: $color-offWhite;
+  line-height: 1.25;
+  padding: 0 2rem;
+  .innerContainer {
+    margin: 0 auto;
+    width: $site-width;
+    max-width: 1190px;
+    .title {
+      font-size: 6.6rem;
+      color: $color-white;
+      line-height: 1rem;
+    }
+    .subtitle {
+      margin: 5rem auto 3.5rem auto;
+      font-size: 2.6rem;
+      color: $color-orange;
+      font-weight: 400;
+      span {
+        border-bottom: solid 1px $color-orange;
+      }
+    }
+    h5 {
+      color: $color-orange;
+      font-size: 2.4rem;
+      line-height: 1;
+    }
+    p {
+      margin: 0 auto;
+      text-align: center;
+      font-size: 1.6rem;
+      color: $color-gray;
+      max-width: 80rem;
+      a {
+        font-style: normal;
+        text-rendering: optimizeLegibility;
+        color: $color-orange;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+        color: $color-white;
+      }
+    }
+  }
+
+  @media (max-width: 1000px) {
+    margin: 5rem auto;
+    .innerContainer {
+      .title {
+        font-size: 4.6rem;
+      }
+      .subtitle {
+        margin: 2.5rem auto;
+        font-size: 2.2rem;
+      }
+      p {
+        max-width: 70rem;
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  @media (max-width: 750px) {
+    margin: 3rem auto;
+    .innerContainer {
+      .title {
+        font-size: 3rem;
+      }
+      .subtitle {
+        margin: 2rem auto;
+        font-size: 2rem;
+      }
+      p {
+        max-width: 60rem;
+        font-size: 1.3rem;
+      }
+    }
+  }
+
+  @media (max-width: 650px) {
+    margin: 4rem auto 2rem auto;
+    .innerContainer {
+      .title {
+        font-size: 2.5rem;
+      }
+      .subtitle {
+        margin: 1rem auto;
+        font-size: 1.8rem;
+      }
+      p {
+        max-width: 50rem;
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  @media (max-width: 400px) {
+    margin: 6rem auto 2rem auto;
+    .innerContainer {
+      .title {
+        font-size: 2rem;
+      }
+      .subtitle {
+        margin: 1rem auto;
+        font-size: 1.6rem;
+      }
+      p {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}

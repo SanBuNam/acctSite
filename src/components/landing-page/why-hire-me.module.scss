@@ -1,0 +1,225 @@
+@import "../../styles/global";
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 5rem;
+  color: $color-black;
+  background-color: $color-grainsboro;
+  background-image: url("../../../content/images/why-hire-me-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  justify-content: space-around;
+  .title {
+    grid-column: 1 / -1;
+    text-align: center;
+    h3 {
+      font-family: $font-primary;
+      font-size: 3.2rem;
+    }
+  }
+  .leftColumn {
+    text-align: right;
+    p {
+      margin: 2rem 0;
+      font-size: 2.2rem;
+      font-weight: 600;
+      color: $color-gray;
+    }
+  }
+  .rightColumn {
+    text-align: left;
+    h5 {
+      font-family: $font-secondary;
+      font-size: 2.2rem;
+      color: $color-navy;
+      font-weight: 500;
+      line-height: 1;
+    }
+    ul {
+      margin: 2.5rem 0;
+      list-style-type: none;
+      line-height: 1.55;
+      li {
+        font-size: 2rem;
+      }
+    }
+    ul li:before {
+      content: "✔️";
+      font-size: 1.5rem;
+      margin-right: 5px;
+    }
+    p {
+      padding-top: 2rem;
+      max-width: 60rem;
+      font-size: 1.8rem;
+      font-weight: 400;
+      color: $color-lightGray;
+    }
+    a {
+      font-style: normal;
+      text-rendering: optimizeLegibility;
+      color: $color-orange;
+      text-decoration: underline;
+    }
+  }
+
+  @media (max-width: 1280px) {
+    grid-column-gap: 4rem;
+    .title {
+      h3 {
+        padding: 1.8rem 0;
+        font-size: 2.8rem;
+      }
+    }
+    .rightColumn {
+      h5 {
+        font-size: 1.8rem;
+        font-weight: 400;
+      }
+      ul {
+        padding-top: 1rem;
+        margin: 2.09333rem 0;
+        line-height: 1.256667;
+        li {
+          font-size: 1.6665rem;
+        }
+      }
+      ul li:before {
+        height: 11px;
+        width: 11px;
+        background-size: 11px;
+        margin-right: 8.3337px;
+      }
+      p {
+        padding-top: 1.25rem;
+        max-width: 50rem;
+        font-size: 1.6rem;
+        font-weight: 400;
+      }
+    }
+  }
+
+  @media (max-width: 1100px) {
+    grid-column-gap: 3rem;
+    .title {
+      h3 {
+        font-size: 2.8rem;
+      }
+    }
+    .leftColumn {
+      p {
+        font-size: 2rem;
+        font-weight: 500;
+      }
+    }
+    .rightColumn {
+      h5 {
+        font-size: 1.7rem;
+      }
+      ul {
+        padding-top: 0;
+        margin: 2rem 0;
+        li {
+          font-size: 1.6rem;
+        }
+      }
+      p {
+        padding-top: 1.25rem;
+        max-width: 45rem;
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  @media (max-width: 1000px) {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    .title {
+      h3 {
+        font-size: 2.6rem;
+      }
+    }
+    .rightColumn {
+      padding: 0;
+    }
+    .leftColumn {
+      p {
+        font-size: 2rem;
+        font-weight: 400;
+        text-align: center;
+      }
+      button {
+        margin-right: 13rem;
+      }
+    }
+  }
+
+  @media (max-width: 700px) {
+    .title {
+      display: none;
+    }
+    .leftColumn {
+      display: none;
+    }
+    .rightColumn {
+      ul li:before {
+        font-size: 1.3rem;
+      }
+      h5 {
+        padding: 0;
+        font-size: 2rem;
+      }
+    }
+  }
+
+  @media (max-width: 550px) {
+    padding-top: 0;
+    padding-bottom: 0;
+    .rightColumn {
+      ul {
+        padding: 0 0 0 1.5rem;
+      }
+      ul li:before {
+        font-size: 1.2rem;
+        margin-right: 3px;
+      }
+      h5 {
+        font-size: 1.7rem;
+      }
+      p {
+        padding-top: 0;
+        max-width: 40.5rem;
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  @media (max-width: 450px) {
+    .rightColumn {
+      padding: 1.5rem;
+      ul li:before {
+        font-size: 1rem;
+        margin-right: 3px;
+      }
+      h5 {
+        font-size: 1.4rem;
+      }
+      p {
+        font-size: 1.3rem;
+      }
+      ul {
+        padding: 0;
+        margin: 0 0.5rem;
+        line-height: 1.3;
+        li {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}
