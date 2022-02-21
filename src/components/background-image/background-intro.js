@@ -1,9 +1,8 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
-import styles from "./title-name.module.scss"
+import styles from "./background-title.module.scss"
 import styled from "styled-components"
 import BackgroundImage from "gatsby-background-image"
-import WorkHistory from "./work-history"
 
 const imageQuery = graphql`
   query {
@@ -32,16 +31,14 @@ const BackgroundSection = ({ backgroundStyle }) => (
           <div className={styles.container}>
             <div className={styles.innerContainer}>
               <h1>
-                <span className={styles.title}>David Lee,</span>
+                <span className={styles.title}>Company Name</span>
                 <br />
                 <p className={styles.subtitle}>
-                  Website & Online Store Builder <span>|</span> Software
-                  Developer <span>Orange County</span>, California.
+                  Business Services <span>|</span> Business type <span>County</span>, State
                 </p>
               </h1>
             </div>
           </div>
-          <WorkHistory />
         </BackgroundImage>
       )
     }}

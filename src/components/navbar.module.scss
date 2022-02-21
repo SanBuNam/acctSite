@@ -13,13 +13,14 @@
       list-style: none;
       a {
         text-decoration: none;
-        color: $color-white;
+        color: $color-dark-green;
         list-style: none;
         margin-right: 4rem;
-        font-size: 1.6rem;
-        font-weight: 400;
+        font-size: 1.5rem;
+        font-weight: 600;
         position: relative;
-        font-family: $font-primary;
+        transition: all 0.2s ease;
+        text-transform: uppercase;
         &:after {
           height: 2px;
           background: $color-orange;
@@ -34,13 +35,11 @@
         }
         &:hover,
         &:focus {
-          color: $color-orange;
           outline: none;
           &:after {
             width: calc(95%);
           }
         }
-        transition: all 0.2s ease;
       }
     }
   }
@@ -54,7 +53,6 @@
     word-break: normal;
     transition: all 0.4s ease-in-out;
     ::before {
-      color: $color-white;
       font-weight: 600;
       font-size: 2rem;
       content: ">";

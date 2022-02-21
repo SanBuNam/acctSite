@@ -3,36 +3,49 @@
 .container {
   width: $site-width;
   margin: 0 auto;
-  padding: 6rem;
+  padding: 3rem;
   text-align: center;
   background-color: $color-offWhite;
   color: $color-black;
   line-height: 1.2;
   text-align: center;
-  h3 {
-    font-size: 4rem;
+  h4 {
+    font-size: 2.3rem;
     color: $color-gray;
     font-family: $font-secondary;
-    line-height: 0.05;
-    text-decoration-line: underline;
+    line-height: 0;
   }
-  h4 {
+  h3 {
     color: $color-navy;
     font-size: 3rem;
     margin: 3rem auto;
+    line-height: 0;
   }
-  .topParagraph {
+  .paragraph {
     margin: 0 auto;
     max-width: 70rem;
     font-size: 2rem;
   }
-  .bottomParagraph {
-    margin: 1rem auto;
-    max-width: 75rem;
-    font-size: 1.8rem;
-  }
   span {
     color: $color-orange;
+  }
+  a {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 12px;
+    text-transform: uppercase;
+    background: $color-dark-green;
+    color: $color-white;
+    padding: 11px 15px 10px;
+    min-width: 182px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    &:hover {
+      background: $color-orange;
+      color: $color-white;
+    }
   }
 
   @media (max-width: 950px) {

@@ -1,21 +1,23 @@
 import React from "react"
 import SEO from "../components/seo"
 import Layout from "../components/layouts/site-layout"
-import TitleName from "../components/landing-page/title-name"
-import WhyHireMe from "../components/landing-page/why-hire-me"
-import MyApproach from "../components/landing-page/my-approach"
+import BackgroundTitle from "../components/background-image/background-title"
+import IntroductionText from "../components/landing-page/introductionText"
+
 import ApproachProcess from "../components/landing-page/approach-process"
+
 import Questions from "../components/common/questions"
 import DesignDevelopment from "../components/landing-page/design-and-development"
 import Referrals from "../components/landing-page/referrals"
 
 export default () => (
   <Layout>
-    <SEO title="Freelancer Web Developer" />
-    <TitleName />
-    <WhyHireMe />
-    <MyApproach />
+    <SEO title="Richard Lee CPA Accountancy" />
+    <BackgroundTitle />
+    <IntroductionText />
+
     <ApproachProcess />
+
     <Questions />
     <DesignDevelopment />
     <Referrals />
