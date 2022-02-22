@@ -6,7 +6,6 @@ import IntroductionText from "../components/landing-page/introduction-text"
 
 import ThreeByTwo from "../components/landing-page/3by2rows"
 
-import ApproachProcess from "../components/landing-page/approach-process"
 
 import Questions from "../components/common/questions"
 import DesignDevelopment from "../components/landing-page/design-and-development"
@@ -19,8 +18,6 @@ export default () => (
     <IntroductionText />
 
     <ThreeByTwo />
-
-    <ApproachProcess />
 
     <Questions />
     <DesignDevelopment />
