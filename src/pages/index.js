@@ -2,7 +2,9 @@ import React from "react"
 import SEO from "../components/seo"
 import Layout from "../components/layouts/site-layout"
 import BackgroundTitle from "../components/background-image/background-title"
-import IntroductionText from "../components/landing-page/introductionText"
+import IntroductionText from "../components/landing-page/introduction-text"
+
+import ThreeByTwo from "../components/landing-page/3by2rows"
 
 import ApproachProcess from "../components/landing-page/approach-process"
 
@@ -15,6 +17,8 @@ export default () => (
     <SEO title="Richard Lee CPA Accountancy" />
     <BackgroundTitle />
     <IntroductionText />
+
+    <ThreeByTwo />
 
     <ApproachProcess />
 
