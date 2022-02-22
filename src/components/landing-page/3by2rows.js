@@ -9,16 +9,30 @@ const ThreeByTwoContainer = () => {
         <div className={styles.container}>
             <div>
 			    <img src={Accountingwhite} width="64" height="82" alt="Accounting Icon - Calculator"/>
-                <p>MANAGE ACCOUNTING</p>
+                <h3>MANAGE ACCOUNTING</h3>
             </div>
-            <div>one</div>
-            <div>one</div>
-            <div>one</div>
-            <div>one</div>
-            <div>one</div>
+            <div>
+			    <img src={Accountingwhite} width="64" height="82" alt="Accounting Icon - Calculator"/>
+                <h3>MANAGE ACCOUNTING</h3>
+            </div>
+            <div>
+			    <img src={Accountingwhite} width="64" height="82" alt="Accounting Icon - Calculator"/>
+                <h3>MANAGE ACCOUNTING</h3>
+            </div>
+            <div>
+			    <img src={Accountingwhite} width="64" height="82" alt="Accounting Icon - Calculator"/>
+                <h3>MANAGE ACCOUNTING</h3>
+            </div>
+            <div>
+			    <img src={Accountingwhite} width="64" height="82" alt="Accounting Icon - Calculator"/>
+                <h3>MANAGE ACCOUNTING</h3>
+            </div>
+            <div>
+			    <img src={Accountingwhite} width="64" height="82" alt="Accounting Icon - Calculator"/>
+                <h3>MANAGE ACCOUNTING</h3>
+            </div>
         </div>
     )
 }
 
 export default ThreeByTwoContainer
-
